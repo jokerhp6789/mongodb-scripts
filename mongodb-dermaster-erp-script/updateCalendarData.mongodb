@@ -1,0 +1,34 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('dermaster_erp_dev');
+
+const updateCalendarData = () => {
+    try {
+        const results = db.calendars.find({}).forEach((item) => {
+        console.log("FINISH GET DATA", JSON.stringify({ item }));
+            const { host, attendees } = item || {}
+            const adminUsers = [{...host,isHost:true}]
+            if( attendees && attendees?.length>0){
+                attendees.forEach(attendee => {
+                    adminUsers.push({...attendee,isHost:false})
+                })
+            }
+            db.calendars.updateOne({_id:item?._id},{$set:{
+                    adminUsers
+            },
+                $unset: {
+                    host:"",
+                    attendees:""
+                }
+            })
+        });
+    } catch (error) {
+        console.error(JSON.stringify({ error }));
+    }
+};
+
+updateCalendarData()

@@ -1,0 +1,13 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('dermaster_erp_dev');
+
+db.branches.find({})
+// Insert a few documents into the sales collection.
+db.branches.find({"address.province":"631ac565a324ccb1a2ad6dda"});
+
+db.countries.find({_id:ObjectId("60e274093334394680108bd8")})
