@@ -1,0 +1,22 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('dermaster_erp_dev');
+
+const updateVouhcerNo = () => {
+    try {
+        const results = db.vouchers.find({}).forEach((item) => {
+            const { voucherNo } = item || {}
+            db.vouchers.updateOne({_id:item?._id},{$set:{
+                    voucherNo:`VO2212240000${voucherNo}`
+            }})
+        });
+    } catch (error) {
+        console.error(JSON.stringify({ error }));
+    }
+};
+
+updateVouhcerNo()
