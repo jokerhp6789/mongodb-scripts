@@ -6,12 +6,12 @@
 // Select the database to use.
 use('dermaster_erp_dev');
 
-const updateVouhcerNo = () => {
+const updateDocumentNo = () => {
     try {
-        const results = db.vouchers.find({}).forEach((item) => {
-            const { voucherNo } = item || {}
-            db.vouchers.updateOne({_id:item?._id},{$set:{
-                    voucherNo:`VO2212240000${voucherNo}`
+        const results = db.equipment_inventory_histories.find({}).forEach((item) => {
+            const { equipmentInventoryHistoryNo } = item || {}
+            db.equipment_inventory_histories.updateOne({_id:item?._id},{$set:{
+                    equipmentInventoryHistoryNo:`EIH2212240000${equipmentInventoryHistoryNo}`
             }})
         });
     } catch (error) {
@@ -19,4 +19,4 @@ const updateVouhcerNo = () => {
     }
 };
 
-updateVouhcerNo()
+updateDocumentNo()
