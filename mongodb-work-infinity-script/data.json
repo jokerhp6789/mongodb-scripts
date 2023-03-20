@@ -1,0 +1,28 @@
+{
+    "TheWealth": [
+        {
+            "employeeId": "TW00004",
+            "firstNameEng": "Natthaweerawan",
+            "lastNameEng": "Limsukhakorn",
+            "firstNameTh": "ณัฐฐาวีรวรรณ",
+            "lastNameTh": "ลิ้มสุขะกร",
+            "nickname": "Kae",
+            "dateOfBirth": "15/07/1984",
+            "gender": "FEMALE",
+            "primaryPhone": "0991515542",
+            "joinedDate": "01/09/2022"
+        },
+        {
+            "employeeId": "TW00003",
+            "firstNameEng": "Anan",
+            "lastNameEng": "Putikotchakorn",
+            "firstNameTh": "อนันต์",
+            "lastNameTh": "ภูติกชกร",
+            "nickname": "Prite",
+            "dateOfBirth": "15/01/1983",
+            "gender": "MALE",
+            "primaryPhone": "0656196541",
+            "joinedDate": "01/07/2021"
+        }
+    ]
+}
