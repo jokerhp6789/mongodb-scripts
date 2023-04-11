@@ -1,0 +1,31 @@
+[
+    {
+        "_id": "63bb82ee51628db5bc0311ea",
+        "customerNo": "CW2301090001",
+        "patientType": "OPD",
+        "title": "Mr",
+        "branchId": "638b29cd19a0eda144a15e94",
+        "firstNameEn": "Cheng",
+        "lastNameEn": "Do",
+        "firstNameTh": "Sing",
+        "lastNameTh": "Ha",
+        "nickname": "Sinna",
+        "gender": "MALE",
+        "birthDay": "2015-01-01T02:58:08.144Z",
+        "phone": "0957454194",
+        "email": "shu@gmail.com"
+    },
+    {
+        "_id": "6430ffe0d8040133c2db5e3a",
+        "status": "UN_VERIFIED",
+        "patientType": "OPD",
+        "firstNameEn": "yenta",
+        "lastNameEn": "ying",
+        "firstNameTh": "yenta",
+        "lastNameTh": "ying",
+        "phoneCode": "+66",
+        "phone": "0645915598",
+        "phoneNumberStatus": "UN_VERIFIED",
+        "email": "thanawat1412@hotmail.com"
+    }
+]

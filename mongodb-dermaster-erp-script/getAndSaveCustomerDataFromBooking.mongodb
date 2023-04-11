@@ -1,0 +1,31 @@
+const fs = require("fs");
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use("dermaster_erp_dev");
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const getAndSaveDataToLocalFile = async () => {
+    try {
+        const cursor = db.doctor_orders.find({
+            customer:{$not:{$eq:null}},
+        });
+        const customers = [];
+        await cursor.forEach((doc) => {
+            const customer = doc?.customer;
+            customers.push(customer);
+        });
+        const listJson = JSON.stringify(customers);
+        await fs.writeFileSync("json/der-master-dev/customer-doctor-order.json", listJson);
+    } catch (error) {
+        console.error(JSON.stringify(error));
+    }
+};
+
+getAndSaveDataToLocalFile();
