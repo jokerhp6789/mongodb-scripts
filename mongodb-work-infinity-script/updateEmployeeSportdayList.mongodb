@@ -1,0 +1,36 @@
+const fs = require("fs");
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use("work_infinity_x_prod");
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const readDataFromLocalFileAndUpdateToDB = async () => {
+    try {
+        const data = fs.readFileSync(
+            "/Users/admin/Code/mongodb/json/work-infinity-x/employeeSportList.json",
+            () => {}
+        );
+        const rawData = JSON.parse(data);
+        Object.keys(rawData).map((key,index) => {
+            const item = rawData?.[key] ?? {};
+            const employeeId = item?.["Employee ID"]
+            console.log(
+                "🚀 >>>>>> file: readDataFromLocalFileAndUpdateToDB.mongodb:28 >>>>>> Object.keys >>>>>> employeeId:",
+                employeeId
+            );
+            db.users.updateOne({employeeId},{$addToSet:{"roleLevel.workPlace":{$each:["644a46bb0ccbbc0011a29453","644a46ff0ccbbc0011a294a6"]}}})
+            console.log("number item updated:",index)
+        });
+    } catch (error) {
+        console.error(JSON.stringify(error));
+    }
+};
+
+readDataFromLocalFileAndUpdateToDB();
