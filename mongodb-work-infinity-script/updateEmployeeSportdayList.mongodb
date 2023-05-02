@@ -25,7 +25,7 @@ const readDataFromLocalFileAndUpdateToDB = async () => {
                 "🚀 >>>>>> file: readDataFromLocalFileAndUpdateToDB.mongodb:28 >>>>>> Object.keys >>>>>> employeeId:",
                 employeeId
             );
-            db.users.updateOne({employeeId},{$addToSet:{"roleLevel.workPlace":{$each:["644a46bb0ccbbc0011a29453","644a46ff0ccbbc0011a294a6"]}}})
+            db.users.updateOne({employeeId},{$pull:{"roleLevel.workPlace":{$in:["644a46bb0ccbbc0011a29453","644a46ff0ccbbc0011a294a6"]}}})
             console.log("number item updated:",index)
         });
     } catch (error) {
