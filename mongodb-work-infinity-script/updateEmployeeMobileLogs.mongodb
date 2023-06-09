@@ -1,0 +1,36 @@
+const fs = require("fs");
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+// Select the database to use.
+
+use("work_infinity_x_prod");
+
+const updateData = () => {
+   db.mobile_logs.find().forEach((item) => {
+                    const { employee, deviceName,deviceOs,osVersion,activeDevice } = item;
+                    const setData = {
+                        "otherInformation.deviceName": deviceName || null,
+                        "otherInformation.deviceOs": deviceOs || null,
+                        "otherInformation.osVersion": osVersion || null,
+                    };
+                    try {
+                        if(activeDevice){
+                            const updated = db.users.findOneAndUpdate(
+                            { _id:employee },
+                            {
+                                $set: setData,
+                            }
+                            );
+                            console.log(JSON.stringify(updated))
+                        }
+                        
+                    } catch (error) {
+                        console.error(JSON.stringify(error));
+                    }
+                    return true;
+                } )
+};
+
+updateData();
