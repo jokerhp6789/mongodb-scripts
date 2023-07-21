@@ -1,0 +1,76 @@
+const fs = require("fs");
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use("work_infinity_x_prod");
+
+// const ids = [
+//     "5d55751f333439166700a0d2",
+//     "5d563d4e333439166700a0af",
+//     "5d5fb6d1333439166700a087",
+//     "5d83a170333439166700a07e",
+//     "5d8daed633343916f000a962",
+//     "5e3a9d40333439174500b2ac",
+//     "628f44581d427eb72ebc010d",
+//     "64b910c23f6165001698f085",
+//     "64b911343f6165001698f0f7",
+//     "64b911fe9ca1cb000fb6bbef",
+// ];
+
+// const getAndSaveDataToLocalFile = async () => {
+//     try {
+//         const mappedIds = ids.map((id) => new ObjectId(id));
+//         const cursor = db.roleapps.find({
+//             //    name: {
+//             //             //    $in:["De Hygienique (Sales Level)","Dunlopillo (Sales Level)","Lotus (Sales Level)","Lotus (Sales Level)","De Hygienique (Staff Level)","Dermaster (Staff Level)","Dunlopillo (Staff Level)","Seasons (Staff Level)","Lotus (Staff Level)","Le Khwam Luck (Staff Level)"]
+//             //             //    $in:["Lotus (Sales Manager Level)","Dunlopillo (Sales Manager Level)","Dermaster (Manager)","Lotus (Manager)","Seasons (Manager Level)","De Hygienique (Manager Level)","Le Khwam Luck (Manager Level)"]
+//             //             //    $in:["Dunlopillo (Director)","Lotus (Director)","Group CEO"]
+//             //     },
+//             _id: {
+//                 $in: mappedIds,
+//             },
+//         });
+//         const listId = [];
+//         await cursor.forEach((doc) => {
+//             const appRoldId = new ObjectId(doc?._id);
+//             listId.push(doc);
+//         });
+//         const listJson = JSON.stringify(listId);
+//         console.log(
+//             "🚀 >>>>>> file: 17:21:07:2023-updateRoleApps.mongodb:43 >>>>>> getAndSaveDataToLocalFile >>>>>> listJson:",
+//             listJson
+//         );
+//         await fs.writeFileSync("json/roleapp-non-modified.json", listJson);
+//     } catch (error) {
+//         console.error(JSON.stringify(error));
+//     }
+// };
+
+// getAndSaveDataToLocalFile();
+
+const ids = [
+        "5d5fb6d1333439166700a087",
+];
+const newId = "64b910c23f6165001698f085";
+
+const updateRoleApp = async () => {
+    try {
+        const cursor = db.users.updateMany(
+            {
+                "roleLevel.roleApp": {
+                    $in: ids,
+                },
+            },
+            { $set: { "roleLevel.roleApp": newId } },
+            {}
+        );
+        console.log(JSON.stringify(cursor));
+    } catch (error) {
+        console.error(JSON.stringify(error));
+    }
+};
+
+updateRoleApp();
