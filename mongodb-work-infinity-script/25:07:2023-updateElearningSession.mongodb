@@ -1,0 +1,30 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use("work_infinity_x_dev");
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const updateELearningSession = async () => {
+    const cursor = db.e_learning_session.find({});
+    const listId = [];
+    await cursor.forEach((doc) => {
+        const previousLength = doc?.previousLength;
+        if (typeof previousLength === "string") {
+            const updated = db.e_learning_session.updateOne(
+                { _id: doc?._id },
+                { $set: { previousLength: parseFloat(previousLength) } },
+                { new: true }
+            );
+            listId.push(updated?._id);
+        }
+    });
+    console.log(JSON.stringify(listId));
+};
+
+updateELearningSession();
