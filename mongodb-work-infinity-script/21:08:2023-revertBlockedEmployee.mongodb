@@ -1,0 +1,34 @@
+const fs = require("fs");
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use("work_infinity_x_prod");
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const readDataFromLocalFileAndUpdateToDB = async () => {
+    try {
+        const data = fs.readFileSync(
+            "/Users/admin/Code/mongodb/json/work-infinity-x/21-08-2023/blocked-employee.json",
+            () => {}
+        );
+        const rawData = JSON.parse(data);
+        console.log("🚀 >>>>>> file: 21:08:2023-revertBlockedEmployee.mongodb:22 >>>>>> readDataFromLocalFileAndUpdateToDB >>>>>> rawData:", rawData);
+        rawData.map((key) => {
+            console.log(
+                "🚀 >>>>>> file: readDataFromLocalFileAndUpdateToDB.mongodb:28 >>>>>> Object.keys >>>>>> items:",
+                key
+            );
+            db.users.updateOne({employeeId:key},{$set:{"systemSetting.userMobileAppAccess":true}})
+        });
+    } catch (error) {
+        console.error(JSON.stringify(error));
+    }
+};
+
+readDataFromLocalFileAndUpdateToDB();

@@ -4,7 +4,7 @@
 // Use Ctrl+Space inside a snippet or a string literal to trigger completions.
 
 // Select the database to use.
-use('work_infinity_x_dev');
+use('work_infinity_x_prod');
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
@@ -12,7 +12,7 @@ use('work_infinity_x_dev');
 
 // Build an aggregation to view total sales for each product in 2014.
 const getTodayBlockUsers = async() => {
-    const cursor = db.activities.find({authType:"System",message:"System automatically blocked this employee account due to no recent activities.",updated:{$gte:new Date("2023-03-14T10:26:43.385+00:00"),$lte:new Date("2023-03-14T10:29:43.385+00:00")}})
+    const cursor = db.activities.find({message:"System automatically blocked this employee account due to no recent activities.",updated:{$gte:new Date("2023-08-21T08:50:52.327+00:00"),$lte:new Date("2023-08-21T08:59:52.327+00:00")}})
     const listId = []
    await cursor.forEach(doc => {
         const userId = new ObjectId(doc?.refId)
@@ -23,4 +23,4 @@ const getTodayBlockUsers = async() => {
     console.log(JSON.stringify(listId))
 }
 
-findAndSaveBranchesData()
+getTodayBlockUsers()
