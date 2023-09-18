@@ -1,0 +1,38 @@
+const fs = require("fs");
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use("pirate-mobile");
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const getCustomerEmails = async () => {
+    try {
+        const cursor = db.orders.find({
+            status: "COMPLETED",
+        });
+        const listEmails = [];
+        await cursor.forEach((doc) => {
+            const { payment, customer } = doc || {};
+            const { paymentData } = payment?.[0] ?? {};
+            const { email_address } = paymentData?.payer ?? {};
+            const { email } = customer ?? {};
+            if (email && !listEmails.includes(email)) {
+                listEmails.push(email);
+            } else if (email_address && !listEmails.includes(email_address)) {
+                listEmails.push(email_address);
+            }
+        });
+        const listJson = JSON.stringify(listEmails);
+        await fs.writeFileSync("json/customer-email.json", listJson);
+    } catch (error) {
+        console.error(JSON.stringify(error));
+    }
+};
+
+getCustomerEmails();
