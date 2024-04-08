@@ -1,0 +1,50 @@
+const fs = require("fs");
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use("work_infinity_x_prod");
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const findAndUpdateEmployeeId = async () => {
+    try {
+        const cursor = db.users.find({
+            "roleLevel.companyId": "5cdd5a8c33343916d300001b",
+            "systemSetting.currentEmploymentStatus": {
+                $in: [
+                    ObjectId("5ddbf8ca333439177400a0d9"),
+                    ObjectId("5ddbf8da333439177400a0dc"),
+                    ObjectId("5ddbf8b733343916e700a903"),
+                ],
+            },
+            employeeId: { $regex: "DL", $options: "i" },
+        });
+        const listId = [];
+        await cursor.forEach((doc) => {
+            const _id = new ObjectId(doc?._id);
+            const oldId = doc?.employeeId;
+            const employeeId = doc?.employeeId;
+            const newId = employeeId.replace("DL", "OH");
+            db.users.updateOne(
+                { _id },
+                { $set: { employeeId: newId } },
+                { new: true }
+            );
+            listId.push(oldId);
+        });
+        const listJson = JSON.stringify(listId);
+        await fs.writeFileSync(
+            "json/work-infinity-x/28-09-2023/employeeIds.json",
+            listJson
+        );
+    } catch (error) {
+        console.error(JSON.stringify(error));
+    }
+};
+
+findAndUpdateEmployeeId();
