@@ -1,0 +1,108 @@
+[{
+  "_id": {
+    "$oid": "65449df2ad1516e0c62c8d53"
+  },
+  "name": "TE",
+  "status": "ENABLED",
+  "description": "<p>Material&nbsp; ทดสอบ เฉพาะอย่าง</p>",
+  "createByAdmin": {
+    "$oid": "654466d6d502bdbfe6ab395d"
+  },
+  "createdAt": {
+    "$date": "2023-11-03T07:14:58.530Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-03T07:14:58.530Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6539f1eef988ae494d9a37b4"
+  },
+  "name": "FG",
+  "status": "ENABLED",
+  "description": "<p>Sale product</p>",
+  "createByAdmin": {
+    "$oid": "6513dae37354ab342cc61869"
+  },
+  "createdAt": {
+    "$date": "2023-10-26T04:58:22.358Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-26T04:58:22.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6539f25ff988ae494d9a37c8"
+  },
+  "name": "RA",
+  "status": "ENABLED",
+  "description": "<p>Material ใช้จริง</p>",
+  "createByAdmin": {
+    "$oid": "6513dae37354ab342cc61869"
+  },
+  "createdAt": {
+    "$date": "2023-10-26T05:00:15.901Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-26T05:00:15.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6539f278f988ae494d9a37dc"
+  },
+  "name": "MA",
+  "status": "ENABLED",
+  "description": "<p>Material ประกอบ</p>",
+  "createByAdmin": {
+    "$oid": "6513dae37354ab342cc61869"
+  },
+  "createdAt": {
+    "$date": "2023-10-26T05:00:40.770Z"
+  },
+  "updatedAt": {
+    "$date": "2023-10-26T05:00:40.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65d6cc7e4e38db174543c559"
+  },
+  "name": "SU",
+  "status": "ENABLED",
+  "description": "<p>SU</p>",
+  "createByAdmin": {
+    "$oid": "657bf73374279aa326440485"
+  },
+  "createdAt": {
+    "$date": "2024-02-22T04:24:30.032Z"
+  },
+  "updatedAt": {
+    "$date": "2024-02-22T04:24:30.032Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6614d5f7b59dcf945513ae26"
+  },
+  "name": "FGC",
+  "status": "ENABLED",
+  "description": "<p>ฝากขาย</p>",
+  "createByAdmin": {
+    "$oid": "6513dae37354ab342cc61869"
+  },
+  "createdAt": {
+    "$date": "2024-04-09T05:45:27.181Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-09T05:45:27.181Z"
+  },
+  "__v": 0
+}]
