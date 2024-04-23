@@ -1,0 +1,41 @@
+const fs = require("fs");
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use("tripfizer-dev");
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const getAndSaveDataToLocalFile = async () => {
+    try {
+        const cursor = db.state_cities.find({});
+        const newData = [];
+        await cursor.forEach((doc) => {
+            const { inCountry, inState, ...rest } = doc || {};
+            console.log("🚀 >>>>>> await cursor.forEach >>>>>> ID:", doc?._id);
+            newData.push({
+                ...rest,
+                _id: { $oid: doc?._id },
+                worldData: {
+                    inCountry: inCountry?.id
+                        ? { ...inCountry, id: { $oid: inCountry?.id } }
+                        : null,
+                    inState: inState?.id
+                        ? { ...inState, id: { $oid: inState?.id } }
+                        : null,
+                },
+            });
+        });
+        const listJson = JSON.stringify(newData);
+        await fs.writeFileSync("json/state-cities-updated.json", listJson);
+    } catch (error) {
+        console.error(JSON.stringify(error));
+    }
+};
+
+getAndSaveDataToLocalFile();
