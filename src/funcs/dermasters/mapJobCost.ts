@@ -1,6 +1,6 @@
 import { every } from "lodash";
 import fs from "fs";
-import svWithJobCost from "../../data/input/dermaster/service-config-jobcost.json";
+import svWithJobCost from "../../data/input/dermaster/service-config-jobcost_new_updated.json";
 import svData from "../../data/input/dermaster/dermaster_erp_staging.service_configuration.json";
 
 export enum PurchaseType {
@@ -107,6 +107,8 @@ const mapPrimaryFeeType = (feeType: string) => {
     switch (feeType) {
         case "Fixed rate (%)":
             return FeeType.PERCENTAGE;
+        case "Fixed rate (THB)":
+            return FeeType.AMOUNT;
         default:
             console.error("Unknown Primary Fee Type: ", feeType);
             break;

@@ -3,7 +3,7 @@ import { mapCountriesLatLong } from "./funcs/tripfizer/mapCountriesLatLong";
 import { filterProxies, mapProxies } from "./funcs/tripfizer/proxy/mapProxy";
 
 function main() {
-    filterProxies();
+    updateSvJobCostData();
 }
 
 main();
