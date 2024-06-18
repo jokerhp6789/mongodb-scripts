@@ -1,0 +1,68 @@
+[
+    {
+        "Type": "DOCTOR_FEE",
+        "Role": "DOCTOR",
+        "Purchase Type": "NO AGENCY",
+        "Primary Fee Type": "PERCENTAGE",
+        "Primary Fee Amount": 40,
+        "Primary Fee Unit": "TIME",
+        "Primary Fee Unit Qty.": 1,
+        "Primary Fee Flexible (Use for therapist fee in template 1 & 3 )": false,
+        "Primary Fee Apply Secondary": false
+    },
+    {
+        "Type": "THERAPIST_FEE",
+        "Role": "THERAPIST",
+        "Purchase Type": "NO AGENCY",
+        "Primary Fee Type": "AMOUNT",
+        "Primary Fee Amount": 1,
+        "Primary Fee Unit": "PIECE",
+        "Primary Fee Unit Qty.": 1,
+        "Primary Fee Flexible (Use for therapist fee in template 1 & 3 )": false,
+        "Primary Fee Apply Secondary": false
+    },
+    {
+        "Type": "THERAPIST_FEE_SUB",
+        "Role": "THERAPIST",
+        "Purchase Type": "NO AGENCY",
+        "Primary Fee Type": "AMOUNT",
+        "Primary Fee Amount": 1,
+        "Primary Fee Unit": "PIECE",
+        "Primary Fee Unit Qty.": 1,
+        "Primary Fee Flexible (Use for therapist fee in template 1 & 3 )": false,
+        "Primary Fee Apply Secondary": false
+    },
+    {
+        "Type": "DOCTOR_FEE",
+        "Role": "DOCTOR",
+        "Purchase Type": "AGENCY",
+        "Primary Fee Type": "PERCENTAGE",
+        "Primary Fee Amount": 40,
+        "Primary Fee Unit": "TIME",
+        "Primary Fee Unit Qty.": 1,
+        "Primary Fee Flexible (Use for therapist fee in template 1 & 3 )": false,
+        "Primary Fee Apply Secondary": false
+    },
+    {
+        "Type": "THERAPIST_FEE",
+        "Role": "THERAPIST",
+        "Purchase Type": "AGENCY",
+        "Primary Fee Type": "AMOUNT",
+        "Primary Fee Amount": 1,
+        "Primary Fee Unit": "PIECE",
+        "Primary Fee Unit Qty.": 1,
+        "Primary Fee Flexible (Use for therapist fee in template 1 & 3 )": false,
+        "Primary Fee Apply Secondary": false
+    },
+    {
+        "Type": "THERAPIST_FEE_SUB",
+        "Role": "THERAPIST",
+        "Purchase Type": "AGENCY",
+        "Primary Fee Type": "AMOUNT",
+        "Primary Fee Amount": 1,
+        "Primary Fee Unit": "PIECE",
+        "Primary Fee Unit Qty.": 1,
+        "Primary Fee Flexible (Use for therapist fee in template 1 & 3 )": false,
+        "Primary Fee Apply Secondary": false
+    }
+]

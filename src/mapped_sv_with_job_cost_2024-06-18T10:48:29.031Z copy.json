@@ -1,0 +1,4190 @@
+[
+    {
+        "_id": { "$oid": "6551968044c9d987e1984a7e" },
+        "name": "Breast Augmen(Motiva Ergonomix JOY)",
+        "serviceNo": 2,
+        "status": "ENABLE",
+        "category": { "$oid": "6551955244c9d987e1984a65" },
+        "procedureTime": 0,
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC2_TEMPLATE",
+        "surgeryType": "GA",
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "materialPreset": [
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c4" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c3" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61a6" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61f2" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c8" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61ab" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60d6" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559cf611cacaa36ce65d5f" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6108" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61ad" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61aa" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6105" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "665720f8776a27718d299043" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60ba" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6192" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf608c" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6099" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6657d21d776a27718d299fe8" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60a7" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61d7" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61d5" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60f5" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559c2011cacaa36ce65bf9" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559c4511cacaa36ce65c2a" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60fa" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6110" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60fd" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60ff" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61cd" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            }
+        ],
+        "medicinePreset": [],
+        "servicePreset": [],
+        "createdAt": { "$date": "2023-12-12T04:26:39.842Z" },
+        "updatedAt": { "$date": "2024-05-30T01:22:04.950Z" },
+        "__v": 0,
+        "defaultSaleCommission": 5
+    },
+    {
+        "_id": { "$oid": "6551d24d44c9d987e1985213" },
+        "name": "ค่าหมอดมยา/Anesthesiologist",
+        "serviceNo": 9,
+        "status": "ENABLE",
+        "category": { "$oid": "6577d89bd682dfc2fbfc25ea" },
+        "procedureTime": 0,
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC2_TEMPLATE",
+        "surgeryType": "GA",
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "materialPreset": [
+            {
+                "material": { "$oid": "66559ca811cacaa36ce65cfd" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559cc611cacaa36ce65d2e" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61e0" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ed3b11cacaa36ce6a988" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ed8211cacaa36ce6a9d2" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ede511cacaa36ce6aa0d" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ee1511cacaa36ce6aa48" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ee4911cacaa36ce6aa84" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ee7c11cacaa36ce6aabf" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656eeaf11cacaa36ce6aafa" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656eee311cacaa36ce6ab35" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6090" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ef1111cacaa36ce6ab75" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559a9111cacaa36ce65a01" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ef5811cacaa36ce6abb5" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559ae111cacaa36ce65a63" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656ef8c11cacaa36ce6abf7" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61fc" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61e1" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf618f" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61f5" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61f7" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6190" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61fb" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61f8" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656efed11cacaa36ce6ac55" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6656f01b11cacaa36ce6ac8c" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf604e" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6191" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61fd" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61fe" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61f0" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61ee" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61ef" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61f1" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61ed" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6113" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6657c6ee776a27718d2998a4" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6657c886776a27718d29994b" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6657c950776a27718d2999ae" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf608c" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61f4" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            }
+        ],
+        "medicinePreset": [],
+        "servicePreset": [],
+        "createdAt": { "$date": "2023-12-12T04:40:28.011Z" },
+        "updatedAt": { "$date": "2024-05-30T00:44:54.603Z" },
+        "__v": 0,
+        "defaultSaleCommission": 5
+    },
+    {
+        "_id": { "$oid": "655344a88915ffee8b63b7b5" },
+        "name": "Filler ทุกรุ่น",
+        "serviceNo": 14,
+        "status": "ENABLE",
+        "category": { "$oid": "6552f7188915ffee8b63b33c" },
+        "procedureTime": 60,
+        "description": "<p>Filler รวมรุ่น เลือก&nbsp; Material ทีหลัง ว่าใช้ตัวไหน</p>",
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 25,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC1_TEMPLATE",
+        "surgeryType": "NONE",
+        "createByAdmin": { "$oid": "6513dae37354ab342cc61869" },
+        "materialPreset": [
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6044" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6043" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6045" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6042" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6041" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6046" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60d7" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf611b" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60eb" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c9" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6113" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60d0" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6114" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60d6" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c7" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6112" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c8" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6111" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6104" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6105" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60fa" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60f7" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60f5" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60f3" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6084" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66486ec022f745178b1cbeb1" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60ae" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6085" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61b9" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf6086" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            }
+        ],
+        "medicinePreset": [],
+        "servicePreset": [],
+        "createdAt": { "$date": "2023-11-14T09:58:00.628Z" },
+        "updatedAt": { "$date": "2024-05-18T09:11:47.086Z" },
+        "__v": 0,
+        "defaultSaleCommission": 5
+    },
+    {
+        "_id": { "$oid": "655f1d74085ad4bc3824d823" },
+        "name": "Hair Transplant FUE",
+        "serviceNo": 20,
+        "status": "ENABLE",
+        "category": { "$oid": "655f1d46085ad4bc3824d807" },
+        "procedureTime": 0,
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC3_TEMPLATE",
+        "surgeryType": "LA",
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "materialPreset": [
+            {
+                "material": { "$oid": "66559a3511cacaa36ce659a4" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559a6511cacaa36ce659d0" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559a9111cacaa36ce65a01" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559abb11cacaa36ce65a32" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559ae111cacaa36ce65a63" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559b0711cacaa36ce65a94" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559b2811cacaa36ce65ac5" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559b4c11cacaa36ce65af6" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559b7111cacaa36ce65b22" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559b9111cacaa36ce65b53" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559bb111cacaa36ce65b84" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559bd211cacaa36ce65bb6" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60e6" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c4" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c3" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559c2011cacaa36ce65bf9" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559c4511cacaa36ce65c2a" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559c6911cacaa36ce65c5d" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559c8711cacaa36ce65c8e" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559ca811cacaa36ce65cfd" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559cc611cacaa36ce65d2e" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559cf611cacaa36ce65d5f" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61b8" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559d2311cacaa36ce65d97" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559d4b11cacaa36ce65dc9" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60c8" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559d7211cacaa36ce65e40" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559da211cacaa36ce65ec6" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf619c" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559dcd11cacaa36ce65f30" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61ce" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf61dc" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60e8" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "6614f8834b23d27754bf60e9" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            },
+            {
+                "material": { "$oid": "66559e1011cacaa36ce65ffb" },
+                "quantity": 0,
+                "hasPermissionAdjustment": "YES"
+            }
+        ],
+        "medicinePreset": [],
+        "servicePreset": [],
+        "createdAt": { "$date": "2023-12-12T04:32:06.739Z" },
+        "updatedAt": { "$date": "2024-05-28T09:07:43.075Z" },
+        "__v": 0,
+        "defaultSaleCommission": 5
+    },
+    {
+        "_id": { "$oid": "6577e09ed682dfc2fb032b15" },
+        "name": "3-Methoxytyramine, Urine-HPLC (24-h Urine)",
+        "category": { "$oid": "6577d89ad682dfc2fbfc243b" },
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "createdAt": { "$date": "2023-12-12T04:25:02.274Z" },
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 25,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC1_TEMPLATE",
+        "materialPreset": [],
+        "medicinePreset": [],
+        "procedureTime": 0,
+        "servicePreset": [],
+        "status": "ENABLE",
+        "surgeryType": "NONE",
+        "updatedAt": { "$date": "2024-03-21T04:26:40.494Z" },
+        "serviceNo": 26,
+        "defaultSaleCommission": 0
+    },
+    {
+        "_id": { "$oid": "6577e0c6d682dfc2fb0351b3" },
+        "name": "Albumin",
+        "category": { "$oid": "6577d89ad682dfc2fbfc243b" },
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "createdAt": { "$date": "2023-12-12T04:25:41.649Z" },
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 25,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC1_TEMPLATE",
+        "materialPreset": [],
+        "medicinePreset": [],
+        "procedureTime": 0,
+        "servicePreset": [],
+        "status": "ENABLE",
+        "surgeryType": "NONE",
+        "updatedAt": { "$date": "2024-03-21T04:27:20.268Z" },
+        "serviceNo": 58,
+        "defaultSaleCommission": 0
+    },
+    {
+        "_id": { "$oid": "6577e0d6d682dfc2fb03609a" },
+        "name": "Anti - Pollution Facial Treatment",
+        "category": { "$oid": "6577d89ad682dfc2fbfc252b" },
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "createdAt": { "$date": "2023-12-12T04:25:58.383Z" },
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC1_TEMPLATE",
+        "materialPreset": [],
+        "medicinePreset": [],
+        "procedureTime": 0,
+        "servicePreset": [],
+        "status": "ENABLE",
+        "surgeryType": "NONE",
+        "updatedAt": { "$date": "2024-03-21T04:27:49.588Z" },
+        "serviceNo": 77,
+        "defaultSaleCommission": 5
+    },
+    {
+        "_id": { "$oid": "6577e0e4d682dfc2fb036d99" },
+        "name": "Anti Smooth Muscle Antibody (ASM)",
+        "category": { "$oid": "6577d89ad682dfc2fbfc24ff" },
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "createdAt": { "$date": "2023-12-12T04:26:12.223Z" },
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 25,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC2_TEMPLATE",
+        "materialPreset": [],
+        "medicinePreset": [],
+        "procedureTime": 0,
+        "servicePreset": [],
+        "status": "ENABLE",
+        "surgeryType": "NONE",
+        "updatedAt": { "$date": "2023-12-12T04:26:12.223Z" },
+        "serviceNo": 89,
+        "defaultSaleCommission": 5
+    },
+    {
+        "_id": { "$oid": "6577e0f0d682dfc2fb0378f4" },
+        "name": "Benzodiazepine (Urine)",
+        "category": { "$oid": "6577d89ad682dfc2fbfc24ff" },
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "createdAt": { "$date": "2023-12-12T04:26:23.661Z" },
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 50,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 25,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC2_TEMPLATE",
+        "materialPreset": [],
+        "medicinePreset": [],
+        "procedureTime": 0,
+        "servicePreset": [],
+        "status": "ENABLE",
+        "surgeryType": "NONE",
+        "updatedAt": { "$date": "2023-12-12T04:26:23.661Z" },
+        "serviceNo": 130,
+        "defaultSaleCommission": 5
+    },
+    {
+        "_id": { "$oid": "6577e0ffd682dfc2fb038866" },
+        "name": "Breast Augmen Breast Correction(Add)",
+        "category": { "$oid": "6551955244c9d987e1984a65" },
+        "createByAdmin": { "$oid": "63970b0da34eebef96da3f5b" },
+        "createdAt": { "$date": "2023-12-12T04:26:39.307Z" },
+        "description": null,
+        "jobCost": [
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "NORMAL",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "AGENCY",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "MARKETING",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "COMPLICATION",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "VIP",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "DOCTOR_FEE",
+                "role": "DOCTOR",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 10,
+                    "feeType": "PERCENTAGE",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "THERAPIST_FEE_SUB",
+                "role": "THERAPIST",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            },
+            {
+                "type": "NURSE_FEE_SUB",
+                "role": "NURSE",
+                "purchaseType": "STAFF",
+                "primaryFee": {
+                    "unit": "TIME",
+                    "amount": 0,
+                    "feeType": "AMOUNT",
+                    "unitQty": 1
+                }
+            }
+        ],
+        "jobCostTemplate": "JC2_TEMPLATE",
+        "materialPreset": [],
+        "medicinePreset": [],
+        "procedureTime": 0,
+        "servicePreset": [],
+        "status": "ENABLE",
+        "surgeryType": "GA",
+        "updatedAt": { "$date": "2023-12-12T04:26:39.307Z" },
+        "serviceNo": 157,
+        "defaultSaleCommission": 5
+    }
+]
