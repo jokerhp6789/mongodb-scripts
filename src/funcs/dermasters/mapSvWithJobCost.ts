@@ -1,7 +1,7 @@
 import { every } from "lodash";
 import fs from "fs";
 import svWithJobCost from "../../data/input/dermaster/service-config-jobcost_new_updated.json";
-import svData from "../../data/input/dermaster/dermaster_erp_staging.service_configuration.json";
+import svData from "../../data/input/dermaster/service-configs/dermaster_erp_staging.service_configuration.json";
 
 export enum PurchaseType {
     NORMAL = "NORMAL",
