@@ -1,0 +1,26 @@
+[
+    {
+        "systemId": "20",
+        "name": "NO AGENCY_Doctor Fee_Doctor_Time_40+NO AGENCY_Scrub Nurse_NURSE_Time_50+NO AGENCY_THERAPIST_FEE1_Therapist_Time_2+NO AGENCY_THERAPIST_FEE2_Therapist_Time_1+NO AGENCY_THERAPIST_FEE3_Therapist_Time_0.75+NO AGENCY_THERAPIST_FEE4_Therapist_Time_0.65+NO AGENCY_THERAPIST_FEE5_Therapist_Time_0.5+NO AGENCY_THERAPIST_FEE6_Therapist_Time_0.25+AGENCY_Doctor Fee_Doctor_Time_40+AGENCY_Scrub Nurse_NURSE_Time_50+AGENCY_THERAPIST_FEE1_Therapist_Time_2+AGENCY_THERAPIST_FEE2_Therapist_Time_1+AGENCY_THERAPIST_FEE3_Therapist_Time_0.75+AGENCY_THERAPIST_FEE4_Therapist_Time_0.65+AGENCY_THERAPIST_FEE5_Therapist_Time_0.5+AGENCY_THERAPIST_FEE6_Therapist_Time_0.25",
+        "amount": 4,
+        "keySets": [
+            "NO AGENCY_Doctor Fee_Doctor_Time_40",
+            "NO AGENCY_Scrub Nurse_NURSE_Time_50",
+            "NO AGENCY_THERAPIST_FEE1_Therapist_Time_2",
+            "NO AGENCY_THERAPIST_FEE2_Therapist_Time_1",
+            "NO AGENCY_THERAPIST_FEE3_Therapist_Time_0.75",
+            "NO AGENCY_THERAPIST_FEE4_Therapist_Time_0.65",
+            "NO AGENCY_THERAPIST_FEE5_Therapist_Time_0.5",
+            "NO AGENCY_THERAPIST_FEE6_Therapist_Time_0.25",
+            "AGENCY_Doctor Fee_Doctor_Time_40",
+            "AGENCY_Scrub Nurse_NURSE_Time_50",
+            "AGENCY_THERAPIST_FEE1_Therapist_Time_2",
+            "AGENCY_THERAPIST_FEE2_Therapist_Time_1",
+            "AGENCY_THERAPIST_FEE3_Therapist_Time_0.75",
+            "AGENCY_THERAPIST_FEE4_Therapist_Time_0.65",
+            "AGENCY_THERAPIST_FEE5_Therapist_Time_0.5",
+            "AGENCY_THERAPIST_FEE6_Therapist_Time_0.25"
+        ],
+        "serviceId": [20, 552, 553, 781]
+    }
+]

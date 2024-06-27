@@ -1,57 +1,12 @@
 import fs from "fs";
-
-export enum JobCostTemplate {
-    JC1_TEMPLATE = "JC1_TEMPLATE",
-    JC2_TEMPLATE = "JC2_TEMPLATE",
-    JC3_TEMPLATE = "JC3_TEMPLATE",
-}
-
-export enum FeeType {
-    PERCENTAGE = "PERCENTAGE",
-    AMOUNT = "AMOUNT",
-}
-
-export enum FeeUnit {
-    TIME = "TIME",
-    MINUTES = "MINUTES",
-    NIGHT = "NIGHT",
-    PIECE = "PIECE",
-}
-export enum JobCostType {
-    DOCTOR_FEE = "DOCTOR_FEE",
-    THERAPIST_FEE = "THERAPIST_FEE",
-    NURSE_FEE = "NURSE_FEE",
-    THERAPIST_FEE_SUB = "THERAPIST_FEE_SUB",
-    NURSE_FEE_SUB = "NURSE_FEE_SUB",
-    ANESTHESIOLOGIST_FEE = "ANESTHESIOLOGIST_FEE",
-    ASSISTANT_ANESTHESIOLOGIST_FEE = "ASSISTANT_ANESTHESIOLOGIST_FEE",
-    ASSISTANT_SCRUB_FEE = "ASSISTANT_SCRUB_FEE",
-    ASSISTANT_FEE = "ASSISTANT_FEE",
-    SCRUB_NURSE_FEE = "SCRUB_NURSE_FEE",
-    CIRCULATE_NURSE_FEE = "CIRCULATE_NURSE_FEE",
-    RECOVERY_ROOM_NURSE_FEE = "RECOVERY_ROOM_NURSE_FEE",
-    REGISTER_NURSE_FEE = "REGISTER_NURSE_FEE",
-    PRACTITIONER_NURSE_FEE = "PRACTITIONER_NURSE_FEE",
-    AID_NURSE_FEE = "AID_NURSE_FEE",
-    STAFF_FEE = "STAFF_FEE",
-}
-
-export enum PurchaseType {
-    NORMAL = "NORMAL",
-    AGENCY = "AGENCY",
-    MARKETING = "MARKETING",
-    COMPLICATION = "COMPLICATION",
-    VIP = "VIP",
-    STAFF = "STAFF",
-}
-
-export enum JobTypeAdmin {
-    NORMAL_EMPLOYEE = "NORMAL_EMPLOYEE",
-    DOCTOR = "DOCTOR",
-    THERAPIST = "THERAPIST",
-    NURSE = "NURSE",
-    DRIVER = "DRIVER",
-}
+import {
+    FeeType,
+    FeeUnit,
+    JobCostTemplate,
+    JobCostType,
+    JobTypeAdmin,
+    PurchaseType,
+} from "./mapSvWithJobCost";
 
 export const JOB_COST_PRESET = [
     {
@@ -922,10 +877,7 @@ export const exportJobCostTemplate1 = async () => {
     });
 
     const exportJson = JSON.stringify(jsonArr);
-    await fs.writeFileSync(
-        `mapped_job_cost_template_1.json`,
-        exportJson
-    );
+    await fs.writeFileSync(`mapped_job_cost_template_1.json`, exportJson);
 };
 
 export const exportJobCostTemplate2 = async () => {
@@ -981,10 +933,7 @@ export const exportJobCostTemplate2 = async () => {
     });
 
     const exportJson = JSON.stringify(jsonArr);
-    await fs.writeFileSync(
-        `mapped_job_cost_template_2.json`,
-        exportJson
-    );
+    await fs.writeFileSync(`mapped_job_cost_template_2.json`, exportJson);
 };
 
 export const exportJobCostTemplate3 = async () => {
@@ -1040,8 +989,5 @@ export const exportJobCostTemplate3 = async () => {
     });
 
     const exportJson = JSON.stringify(jsonArr);
-    await fs.writeFileSync(
-        `mapped_job_cost_template_3.json`,
-        exportJson
-    );
+    await fs.writeFileSync(`mapped_job_cost_template_3.json`, exportJson);
 };

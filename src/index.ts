@@ -14,7 +14,7 @@ import { filterProxies, mapProxies } from "./funcs/tripfizer/proxy/mapProxy";
 const DermasterConfigUtils = new DermasterServiceConfigsUtil();
 
 function main() {
-    DermasterConfigUtils.getAllJobCostTemplateSets(1);
+    DermasterConfigUtils.mapAllServiceConfigsWithJobCostTemplateSets();
 }
 
 main();

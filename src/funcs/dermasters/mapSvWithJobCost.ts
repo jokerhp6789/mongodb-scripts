@@ -3,6 +3,12 @@ import fs from "fs";
 import svWithJobCost from "../../data/input/dermaster/service-config-jobcost_new_updated.json";
 import svData from "../../data/input/dermaster/service-configs/dermaster_erp_staging.service_configuration.json";
 
+export enum JobCostTemplate {
+    JC1_TEMPLATE = "JC1_TEMPLATE",
+    JC2_TEMPLATE = "JC2_TEMPLATE",
+    JC3_TEMPLATE = "JC3_TEMPLATE",
+}
+
 export enum PurchaseType {
     NORMAL = "NORMAL",
     AGENCY = "AGENCY",
@@ -51,8 +57,9 @@ export enum FeeUnit {
     PIECE = "PIECE",
 }
 
-const mapJobCostType = (jobCostType: string) => {
+export const mapJobCostType = (jobCostType: string) => {
     switch (jobCostType) {
+        case "DOCTOR_FEE":
         case "Doctor Fee":
             return JobCostType.DOCTOR_FEE;
         case "Therapist Fee (Primary)":
@@ -63,27 +70,54 @@ const mapJobCostType = (jobCostType: string) => {
             return JobCostType.NURSE_FEE;
         case "Nurse Fee (Supplementary)":
             return JobCostType.NURSE_FEE_SUB;
+        case "ANESTHESIOLOGIST_FEE":
+            return JobCostType.ANESTHESIOLOGIST_FEE;
+        case "ASSISTANT_ANESTHESIOLOGIST_FEE":
+            return JobCostType.ASSISTANT_ANESTHESIOLOGIST_FEE;
+        case "ASSISTANT_SCRUB_FEE":
+            return JobCostType.ASSISTANT_SCRUB_FEE;
+        case "ASSISTANT_FEE":
+            return JobCostType.ASSISTANT_FEE;
+        case "SCRUB_NURSE_FEE":
+            return JobCostType.SCRUB_NURSE_FEE;
+        case "CIRCULATE_NURSE_FEE":
+            return JobCostType.CIRCULATE_NURSE_FEE;
+        case "RECOVERY_ROOM_NURSE_FEE":
+            return JobCostType.RECOVERY_ROOM_NURSE_FEE;
+        case "REGISTER_NURSE_FEE":
+            return JobCostType.REGISTER_NURSE_FEE;
+        case "PRACTITIONER_NURSE_FEE":
+            return JobCostType.PRACTITIONER_NURSE_FEE;
+        case "AID_NURSE_FEE":
+            return JobCostType.AID_NURSE_FEE;
+        case "STAFF_FEE":
+            return JobCostType.STAFF_FEE;
         default:
             console.error("Unknown Job Cost Type: ", jobCostType);
             break;
     }
 };
 
-const mapRole = (role: string) => {
+export const mapRole = (role: string) => {
     switch (role) {
+        case "NURSE":
         case "Nurse":
             return JobTypeAdmin.NURSE;
+        case "DOCTOR":
         case "Doctor":
             return JobTypeAdmin.DOCTOR;
+        case "THERAPIST":
         case "Therapist":
             return JobTypeAdmin.THERAPIST;
+        case "NORMAL_EMPLOYEE":
+            return JobTypeAdmin.NORMAL_EMPLOYEE;
         default:
             console.error("Unknown Role: ", role);
             break;
     }
 };
 
-const mapPurchaseType = (type: string) => {
+export const mapPurchaseType = (type: string) => {
     switch (type) {
         case "Normal":
             return PurchaseType.NORMAL;
@@ -95,18 +129,23 @@ const mapPurchaseType = (type: string) => {
             return PurchaseType.VIP;
         case "Staff":
             return PurchaseType.STAFF;
+        case "AGENCY":
         case "Agency":
             return PurchaseType.AGENCY;
+        case "NO AGENCY":
+            return null;
         default:
             console.error("Unknown Purchase Type: ", type);
             break;
     }
 };
 
-const mapPrimaryFeeType = (feeType: string) => {
+export const mapPrimaryFeeType = (feeType: string) => {
     switch (feeType) {
+        case "PERCENTAGE":
         case "Fixed rate (%)":
             return FeeType.PERCENTAGE;
+        case "AMOUNT":
         case "Fixed rate (THB)":
             return FeeType.AMOUNT;
         default:
@@ -115,10 +154,18 @@ const mapPrimaryFeeType = (feeType: string) => {
     }
 };
 
-const mapFeeUnit = (unit: string) => {
+export const mapFeeUnit = (unit: string) => {
     switch (unit) {
+        case "TIME":
         case "Time":
             return FeeUnit.TIME;
+        case "Minutes":
+        case "MINUTES":
+            return FeeUnit.MINUTES;
+        case "NIGHT":
+            return FeeUnit.NIGHT;
+        case "PIECE":
+            return FeeUnit.PIECE;
         default:
             console.error("Unknown Purchase Fee Unit: ", unit);
             break;
