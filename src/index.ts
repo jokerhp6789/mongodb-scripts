@@ -10,11 +10,13 @@ import { addRegionToCountries } from "./funcs/tripfizer/addRegionToCountries";
 import { getAllRegionAndSubRegion } from "./funcs/tripfizer/getAllRegionAndSubRegion";
 import { mapCountriesLatLong } from "./funcs/tripfizer/mapCountriesLatLong";
 import { filterProxies, mapProxies } from "./funcs/tripfizer/proxy/mapProxy";
+import { WorkInfinityXUserUtils } from "./funcs/work-infinity-x/WorkInfinityXUser.utils";
 
 const DermasterConfigUtils = new DermasterServiceConfigsUtil();
+const WorkInfinityXUser = new WorkInfinityXUserUtils();
 
 function main() {
-    DermasterConfigUtils.mapAllServiceConfigsWithJobCostTemplateSets();
+    WorkInfinityXUser.removeGpsDataFromUsers();
 }
 
 main();
