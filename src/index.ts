@@ -11,12 +11,14 @@ import { getAllRegionAndSubRegion } from "./funcs/tripfizer/getAllRegionAndSubRe
 import { mapCountriesLatLong } from "./funcs/tripfizer/mapCountriesLatLong";
 import { filterProxies, mapProxies } from "./funcs/tripfizer/proxy/mapProxy";
 import { WorkInfinityXUserUtils } from "./funcs/work-infinity-x/WorkInfinityXUser.utils";
+import { TripfizerGeoUtils } from "./funcs/tripfizer/geo/TripfizerGeo.utils";
 
 const DermasterConfigUtils = new DermasterServiceConfigsUtil();
 const WorkInfinityXUser = new WorkInfinityXUserUtils();
+const TripfizerGeo = new TripfizerGeoUtils();
 
 function main() {
-    WorkInfinityXUser.removeGpsDataFromUsers();
+    TripfizerGeo.changeStateCityWorldDataToAddressData();
 }
 
 main();

@@ -6,9 +6,9 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "build": "npx tsc",
-        "build-push-memory": "node --max-old-space-size=8192 node_modules/typescript/bin/tsc",
+        "build-push-memory": "node --max-old-space-size=10240 node_modules/typescript/bin/tsc",
         "start": "npx tsc && node  dist/index.js",
-        "start-push-memory": "npx tsc && node --max-old-space-size=8192 dist/index.js"
+        "start-push-memory": "yarn build-push-memory && node --max-old-space-size=10240 dist/index.js"
     },
     "keywords": [],
     "author": "",
