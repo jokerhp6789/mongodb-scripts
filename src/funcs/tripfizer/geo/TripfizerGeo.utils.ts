@@ -3,7 +3,6 @@ import fs from "fs";
 // states
 import stateOriginalData from "../../../../json/tripfizer/states/states.json";
 import stateDbData from "../../../data/input/tripfizer/state-cities/tripfizer-dev.state-17:07:2024.json";
-import stateDbDataWithAddress from "../../../data/input/tripfizer/state-cities/tripfizer-dev.state-with-address-data.json";
 
 // states
 import cityOriginalData from "../../../../json/tripfizer/cities/cities.json";
@@ -71,6 +70,7 @@ export class TripfizerGeoUtils {
         const exportData: Array<any> = (stateDbData as any).map(
             (stateCity, index) => {
                 const { infoData, ...rest } = stateCity || {};
+                const stateDbDataWithAddress = [];
                 const foundState = stateDbDataWithAddress.find(
                     (item) => item._id.$oid === stateCity?._id.$oid
                 );
