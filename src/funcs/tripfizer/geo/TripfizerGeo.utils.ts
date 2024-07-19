@@ -1,8 +1,8 @@
 import fs from "fs";
 
 // states
-import stateOriginalData from "../../../../json/tripfizer/states/states.json";
-import stateDbData from "../../../data/input/tripfizer/state-cities/tripfizer-dev.state-17:07:2024.json";
+import stateOriginalData from "../../../data/input/tripfizer/state-cities/tripfizer-dev.states-origional-18:07:2024.json";
+import updatedStateData from "../../../data/input/tripfizer/state-cities/updated_state_2024-07-18T14:08:21.509Z.json";
 
 // states
 import cityOriginalData from "../../../../json/tripfizer/cities/cities.json";
@@ -35,11 +35,11 @@ export class TripfizerGeoUtils {
     }
 
     async addStateIdToStates() {
-        const exportData: Array<any> = (stateDbData as any).map(
+        const exportData: Array<any> = (updatedStateData as any).map(
             (stateCity, index) => {
                 const { infoData, addressData, ...rest } = stateCity || {};
                 const stateCode = `${addressData?.inCountry?.code}_${infoData?.code}`;
-                const foundState = stateOriginalData.find(
+                const foundState = (stateOriginalData as any).find(
                     (item) =>
                         `${item.country_code}_${item?.state_code}` === stateCode
                 );
@@ -67,16 +67,9 @@ export class TripfizerGeoUtils {
     }
 
     async addAlternativeNamesToStates() {
-        const exportData: Array<any> = (stateDbData as any).map(
+        const exportData: Array<any> = (updatedStateData as any).map(
             (stateCity, index) => {
                 const { infoData, ...rest } = stateCity || {};
-                const stateDbDataWithAddress = [];
-                const foundState = stateDbDataWithAddress.find(
-                    (item) => item._id.$oid === stateCity?._id.$oid
-                );
-                if (!foundState) {
-                    console.error("Not found", stateCity?._id.$oid);
-                }
                 const infoDataMapped = { ...infoData };
                 if (
                     StringUtils.checkContainNoneEnglishCharacter(infoData?.name)
@@ -89,7 +82,6 @@ export class TripfizerGeoUtils {
                 return {
                     ...rest,
                     infoData: infoDataMapped,
-                    addressData: foundState?.addressData,
                     updatedAt: {
                         $date: new Date().toISOString(),
                     },
@@ -103,8 +95,57 @@ export class TripfizerGeoUtils {
         );
     }
 
+    async addLostDataToStates() {
+        const exportData: Array<any> = [...updatedStateData];
+        const existingIds: Array<any> = updatedStateData.map(
+            (item) => item?._id?.$oid
+        );
+        stateOriginalData.forEach((state) => {
+            const { _id, geoData, inCountry, infoData, type } = state || {};
+            if (!existingIds.includes(_id.$oid)) {
+                const mappedInfoData: any = {
+                    ...infoData,
+                    code: `${inCountry?.code}_${infoData?.code}`,
+                };
+                if (
+                    StringUtils.checkContainNoneEnglishCharacter(infoData?.name)
+                ) {
+                    const mappedName = StringUtils.mapNoneEnglishToEnglish(
+                        infoData?.name
+                    );
+                    mappedInfoData.alternativeNames = [mappedName];
+                }
+                const addressData = {
+                    inCountry: {
+                        ...inCountry,
+                    },
+                };
+                exportData.push({
+                    _id,
+                    type: "STATE",
+                    status: "ACTIVE",
+                    infoData: mappedInfoData,
+                    addressData,
+                    geoData,
+                    createdAt: {
+                        $date: new Date().toISOString(),
+                    },
+                    updatedAt: {
+                        $date: new Date().toISOString(),
+                    },
+                });
+            }
+        });
+
+        const exportJson = JSON.stringify(exportData);
+        await fs.writeFileSync(
+            `updated_state_${new Date().toISOString()}.json`,
+            exportJson
+        );
+    }
+
     async removeStateId() {
-        const exportData: Array<any> = (stateDbData as any).map(
+        const exportData: Array<any> = (updatedStateData as any).map(
             (stateCity, index) => {
                 const { infoData, ...rest } = stateCity || {};
                 return {
@@ -155,7 +196,7 @@ export class TripfizerGeoUtils {
                 }
 
                 const stateCode = `${country_code}_${state_code}`;
-                const foundState = stateDbData.find(
+                const foundState = updatedStateData.find(
                     (item) => item?.infoData?.code === stateCode
                 );
                 if (!foundState) {
