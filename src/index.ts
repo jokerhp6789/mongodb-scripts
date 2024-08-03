@@ -7,7 +7,7 @@ const WorkInfinityXUser = new WorkInfinityXUserUtils();
 const TripfizerGeo = new TripfizerGeoUtils();
 
 function main() {
-    TripfizerGeo.addLostDataToStates();
+    TripfizerGeo.addAlternativeNamesToStates();
 }
 
 main();

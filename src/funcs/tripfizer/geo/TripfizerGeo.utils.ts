@@ -2,7 +2,7 @@ import fs from "fs";
 
 // states
 import stateOriginalData from "../../../data/input/tripfizer/state-cities/tripfizer-dev.states-origional-18:07:2024.json";
-import updatedStateData from "../../../data/input/tripfizer/state-cities/updated_state_2024-07-18T14:08:21.509Z.json";
+import updatedStateData from "../../../data/input/tripfizer/state-cities/updated_state_2024-07-22T02:56:17.815Z.json";
 
 // states
 import cityOriginalData from "../../../../json/tripfizer/cities/cities.json";
