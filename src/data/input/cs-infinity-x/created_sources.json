@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "newId": "6780e51d5bb84731d63356b9",
+        "name": "Line",
+        "display_name": "Line",
+        "value": "line",
+        "created_at": "2022-04-12 10:44:41",
+        "updated_at": "2022-04-12 10:44:41"
+    },
+    {
+        "id": "2",
+        "newId": "677820754718c89496bb6c98",
+        "name": "Facebook",
+        "display_name": "Facebook",
+        "value": "facebook",
+        "created_at": "2022-04-12 10:45:04",
+        "updated_at": "2022-04-12 10:45:04"
+    },
+    {
+        "id": "3",
+        "newId": "6780e5265bb84731d63356c9",
+        "name": "Phone",
+        "display_name": "Phone",
+        "value": "phone",
+        "created_at": "2022-04-12 10:45:13",
+        "updated_at": "2022-04-12 10:45:13"
+    },
+    {
+        "id": "4",
+        "newId": "6780e52e5bb84731d63356d7",
+        "name": "Email",
+        "display_name": "Email",
+        "value": "email",
+        "created_at": "2022-04-12 12:24:50",
+        "updated_at": "2022-04-12 12:24:50"
+    },
+    {
+        "id": "5",
+        "newId": "677820784718c89496bb6ca5",
+        "name": "Website",
+        "display_name": "Website",
+        "value": "website",
+        "created_at": "2022-04-12 10:45:13",
+        "updated_at": "2022-04-12 10:45:13"
+    },
+    {
+        "id": "6",
+        "newId": "6780e5415bb84731d63356e5",
+        "name": "Contact form",
+        "display_name": "Contact form",
+        "value": "form",
+        "created_at": "2022-04-12 12:24:50",
+        "updated_at": "2022-04-12 12:24:50"
+    }
+]
