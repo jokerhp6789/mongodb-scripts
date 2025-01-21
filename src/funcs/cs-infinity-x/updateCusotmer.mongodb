@@ -1,0 +1,14 @@
+use("csinfinityx_prod");
+
+db.customer_test.find({ firstName: null }).forEach(async (customer) => {
+    if (!customer?.firstName && !!customer?.email) {
+        console.log(`Customer No: ${customer?.customerNo}`);
+        const email = customer.email;
+        const [name, _] = email.split("@");
+        const res = await db.customer_test.findOneAndUpdate(
+            { _id: customer._id },
+            { $set: { firstName: name, lastName: name } }
+        );
+        console.log(`updated ${res?.firstName} - ${res?.email}`);
+    }
+});
