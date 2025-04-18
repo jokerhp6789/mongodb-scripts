@@ -25,4 +25,4 @@ const getWorkFromHomeBranch = async () => {
     console.log(JSON.stringify(listId));
 };
 
-getWorkFromHomeBranch();
+updateWorkPlaceCommission();
