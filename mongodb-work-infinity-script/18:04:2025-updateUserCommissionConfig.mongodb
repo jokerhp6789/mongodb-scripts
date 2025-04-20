@@ -13,30 +13,35 @@ use("work_infinity_x_dev");
 const updateUserCommissionConfig = async () => {
     try {
         const data = fs.readFileSync(
-            "/Users/trungdx/Code/mongodb-scripts/json/work-infinity-x/commission/18-04-2025/nav_store_mapping.json",
+            "/Users/trungdx/Code/mongodb-scripts/json/work-infinity-x/commission/18-04-2025/employee_job_role_mapping.json",
             () => {}
         );
         const rawData = JSON.parse(data);
         rawData.map((item) => {
             console.log("🚀 >>>>>> rawData.map >>>>>> item:", item);
-            const branchNo = item?.[`Workplace Code \n(Work Infinity X)`];
-            const commissionCode = item?.[`Store Code\n(NAV)`];
+            const employeeId = item?.[`Employee ID`];
+            const commissionJobRole = item?.[`Job Role`];
+            const commissionStore = item?.[`Work at Store (NAV Code)`];
 
-            console.log(
-                "🚀 >>>>>> rawData.map >>>>>> commissionCode:",
-                commissionCode
-            );
-            console.log("🚀 >>>>>> rawData.map >>>>>> branchNo:", branchNo);
+            console.log("🚀 >>>>>> rawData.map >>>>>> employeeId:", employeeId);
 
-            if (branchNo && commissionCode) {
-                db.branches.findOneAndUpdate(
-                    { branchNo },
-                    { $addToSet: { commissionStoreCodes: commissionCode } }
+            if (employeeId && commissionJobRole) {
+                db.users.findOneAndUpdate(
+                    { employeeId },
+                    {
+                        $set: {
+                            commissionConfig: {
+                                status: "ENABLE",
+                                commissionStore,
+                                commissionJobRole,
+                            },
+                        },
+                    }
                 );
             }
         });
     } catch (error) {
-        console.log("🚀 >>>>>> updateWorkPlaceCommission >>>>>> error:", error);
+        console.log("🚀 >>>>>> updateUserCommissionConfig >>>>>> error:", error);
     }
 };
 
