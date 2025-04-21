@@ -1,0 +1,187 @@
+// MongoDB Playground
+
+const fs = require("fs");
+const moment = require("/Users/admin/Code/mongodb/mongodb-work-infinity-script/node_modules/moment");
+
+// Select the database to use.
+use("work_infinity_x_dev");
+
+const CommissionLogStatus = {
+    ENABLE: "ENABLE",
+    DISABLE: "DISABLE",
+};
+
+const convertYearMonthToDate = (yearMonth) => {
+    if (!/^\d{4}-\d{2}$/.test(yearMonth)) {
+        throw new Error("Invalid format. Expected YYYY-MM");
+    }
+    const [year, month] = yearMonth.split("-").map(Number);
+    const startTime = new Date(year, month - 1, 1);
+    const endTime = moment(startTime).endOf("M").toDate();
+    return [startTime, endTime];
+};
+
+const manuallyCalculateCommissionLog = async () => {
+    try {
+        const month = "2025-03";
+        const [startTime, endTime] = convertYearMonthToDate(month);
+
+        if (startTime && endTime) {
+            const users = await db.users
+                .find({
+                    "commissionConfig.commissionStore": { $exists: true },
+                    "commissionConfig.commissionJobRole": { $exists: true },
+                })
+                .toArray();
+
+            if (users?.length) {
+                for (const user of users) {
+                    const { commissionStore, commissionJobRole } =
+                        user?.commissionConfig || {};
+                    if (commissionJobRole && commissionStore) {
+                        const resAggregate = await db.check_time.aggregate([
+                            {
+                                $match: {
+                                    createdBy: user._id,
+                                    created: {
+                                        $gte: startTime,
+                                        $lt: endTime,
+                                    },
+                                    "status.status": "APPROVED",
+                                },
+                            },
+                            {
+                                $addFields: {
+                                    lastCheckTime: {
+                                        $max: "$timeLine.date",
+                                    },
+                                    firstCheckTime: {
+                                        $min: "$timeLine.date",
+                                    },
+                                },
+                            },
+                            {
+                                $addFields: {
+                                    workingTimeMs: {
+                                        $subtract: [
+                                            "$lastCheckTime",
+                                            "$firstCheckTime",
+                                        ],
+                                    },
+                                    // Convert to hours for easier calculation
+                                    workingTimeHours: {
+                                        $divide: [
+                                            {
+                                                $subtract: [
+                                                    "$lastCheckTime",
+                                                    "$firstCheckTime",
+                                                ],
+                                            },
+                                            3600000, // milliseconds in an hour
+                                        ],
+                                    },
+                                },
+                            },
+                            {
+                                $addFields: {
+                                    dayValue: {
+                                        $cond: [
+                                            {
+                                                $lt: ["$workingTimeHours", 4],
+                                            },
+                                            0, // Less than 4 hours = 0 day
+                                            {
+                                                $cond: [
+                                                    {
+                                                        $lt: [
+                                                            "$workingTimeHours",
+                                                            8,
+                                                        ],
+                                                    },
+                                                    0.5, // Between 4 and 8 hours = 0.5 day
+                                                    1, // 8 hours or more = 1 day
+                                                ],
+                                            },
+                                        ],
+                                    },
+                                },
+                            },
+                            {
+                                $group: {
+                                    _id: null,
+                                    totalWorkingDays: {
+                                        $sum: "$dayValue",
+                                    },
+                                    checktimeIds: {
+                                        $push: "$_id",
+                                    },
+                                },
+                            },
+                        ]);
+                        if (resAggregate) {
+                            const totalWorkingDays =
+                                resAggregate[0]?.totalWorkingDays ?? 0;
+                            const commissionLog = {
+                                month,
+                                empObjId: user._id,
+                                employeeId: user.employeeId,
+                                commissionStoreCode: commissionStore,
+                                commissionJobRoleCode: commissionJobRole,
+                                totalWorkingDays,
+                                startDate: startTime,
+                                endDate: endTime,
+                            };
+                            console.log(
+                                "🚀 >>>>>> manuallyCalculateCommissionLog >>>>>> commissionLog:",
+                                commissionLog
+                            );
+
+                            // re update commission log
+
+                            await db.commission_log.findOneAndUpdate(
+                                {
+                                    empObjId: commissionLog.empObjId,
+                                    month: commissionLog.month,
+                                },
+                                {
+                                    $set: {
+                                        status: CommissionLogStatus.DISABLE,
+                                    },
+                                },
+                                {
+                                    new: true,
+                                    upsert: false,
+                                }
+                            );
+
+                            await db.commission_log.findOneAndUpdate(
+                                {
+                                    empObjId: commissionLog.empObjId,
+                                    month: commissionLog.month,
+                                    status: CommissionLogStatus.ENABLE,
+                                },
+                                {
+                                    $set: {
+                                        status: CommissionLogStatus.ENABLE,
+                                        ...commissionLog,
+                                    },
+                                },
+                                {
+                                    new: true,
+                                    upsert: true,
+                                }
+                            );
+                        }
+                    }
+                }
+            }
+        }
+    } catch (error) {
+        console.log(
+            "🚀 >>>>>> manuallyCalculateCommissionLog >>>>>> error:",
+            error
+        );
+    }
+};
+
+manuallyCalculateCommissionLog();
