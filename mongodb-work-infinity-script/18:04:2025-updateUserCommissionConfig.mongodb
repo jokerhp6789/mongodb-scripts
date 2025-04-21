@@ -4,7 +4,7 @@
 // Use Ctrl+Space inside a snippet or a string literal to trigger completions.
 const fs = require("fs");
 // Select the database to use.
-use("work_infinity_x_dev");
+use("work_infinity_x_prod");
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
@@ -13,7 +13,7 @@ use("work_infinity_x_dev");
 const updateUserCommissionConfig = async () => {
     try {
         const data = fs.readFileSync(
-            "/Users/trungdx/Code/mongodb-scripts/json/work-infinity-x/commission/18-04-2025/employee_job_role_mapping.json",
+            "/Users/admin/Code/mongodb/json/work-infinity-x/commission/18-04-2025/employee_job_role_mapping.json",
             () => {}
         );
         const rawData = JSON.parse(data);
@@ -21,7 +21,7 @@ const updateUserCommissionConfig = async () => {
             console.log("🚀 >>>>>> rawData.map >>>>>> item:", item);
             const employeeId = item?.[`Employee ID`];
             const commissionJobRole = item?.[`Job Role`];
-            const commissionStore = item?.[`Work at Store (NAV Code)`];
+            const commissionStore = item?.[`Work at Store (NAV Code)`] ?? null;
 
             console.log("🚀 >>>>>> rawData.map >>>>>> employeeId:", employeeId);
 
@@ -41,7 +41,10 @@ const updateUserCommissionConfig = async () => {
             }
         });
     } catch (error) {
-        console.log("🚀 >>>>>> updateUserCommissionConfig >>>>>> error:", error);
+        console.log(
+            "🚀 >>>>>> updateUserCommissionConfig >>>>>> error:",
+            error
+        );
     }
 };
 

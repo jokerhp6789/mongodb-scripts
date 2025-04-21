@@ -1,93 +1,93 @@
 [
-  {
-    "Employee Name":"Amornpun Panthong(Chompu)",
-    "Employee ID":"OH00666",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - Crystal Design Center (CDC)",
-    "Work at Store (NAV Code)":"CLS-SH024"
-  },
-  {
-    "Employee Name":"Akom Kunaroop(Kom)",
-    "Employee ID":"OH00663",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - Crystal Design Center (CDC)",
-    "Work at Store (NAV Code)":"CLS-SH024"
-  },
-  {
-    "Employee Name":"Nipaporn Khanchiang(Vi)",
-    "Employee ID":"OH00667",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - Ekkamai 4",
-    "Work at Store (NAV Code)":"CLS-SH021"
-  },
-  {
-    "Employee Name":"Bungon Sudpian(Fon)",
-    "Employee ID":"OH00662",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - Ekkamai 4",
-    "Work at Store (NAV Code)":"CLS-SH021"
-  },
-  {
-    "Employee Name":"Suphalak Phutthaisong( Suphalak)",
-    "Employee ID":"OH00678",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - MEGA Bangna Shopping Center",
-    "Work at Store (NAV Code)":"CLS-SH020"
-  },
-  {
-    "Employee Name":"Chamnong Samalee(Chamnong)",
-    "Employee ID":"OH00670",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - MEGA Bangna Shopping Center",
-    "Work at Store (NAV Code)":"CLS-SH020"
-  },
-  {
-    "Employee Name":"Watinee On-Aun(Khaopot)",
-    "Employee ID":"OH00664",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - Season Village Ratchaphruek",
-    "Work at Store (NAV Code)":"CLS-SH023"
-  },
-  {
-    "Employee Name":"Sekchai Sarowat(Sakchai)",
-    "Employee ID":"OH00661",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - Season Village Ratchaphruek",
-    "Work at Store (NAV Code)":"CLS-SH023"
-  },
-  {
-    "Employee Name":"Orraphan Saengsue",
-    "Employee ID":"OH00671",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - Siam Premium Outlet",
-    "Work at Store (NAV Code)":"CLS-SH022"
-  },
-  {
-    "Employee Name":"Viyada Larpecth",
-    "Employee ID":"OH00672",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - Siam Premium Outlet",
-    "Work at Store (NAV Code)":"CLS-SH022"
-  },
-  {
-    "Employee Name":"Jittraporn Mongkonaryuwat(Katoon)",
-    "Employee ID":"OH00669",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - The Emsphere",
-    "Work at Store (NAV Code)":"CLS-SH025"
-  },
-  {
-    "Employee Name":"Marwan Baha(wan)",
-    "Employee ID":"OH00602",
-    "Job Role":"PC",
-    "Work at Store (NAV Name)":"Omazz Gallery - The Emsphere",
-    "Work at Store (NAV Code)":"CLS-SH025"
-  },
-  {
-    "Employee Name":"Vitpat Toeraktakul(Flair)",
-    "Employee ID":"LT00525",
-    "Job Role":"Manager",
-    "Work at Store (NAV Name)":null,
-    "Work at Store (NAV Code)":null
-  }
+    {
+        "Employee Name": "Amornpun Panthong(Chompu)",
+        "Employee ID": "OH00666",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - Crystal Design Center (CDC)",
+        "Work at Store (NAV Code)": "CLS-SH024"
+    },
+    {
+        "Employee Name": "Akom Kunaroop(Kom)",
+        "Employee ID": "OH00663",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - Crystal Design Center (CDC)",
+        "Work at Store (NAV Code)": "CLS-SH024"
+    },
+    {
+        "Employee Name": "Nipaporn Khanchiang(Vi)",
+        "Employee ID": "OH00667",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - Ekkamai 4",
+        "Work at Store (NAV Code)": "CLS-SH021"
+    },
+    {
+        "Employee Name": "Bungon Sudpian(Fon)",
+        "Employee ID": "OH00662",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - Ekkamai 4",
+        "Work at Store (NAV Code)": "CLS-SH021"
+    },
+    {
+        "Employee Name": "Suphalak Phutthaisong( Suphalak)",
+        "Employee ID": "OH00678",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - MEGA Bangna Shopping Center",
+        "Work at Store (NAV Code)": "CLS-SH020"
+    },
+    {
+        "Employee Name": "Chamnong Samalee(Chamnong)",
+        "Employee ID": "OH00670",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - MEGA Bangna Shopping Center",
+        "Work at Store (NAV Code)": "CLS-SH020"
+    },
+    {
+        "Employee Name": "Watinee On-Aun(Khaopot)",
+        "Employee ID": "OH00664",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - Season Village Ratchaphruek",
+        "Work at Store (NAV Code)": "CLS-SH023"
+    },
+    {
+        "Employee Name": "Sekchai Sarowat(Sakchai)",
+        "Employee ID": "OH00661",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - Season Village Ratchaphruek",
+        "Work at Store (NAV Code)": "CLS-SH023"
+    },
+    {
+        "Employee Name": "Orraphan Saengsue",
+        "Employee ID": "OH00671",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - Siam Premium Outlet",
+        "Work at Store (NAV Code)": "CLS-SH022"
+    },
+    {
+        "Employee Name": "Viyada Larpecth",
+        "Employee ID": "OH00672",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - Siam Premium Outlet",
+        "Work at Store (NAV Code)": "CLS-SH022"
+    },
+    {
+        "Employee Name": "Jittraporn Mongkonaryuwat(Katoon)",
+        "Employee ID": "OH00669",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - The Emsphere",
+        "Work at Store (NAV Code)": "CLS-SH025"
+    },
+    {
+        "Employee Name": "Marwan Baha(wan)",
+        "Employee ID": "OH00602",
+        "Job Role": "JR1",
+        "Work at Store (NAV Name)": "Omazz Gallery - The Emsphere",
+        "Work at Store (NAV Code)": "CLS-SH025"
+    },
+    {
+        "Employee Name": "Vitpat Toeraktakul(Flair)",
+        "Employee ID": "LT00525",
+        "Job Role": "JR4",
+        "Work at Store (NAV Name)": null,
+        "Work at Store (NAV Code)": null
+    }
 ]
