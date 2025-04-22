@@ -75,42 +75,33 @@ const syncEmployeeToSale = async () => {
                 const urlSyncEmployeeToSale = URL_SYNC_EMPLOYEE_TO_SALE;
                 const tokenSyncEmployeeToSale = TOKEN_SYNC_EMPLOYEE_TO_SALE;
 
-                if (employeeId === "OH00666") {
-                    const body = {
-                        token: tokenSyncEmployeeToSale,
-                        ref_id: _id,
-                        status: employeeStatus,
-                        avatar: profileImage,
-                        nickname: nickname,
-                        first_name: firstNameEng,
-                        last_name: lastNameEng,
-                        employee_id: employeeId,
-                        commission_job_role_code:
-                            commissionStatus === CommissionStatus.ENABLE
-                                ? commissionJobRole
-                                : undefined,
-                        commission_store_code:
-                            commissionStatus === CommissionStatus.ENABLE &&
-                            commissionStore
-                                ? [commissionStore]
-                                : undefined,
-                    };
-                    const bodyStr = JSON.stringify(body);
+                const body = {
+                    token: tokenSyncEmployeeToSale,
+                    ref_id: _id,
+                    status: employeeStatus,
+                    avatar: profileImage,
+                    nickname: nickname,
+                    first_name: firstNameEng,
+                    last_name: lastNameEng,
+                    employee_id: employeeId,
+                    commission_job_role_code:
+                        commissionStatus === CommissionStatus.ENABLE
+                            ? commissionJobRole
+                            : undefined,
+                    commission_store_code:
+                        commissionStatus === CommissionStatus.ENABLE &&
+                        commissionStore
+                            ? [commissionStore]
+                            : undefined,
+                };
 
-                    const instance = axios.create({
-                        baseURL: urlSyncEmployeeToSale,
-                        timeout: 1000,
-                    });
+                const instance = axios.create({
+                    baseURL: urlSyncEmployeeToSale,
+                    timeout: 1000,
+                });
 
-                    const res = await instance.post(
-                        urlSyncEmployeeToSale,
-                        body
-                    );
-                    console.log(
-                        "🚀 >>>>>> syncEmployeeToSale >>>>>> res:",
-                        res
-                    );
-                }
+                const res = await instance.post(urlSyncEmployeeToSale, body);
+                console.log("🚀 >>>>>> syncEmployeeToSale >>>>>> res:", res);
             }
         }
     } catch (error) {
