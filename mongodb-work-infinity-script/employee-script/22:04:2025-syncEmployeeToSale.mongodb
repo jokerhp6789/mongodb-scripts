@@ -1,7 +1,7 @@
 // MongoDB Playground
 
 const fs = require("fs");
-const moment = require("/Users/admin/Code/mongodb/mongodb-work-infinity-script/node_modules/moment");
+const moment = require("moment");
 const axios = require("axios");
 
 // Select the database to use.
