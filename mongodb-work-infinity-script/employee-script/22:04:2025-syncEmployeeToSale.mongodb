@@ -1,0 +1,121 @@
+// MongoDB Playground
+
+const fs = require("fs");
+const moment = require("/Users/admin/Code/mongodb/mongodb-work-infinity-script/node_modules/moment");
+const axios = require("axios");
+
+// Select the database to use.
+use("work_infinity_x_prod");
+
+const CommissionStatus = {
+    ENABLE: "ENABLE",
+    DISABLE: "DISABLE",
+};
+
+const USER_CONSTANTS = {
+    STATUS: {
+        RESIGNED: ["5ddbf8e5333439177400a0da"],
+        TERMINATED: ["5debb57c333439177400a0db"],
+        OFFICIAL: ["5ddbf8ca333439177400a0d9"],
+        ON_PROBATION: ["5ddbf8b733343916e700a903"],
+        RESIGNATION_SUBMITTED: ["5ddbf8da333439177400a0dc"],
+    },
+};
+
+const USER_WORKING_STATUSES = [
+    USER_CONSTANTS.STATUS.OFFICIAL[0],
+    USER_CONSTANTS.STATUS.ON_PROBATION[0],
+    USER_CONSTANTS.STATUS.RESIGNATION_SUBMITTED[0],
+];
+
+const URL_SYNC_EMPLOYEE_TO_SALE = "https://salesinfinityx.com/api/hr/employee";
+const TOKEN_SYNC_EMPLOYEE_TO_SALE =
+    "mlbB3453445a45a45a4534435r353457n4dY6fsdfsdf534apotrc5354";
+
+const syncEmployeeToSale = async () => {
+    try {
+        const users = await db.users.find({}).toArray();
+
+        if (users?.length) {
+            for (const user of users) {
+                const {
+                    _id,
+                    employeeId,
+                    profileImage,
+                    personalInformation,
+                    commissionConfig,
+                    systemSetting,
+                } = user;
+
+                console.log(
+                    "🚀 >>>>>> syncEmployeeToSale >>>>>> employeeId:",
+                    employeeId
+                );
+
+                const firstNameEng = personalInformation?.firstNameEng || "";
+                const lastNameEng = personalInformation?.lastNameEng || "";
+                const nickname = personalInformation?.nickname || "";
+                const currentEmploymentStatus =
+                    systemSetting?.currentEmploymentStatus || "";
+                const currentEmploymentStatusStr = currentEmploymentStatus
+                    ? currentEmploymentStatus + ""
+                    : "";
+
+                const employeeStatus = USER_WORKING_STATUSES.includes(
+                    currentEmploymentStatusStr
+                )
+                    ? "ENABLED"
+                    : "DISABLED";
+
+                const commissionStatus = commissionConfig?.status || "";
+                const commissionJobRole =
+                    commissionConfig?.commissionJobRole || "";
+                const commissionStore = commissionConfig?.commissionStore || "";
+
+                const urlSyncEmployeeToSale = URL_SYNC_EMPLOYEE_TO_SALE;
+                const tokenSyncEmployeeToSale = TOKEN_SYNC_EMPLOYEE_TO_SALE;
+
+                if (employeeId === "OH00666") {
+                    const body = {
+                        token: tokenSyncEmployeeToSale,
+                        ref_id: _id,
+                        status: employeeStatus,
+                        avatar: profileImage,
+                        nickname: nickname,
+                        first_name: firstNameEng,
+                        last_name: lastNameEng,
+                        employee_id: employeeId,
+                        commission_job_role_code:
+                            commissionStatus === CommissionStatus.ENABLE
+                                ? commissionJobRole
+                                : undefined,
+                        commission_store_code:
+                            commissionStatus === CommissionStatus.ENABLE &&
+                            commissionStore
+                                ? [commissionStore]
+                                : undefined,
+                    };
+                    const bodyStr = JSON.stringify(body);
+
+                    const instance = axios.create({
+                        baseURL: urlSyncEmployeeToSale,
+                        timeout: 1000,
+                    });
+
+                    const res = await instance.post(
+                        urlSyncEmployeeToSale,
+                        body
+                    );
+                    console.log(
+                        "🚀 >>>>>> syncEmployeeToSale >>>>>> res:",
+                        res
+                    );
+                }
+            }
+        }
+    } catch (error) {
+        console.log("🚀 >>>>>> syncEmployeeToSale >>>>>> error:", error);
+    }
+};
+
+syncEmployeeToSale();
