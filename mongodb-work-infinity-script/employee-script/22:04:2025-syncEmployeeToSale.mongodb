@@ -95,13 +95,13 @@ const syncEmployeeToSale = async () => {
                             : undefined,
                 };
 
-                const instance = axios.create({
-                    baseURL: urlSyncEmployeeToSale,
-                    timeout: 1000,
-                });
+                // const instance = axios.create({
+                //     baseURL: urlSyncEmployeeToSale,
+                //     timeout: 1000,
+                // });
 
-                const res = await instance.post(urlSyncEmployeeToSale, body);
-                console.log("🚀 >>>>>> syncEmployeeToSale >>>>>> res:", res);
+                // const res = await instance.post(urlSyncEmployeeToSale, body);
+                // console.log("🚀 >>>>>> syncEmployeeToSale >>>>>> res:", res);
             }
         }
     } catch (error) {
