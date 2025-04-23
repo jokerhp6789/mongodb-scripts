@@ -1,5 +1,5 @@
 const fs = require("fs");
-const lodash = require("/Users/admin/Code/mongodb/mongodb-dermaster-erp-script/node_modules/lodash");
+const lodash = require("lodash");
 
 // MongoDB Playground
 // To disable this template go to Settings | MongoDB | Use Default Template For Playground.
