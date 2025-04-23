@@ -5,7 +5,7 @@ const fs = require("fs");
 // Use Ctrl+Space inside a snippet or a string literal to trigger completions.
 
 // Select the database to use.
-use("work_infinity_x_prod");
+use("work_infinity_x_dev");
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
@@ -18,15 +18,27 @@ const readDataFromLocalFileAndUpdateToDB = async () => {
             () => {}
         );
         const rawData = JSON.parse(data);
-        Object.keys(rawData).map((key,index) => {
+        Object.keys(rawData).map((key, index) => {
             const item = rawData?.[key] ?? {};
-            const employeeId = item?.["Employee ID"]
+            const employeeId = item?.["Employee ID"];
             console.log(
                 "🚀 >>>>>> file: readDataFromLocalFileAndUpdateToDB.mongodb:28 >>>>>> Object.keys >>>>>> employeeId:",
                 employeeId
             );
-            db.users.updateOne({employeeId},{$pull:{"roleLevel.workPlace":{$in:["644a46bb0ccbbc0011a29453","644a46ff0ccbbc0011a294a6"]}}})
-            console.log("number item updated:",index)
+            db.users.updateOne(
+                { employeeId },
+                {
+                    $pull: {
+                        "roleLevel.workPlace": {
+                            $in: [
+                                "644a46bb0ccbbc0011a29453",
+                                "644a46ff0ccbbc0011a294a6",
+                            ],
+                        },
+                    },
+                }
+            );
+            console.log("number item updated:", index);
         });
     } catch (error) {
         console.error(JSON.stringify(error));
