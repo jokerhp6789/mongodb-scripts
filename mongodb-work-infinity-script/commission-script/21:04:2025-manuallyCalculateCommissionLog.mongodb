@@ -4,7 +4,7 @@ const fs = require("fs");
 const moment = require("/Users/admin/Code/mongodb/mongodb-work-infinity-script/node_modules/moment");
 
 // Select the database to use.
-use("work_infinity_x_prod");
+use("work_infinity_x_dev");
 
 const CommissionLogStatus = {
     ENABLE: "ENABLE",
@@ -23,112 +23,117 @@ const convertYearMonthToDate = (yearMonth) => {
 
 const manuallyCalculateCommissionLog = async () => {
     try {
-        const month = "2025-02";
+        const month = "2025-03";
         const [startTime, endTime] = convertYearMonthToDate(month);
 
         if (startTime && endTime) {
-            const users = await db.users
+            const users = await db.commission_assignment
                 .find({
-                    "commissionConfig.commissionStore": { $exists: true },
-                    "commissionConfig.commissionJobRole": { $exists: true },
+                    month,
+                    status: "ENABLE",
                 })
                 .toArray();
 
             if (users?.length) {
                 for (const user of users) {
-                    const { commissionStore, commissionJobRole } =
+                    const { commissionStoreCode, commissionJobRoleCode } =
                         user?.commissionConfig || {};
-                    if (commissionJobRole && commissionStore) {
-                        const resAggregate = await db.check_time.aggregate([
-                            {
-                                $match: {
-                                    createdBy: user._id,
-                                    created: {
-                                        $gte: startTime,
-                                        $lt: endTime,
-                                    },
-                                    "status.status": "APPROVED",
-                                },
-                            },
-                            {
-                                $addFields: {
-                                    firstCheckTime: {
-                                        $min: "$timeLine.date",
-                                    },
-                                    lastCheckTime: {
-                                        $max: "$timeLine.date",
+                    if (commissionJobRoleCode && commissionStoreCode) {
+                        const resAggregate = await db.check_time
+                            .aggregate([
+                                {
+                                    $match: {
+                                        createdBy: user.empObjId,
+                                        created: {
+                                            $gte: startTime,
+                                            $lt: endTime,
+                                        },
+                                        "status.status": "APPROVED",
                                     },
                                 },
-                            },
-                            {
-                                $addFields: {
-                                    workingTimeMs: {
-                                        $subtract: [
-                                            "$lastCheckTime",
-                                            "$firstCheckTime",
-                                        ],
-                                    },
-                                    // Convert to hours for easier calculation
-                                    workingTimeHours: {
-                                        $divide: [
-                                            {
-                                                $subtract: [
-                                                    "$lastCheckTime",
-                                                    "$firstCheckTime",
-                                                ],
-                                            },
-                                            3600000, // milliseconds in an hour
-                                        ],
+                                {
+                                    $addFields: {
+                                        firstCheckTime: {
+                                            $min: "$timeLine.date",
+                                        },
+                                        lastCheckTime: {
+                                            $max: "$timeLine.date",
+                                        },
                                     },
                                 },
-                            },
-                            {
-                                $addFields: {
-                                    dayValue: {
-                                        $cond: [
-                                            {
-                                                $lt: ["$workingTimeHours", 4],
-                                            },
-                                            0, // Less than 4 hours = 0 day
-                                            {
-                                                $cond: [
-                                                    {
-                                                        $lt: [
-                                                            "$workingTimeHours",
-                                                            8,
-                                                        ],
-                                                    },
-                                                    0.5, // Between 4 and 8 hours = 0.5 day
-                                                    1, // 8 hours or more = 1 day
-                                                ],
-                                            },
-                                        ],
+                                {
+                                    $addFields: {
+                                        workingTimeMs: {
+                                            $subtract: [
+                                                "$lastCheckTime",
+                                                "$firstCheckTime",
+                                            ],
+                                        },
+                                        // Convert to hours for easier calculation
+                                        workingTimeHours: {
+                                            $divide: [
+                                                {
+                                                    $subtract: [
+                                                        "$lastCheckTime",
+                                                        "$firstCheckTime",
+                                                    ],
+                                                },
+                                                3600000, // milliseconds in an hour
+                                            ],
+                                        },
                                     },
                                 },
-                            },
-                            {
-                                $group: {
-                                    _id: null,
-                                    totalWorkingDays: {
-                                        $sum: "$dayValue",
-                                    },
-                                    checktimeIds: {
-                                        $push: "$_id",
+                                {
+                                    $addFields: {
+                                        dayValue: {
+                                            $cond: [
+                                                {
+                                                    $lt: [
+                                                        "$workingTimeHours",
+                                                        4,
+                                                    ],
+                                                },
+                                                0, // Less than 4 hours = 0 day
+                                                {
+                                                    $cond: [
+                                                        {
+                                                            $lt: [
+                                                                "$workingTimeHours",
+                                                                8,
+                                                            ],
+                                                        },
+                                                        0.5, // Between 4 and 8 hours = 0.5 day
+                                                        1, // 8 hours or more = 1 day
+                                                    ],
+                                                },
+                                            ],
+                                        },
                                     },
                                 },
-                            },
-                        ]).toArray();
-                      
+                                {
+                                    $group: {
+                                        _id: null,
+                                        totalWorkingDays: {
+                                            $sum: "$dayValue",
+                                        },
+                                        checktimeIds: {
+                                            $push: "$_id",
+                                        },
+                                    },
+                                },
+                            ])
+                            .toArray();
+
                         if (resAggregate) {
                             const totalWorkingDays =
                                 resAggregate[0]?.totalWorkingDays ?? 0;
 
                             const commissionLog = {
                                 month,
-                                empObjId: user._id,
+                                empObjId: user.empObjId,
                                 employeeId: user.employeeId,
-                                commissionStoreCode: commissionStore,
-                                commissionJobRoleCode: commissionJobRole,
+                                commissionStoreCode,
+                                commissionJobRoleCode,
                                 totalWorkingDays,
                                 startDate: startTime,
                                 endDate: endTime,
@@ -140,20 +145,11 @@ const manuallyCalculateCommissionLog = async () => {
 
                             // re update commission log
 
-                            await db.commission_log.findOneAndUpdate(
+                            await db.commission_log.deleteOne(
                                 {
                                     empObjId: commissionLog.empObjId,
                                     month: commissionLog.month,
                                 },
-                                {
-                                    $set: {
-                                        status: CommissionLogStatus.DISABLE,
-                                    },
-                                },
-                                {
-                                    new: true,
-                                    upsert: false,
-                                }
                             );
 
                             await db.commission_log.findOneAndUpdate(
