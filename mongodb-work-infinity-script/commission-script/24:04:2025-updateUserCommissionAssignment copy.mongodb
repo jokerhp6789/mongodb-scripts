@@ -1,0 +1,59 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+const fs = require("fs");
+// Select the database to use.
+use("work_infinity_x_prod");
+
+const CommissionAssignmentStatus = {
+    ENABLE: "ENABLE",
+    DISABLE: "DISABLE",
+};
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const updateUserCommissionStoreCode = async () => {
+    try {
+        const allCommissionAssignment = await db.commission_assignment
+            .find({})
+            .toArray();
+
+        if (allCommissionAssignment?.length) {
+            for (const item of allCommissionAssignment) {
+                const navStoreCode =
+                    item?.commissionConfig?.commissionStoreCode;
+                if (navStoreCode) {
+                    const foundStore = await db.commission_store.findOne({
+                        navCode: navStoreCode,
+                    });
+
+                    if (foundStore?.code) {
+                        const storeCode = foundStore?.code;
+                        await db.commission_assignment.findOneAndUpdate(
+                            {
+                                _id: item?._id,
+                            },
+                            {
+                                $set: {
+                                    "commissionConfig.commissionStoreCode":
+                                        storeCode,
+                                },
+                            },
+                            { upsert: false }
+                        );
+                    }
+                }
+            }
+        }
+    } catch (error) {
+        console.log(
+            "🚀 >>>>>> updateUserCommissionStoreCode >>>>>> error:",
+            error
+        );
+    }
+};
+
+updateUserCommissionStoreCode();

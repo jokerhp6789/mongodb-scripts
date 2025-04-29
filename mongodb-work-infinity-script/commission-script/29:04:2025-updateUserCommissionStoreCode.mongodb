@@ -4,7 +4,7 @@
 // Use Ctrl+Space inside a snippet or a string literal to trigger completions.
 const fs = require("fs");
 // Select the database to use.
-use("work_infinity_x_dev");
+use("work_infinity_x_prod");
 
 const CommissionAssignmentStatus = {
     ENABLE: "ENABLE",
