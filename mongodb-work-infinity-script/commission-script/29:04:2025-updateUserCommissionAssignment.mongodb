@@ -22,7 +22,7 @@ const updateUserCommissionAssignment = async () => {
             () => {}
         );
         const rawData = JSON.parse(data);
-        const month = "2025-03";
+        const month = "2025-05";
         if (rawData?.length) {
             await db.commission_assignment.deleteMany({ month });
             for (const item of rawData) {
