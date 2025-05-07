@@ -4,7 +4,7 @@ const fs = require("fs");
 const moment = require("/Users/admin/Code/mongodb/mongodb-work-infinity-script/node_modules/moment");
 
 // Select the database to use.
-use("work_infinity_x_dev");
+use("work_infinity_x_prod");
 
 const CommissionLogStatus = {
     ENABLE: "ENABLE",
@@ -23,7 +23,7 @@ const convertYearMonthToDate = (yearMonth) => {
 
 const manuallyCalculateCommissionLog = async () => {
     try {
-        const month = "2025-03";
+        const month = "2025-05";
         const [startTime, endTime] = convertYearMonthToDate(month);
 
         if (startTime && endTime) {
@@ -145,7 +145,7 @@ const manuallyCalculateCommissionLog = async () => {
 
                             // re update commission log
 
-                            await db.commission_log.deleteOne(
+                            await db.commission_log.deleteMany(
                                 {
                                     empObjId: commissionLog.empObjId,
                                     month: commissionLog.month,
