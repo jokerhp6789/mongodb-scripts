@@ -145,12 +145,10 @@ const manuallyCalculateCommissionLog = async () => {
 
                             // re update commission log
 
-                            await db.commission_log.deleteMany(
-                                {
-                                    empObjId: commissionLog.empObjId,
-                                    month: commissionLog.month,
-                                },
-                            );
+                            await db.commission_log.deleteMany({
+                                empObjId: commissionLog.empObjId,
+                                month: commissionLog.month,
+                            });
 
                             await db.commission_log.findOneAndUpdate(
                                 {
@@ -162,6 +160,7 @@ const manuallyCalculateCommissionLog = async () => {
                                     $set: {
                                         status: CommissionLogStatus.ENABLE,
                                         ...commissionLog,
+                                        updated: new Date(),
                                     },
                                 },
                                 {
