@@ -23,7 +23,7 @@ const convertYearMonthToDate = (yearMonth) => {
 
 const manuallyCalculateCommissionLog = async () => {
     try {
-        const month = "2025-05";
+        const month = "2025-03";
         const [startTime, endTime] = convertYearMonthToDate(month);
 
         if (startTime && endTime) {
@@ -161,6 +161,7 @@ const manuallyCalculateCommissionLog = async () => {
                                         status: CommissionLogStatus.ENABLE,
                                         ...commissionLog,
                                         updated: new Date(),
+                                        created: new Date(),
                                     },
                                 },
                                 {
