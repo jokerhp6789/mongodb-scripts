@@ -1,0 +1,498 @@
+[
+    {
+        "_id": {
+            "$oid": "68197a55f6330db369b9e076"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "5df0da82333439172d00a52f"
+        },
+        "employeeId": "LT00525",
+        "employeeInformation": {
+            "firstNameTh": "วิชญ์ภัทร",
+            "lastNameTh": "โตรักตระกูล",
+            "firstNameEng": "Vitpat",
+            "lastNameEng": "Toeraktakul",
+            "nickname": "Flair"
+        },
+        "commissionConfig": {
+            "commissionStoreCode": null,
+            "commissionJobRoleCode": "JR4"
+        },
+        "month": "2025-04",
+        "created": {
+            "$date": "2025-05-06T02:56:21.404Z"
+        },
+        "updated": {
+            "$date": "2025-05-06T02:56:21.404Z"
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6822dd9fa98bf4331f86707e"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501433f63347d7c0cd938f8"
+        },
+        "employeeId": "OH00661",
+        "employeeInformation": {
+            "firstNameTh": "เสกชัย",
+            "lastNameTh": "สาโรวาท",
+            "nickname": "Sakchai",
+            "_id": {
+                "$oid": "6822dd9fa98bf4331f86707f"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1508",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:50:23.699Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:50:23.699Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822dd9fa98bf4331f867082"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501434063347d7c0cd9391f"
+        },
+        "employeeId": "OH00664",
+        "employeeInformation": {
+            "firstNameTh": "วาทินี",
+            "lastNameTh": "อ้นอุ่น",
+            "nickname": "Khaopot",
+            "_id": {
+                "$oid": "6822dd9fa98bf4331f867083"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1508",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:50:23.704Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:50:23.704Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822ddca1e9be7ac87d1aa29"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501434263347d7c0cd93971"
+        },
+        "employeeId": "OH00671",
+        "employeeInformation": {
+            "firstNameTh": "อรพรรณ",
+            "lastNameTh": "แสงซื่อ",
+            "nickname": "Beer",
+            "_id": {
+                "$oid": "6822ddca1e9be7ac87d1aa2a"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1507",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-30T05:50:56.673Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:51:06.683Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:51:06.683Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822ddca1e9be7ac87d1aa2d"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501434263347d7c0cd9397a"
+        },
+        "employeeId": "OH00672",
+        "employeeInformation": {
+            "firstNameTh": "วิยะดา",
+            "lastNameTh": "หล้าเพชร",
+            "nickname": "Ying",
+            "_id": {
+                "$oid": "6822ddca1e9be7ac87d1aa2e"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1507",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:51:06.689Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:51:06.689Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822ddff8f1677d2d9ea5bb6"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501434163347d7c0cd93965"
+        },
+        "employeeId": "OH00670",
+        "employeeInformation": {
+            "firstNameTh": "จำนงค์",
+            "lastNameTh": "สมาลีย์",
+            "nickname": "Chamnong",
+            "_id": {
+                "$oid": "6822ddff8f1677d2d9ea5bb7"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1505",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:51:59.974Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:51:59.974Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822ddff8f1677d2d9ea5bba"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "666bafdfe1d78d0038748b69"
+        },
+        "employeeId": "OH00678",
+        "employeeInformation": {
+            "firstNameTh": "ศุภลักษ์",
+            "lastNameTh": "พุทไธสง    ",
+            "nickname": "Am",
+            "_id": {
+                "$oid": "6822ddff8f1677d2d9ea5bbb"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1505",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:51:59.980Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:51:59.980Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822de27578f5e31c84d5ecd"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501433f63347d7c0cd93905"
+        },
+        "employeeId": "OH00662",
+        "employeeInformation": {
+            "firstNameTh": "บังอร",
+            "lastNameTh": "สุดเพียร",
+            "nickname": "Fon",
+            "_id": {
+                "$oid": "6822de27578f5e31c84d5ece"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1506",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:52:39.250Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:52:39.250Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822de27578f5e31c84d5ed1"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501434163347d7c0cd93941"
+        },
+        "employeeId": "OH00667",
+        "employeeInformation": {
+            "firstNameTh": "นิภาภรณ์",
+            "lastNameTh": "ขันเชียง",
+            "nickname": "Vi",
+            "_id": {
+                "$oid": "6822de27578f5e31c84d5ed2"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1506",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:52:39.256Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:52:39.256Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822de52578f5e31c84d5f4b"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6452279f01f84200118bc137"
+        },
+        "employeeId": "OH00602",
+        "employeeInformation": {
+            "firstNameTh": "มัรวาน",
+            "lastNameTh": "บาหะ",
+            "nickname": "wan",
+            "_id": {
+                "$oid": "6822de52578f5e31c84d5f4c"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1510",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-04-01T05:53:10.723Z"
+        },
+        "endDate": {
+            "$date": "2025-04-30T05:53:15.762Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:53:22.043Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:53:22.043Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822de52578f5e31c84d5f4f"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501434163347d7c0cd9395b"
+        },
+        "employeeId": "OH00669",
+        "employeeInformation": {
+            "firstNameTh": "จิตราภรณ์",
+            "lastNameTh": "มงคลอายุวัฒน์",
+            "nickname": "Katoon",
+            "_id": {
+                "$oid": "6822de52578f5e31c84d5f50"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1510",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-04-01T05:53:13.212Z"
+        },
+        "endDate": {
+            "$date": "2025-04-30T05:53:18.511Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:53:22.048Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:53:22.048Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822defcffa6add17c46d6bd"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501434063347d7c0cd93910"
+        },
+        "employeeId": "OH00663",
+        "employeeInformation": {
+            "firstNameTh": "อาคม",
+            "lastNameTh": "คุณารูป",
+            "nickname": "Kom",
+            "_id": {
+                "$oid": "6822defcffa6add17c46d6be"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1509",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:56:12.220Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:56:12.220Z"
+        },
+        "__v": 0
+    },
+    {
+        "_id": {
+            "$oid": "6822defcffa6add17c46d6c1"
+        },
+        "status": "ENABLE",
+        "empObjId": {
+            "$oid": "6501434063347d7c0cd93934"
+        },
+        "employeeId": "OH00666",
+        "employeeInformation": {
+            "firstNameTh": "อมรพรรณ",
+            "lastNameTh": "พานทอง",
+            "nickname": "Chompu",
+            "_id": {
+                "$oid": "6822defcffa6add17c46d6c2"
+            },
+            "deleted": false
+        },
+        "commissionConfig": {
+            "commissionStoreCode": "CMS1509",
+            "commissionJobRoleCode": "JR1",
+            "deleted": false
+        },
+        "month": "2025-04",
+        "startDate": {
+            "$date": "2025-03-31T17:00:00.000Z"
+        },
+        "endDate": {
+            "$date": "2025-04-29T17:00:00.000Z"
+        },
+        "deleted": false,
+        "created": {
+            "$date": "2025-05-13T05:56:12.229Z"
+        },
+        "updated": {
+            "$date": "2025-05-13T05:56:12.229Z"
+        },
+        "__v": 0
+    }
+]
