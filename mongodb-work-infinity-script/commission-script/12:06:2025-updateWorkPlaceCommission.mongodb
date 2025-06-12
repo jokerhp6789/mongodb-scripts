@@ -1,0 +1,63 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+const fs = require("fs");
+// Select the database to use.
+use("work_infinity_x_prod");
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const updateWorkPlaceCommission = async () => {
+    try {
+        const data = fs.readFileSync(
+            "/Users/admin/Code/mongodb/json/work-infinity-x/commission/12-06-2025/nav_store_mapping.json",
+            () => {}
+        );
+        const rawData = JSON.parse(data);
+        const notFoundStoreCodes = [];
+
+        for (const item of rawData) {
+            console.log("🚀 >>>>>> rawData.map >>>>>> item:", item);
+            const branchNo = item?.[`Workplace Code \n(Work Infinity X)`];
+            const storeNavCode = item?.[`Store Code\n(NAV)`];
+            console.log(
+                "🚀 >>>>>> rawData for loop >>>>>> commissionCode:",
+                storeNavCode
+            );
+            console.log(
+                "🚀 >>>>>> rawData for loop >>>>>> branchNo:",
+                branchNo
+            );
+            if (branchNo && storeNavCode) {
+                const foundCommissionStore = await db.commission_store.findOne({
+                    navCode: storeNavCode,
+                });
+                const storeCode = foundCommissionStore?.code;
+                console.log(
+                    "🚀 >>>>>> rawData.map >>>>>> storeCode:",
+                    storeCode
+                );
+                if (!!storeCode) {
+                    await db.branches.findOneAndUpdate(
+                        { branchNo },
+                        { $addToSet: { commissionStoreCodes: storeCode } }
+                    );
+                }
+                if (!storeCode) {
+                    notFoundStoreCodes.push(storeNavCode);
+                }
+            }
+        }
+        console.log(
+            "🚀 >>>>>> updateWorkPlaceCommission >>>>>> notFoundStoreCodes:",
+            notFoundStoreCodes
+        );
+    } catch (error) {
+        console.log("🚀 >>>>>> updateWorkPlaceCommission >>>>>> error:", error);
+    }
+};
+
+updateWorkPlaceCommission();
