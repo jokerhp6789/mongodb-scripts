@@ -11,7 +11,7 @@ const CommissionLogStatus = {
     DISABLE: "DISABLE",
 };
 
-const convertYearMonthToDate = (yearMonth) => {
+function convertYearMonthToDate(yearMonth) {
     if (!/^\d{4}-\d{2}$/.test(yearMonth)) {
         throw new Error("Invalid format. Expected YYYY-MM");
     }
@@ -19,11 +19,11 @@ const convertYearMonthToDate = (yearMonth) => {
     const startTime = new Date(year, month - 1, 1);
     const endTime = moment(startTime).endOf("M").toDate();
     return [startTime, endTime];
-};
+}
 
 const manuallyCalculateCommissionLog = async () => {
     try {
-        const month = "2025-03";
+        const month = "2025-06";
         const [startTime, endTime] = convertYearMonthToDate(month);
 
         if (startTime && endTime) {
