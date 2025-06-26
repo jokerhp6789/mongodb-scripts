@@ -23,7 +23,13 @@ function convertYearMonthToDate(yearMonth) {
 
 const manuallyCalculateCommissionLog = async () => {
     try {
-        const month = "2025-03";
+        const data = fs.readFileSync(
+            "/Users/admin/Code/mongodb/json/work-infinity-x/commission/26-06-2025/26-06-2025-new-updated-employees.json",
+            () => {}
+        );
+        const rawData = JSON.parse(data);
+        const employeeIds = rawData?.updatedUsers ?? [];
+        const month = "2025-05";
         const [startTime, endTime] = convertYearMonthToDate(month);
 
         if (startTime && endTime) {
@@ -31,8 +37,14 @@ const manuallyCalculateCommissionLog = async () => {
                 .find({
                     month,
                     status: "ENABLE",
+                    employeeId: { $in: employeeIds },
                 })
                 .toArray();
+
+            // console.log(
+            //     "🚀 >>>>>> manuallyCalculateCommissionLog >>>>>> users:",
+            //     users
+            // );
 
             if (users?.length) {
                 for (const user of users) {
