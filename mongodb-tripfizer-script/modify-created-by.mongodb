@@ -1,0 +1,17 @@
+const fs = require("fs");
+// Select the database to use.
+use("tripfizer-dev");
+
+const updateCreatedByData = async () => {
+    try {
+        const cursor = db.trip.updateMany(
+            {},
+            // [{ $set: { "createdBy.id": '$createdBy.byId' } }],
+            { $unset: { "createdBy.byId": null } },
+        );
+    } catch (error) {
+        console.error(JSON.stringify(error));
+    }
+};
+
+updateCreatedByData();

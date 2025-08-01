@@ -1,0 +1,65 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+const fs = require("fs");
+const moment = require("moment");
+// Select the database to use.
+use("work_infinity_x_prod");
+
+const CommissionAssignmentStatus = {
+    ENABLE: "ENABLE",
+    DISABLE: "DISABLE",
+};
+const COMMISSION_LOG_MONTH_FORMAT = "YYYY-MM";
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+// Build an aggregation to view total sales for each product in 2014.
+const generateNewCommissionAssignment = async () => {
+    try {
+        const thisMonth = moment().format(COMMISSION_LOG_MONTH_FORMAT);
+        const lastMonth = moment()
+            .subtract(1, "month")
+            .format(COMMISSION_LOG_MONTH_FORMAT);
+        const cursor = await db.commission_assignment.find({
+            month: lastMonth,
+            status: CommissionAssignmentStatus.ENABLE,
+        });
+
+        await cursor.forEach(async (doc) => {
+            console.log("🚀 >>>>>> awaitcursor.forEach >>>>>> doc:", doc);
+            const {
+                empObjId,
+                employeeId,
+                employeeInformation,
+                commissionConfig,
+                endDate,
+            } = doc || {};
+            if (!!endDate) {
+                console.log(`Skip employeeId :${empObjId}`);
+            } else {
+                await db.commission_assignment.insertOne({
+                    status: CommissionAssignmentStatus.ENABLE,
+                    month: thisMonth,
+                    empObjId,
+                    employeeId,
+                    employeeInformation,
+                    commissionConfig,
+                    created: new Date(),
+                    updated: new Date(),
+                });
+            }
+        });
+
+        return false;
+    } catch (error) {
+        console.log(
+            "🚀 >>>>>> generateNewCommissionAssignment >>>>>> error:",
+            error
+        );
+    }
+};
+
+generateNewCommissionAssignment();
