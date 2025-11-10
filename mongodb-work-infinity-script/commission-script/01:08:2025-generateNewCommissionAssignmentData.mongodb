@@ -29,7 +29,7 @@ const generateNewCommissionAssignment = async () => {
         });
 
         await cursor.forEach(async (doc) => {
-            console.log("🚀 >>>>>> awaitcursor.forEach >>>>>> doc:", doc);
+            console.log("🚀 >>>>>> await cursor.forEach >>>>>> doc:", doc);
             const {
                 empObjId,
                 employeeId,
