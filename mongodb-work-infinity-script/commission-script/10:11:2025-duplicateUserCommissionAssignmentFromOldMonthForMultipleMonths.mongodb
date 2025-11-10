@@ -1,0 +1,109 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+const fs = require("fs");
+const moment = require("moment");
+// Select the database to use.
+use("work_infinity_x_prod");
+
+const ORIGINAL_MONtH = "2025-10";
+const MONTHS = ["2025-02"];
+// const MONTHS = [
+//     "2025-03",
+//     "2025-04",
+//     "2025-05",
+//     "2025-06",
+//     "2025-07",
+//     "2025-08",
+//     "2025-09",
+// ];
+
+function convertYearMonthToDate(yearMonth) {
+    if (!/^\d{4}-\d{2}$/.test(yearMonth)) {
+        throw new Error("Invalid format. Expected YYYY-MM");
+    }
+    const [year, month] = yearMonth.split("-").map(Number);
+    const startTime = new Date(year, month - 1, 1);
+    const endTime = moment(startTime).endOf("M").toDate();
+    return [startTime, endTime];
+}
+
+const duplicateUserCommissionAssignmentFromOldMonthToMultipleMonth =
+    async () => {
+        try {
+            const oldMonthData = await db.commission_assignment
+                .find({ month: ORIGINAL_MONtH })
+                .toArray();
+            const rawData = oldMonthData;
+            if (rawData?.length) {
+                for (const MONTH of MONTHS) {
+                    const [startTime, endTime] = convertYearMonthToDate(MONTH);
+                    await db.commission_assignment.deleteMany({
+                        month: MONTH,
+                    });
+                    const newMonthData = [];
+                    for (const item of rawData) {
+                        const {
+                            _id,
+                            startDate,
+                            endDate,
+                            created,
+                            updated,
+                            month,
+                            ...rest
+                        } = item || {};
+
+                        if (item?.empObjId) {
+                            const foundUser = await db.users.findOne({
+                                _id: item?.empObjId,
+                            });
+                            if (foundUser) {
+                                const userJoinedData =
+                                    foundUser?.systemSetting?.joinedDate;
+                                if (!!userJoinedData) {
+                                    const isJoinedDataBeforeThisMonth = moment(
+                                        userJoinedData
+                                    ).isBefore(moment(startTime));
+                                    const newData = {
+                                        ...rest,
+                                        month: MONTH,
+                                        created: new Date(),
+                                        updated: new Date(),
+                                        startDate: null,
+                                        endDate: null,
+                                    };
+                                    if (isJoinedDataBeforeThisMonth) {
+                                        newMonthData.push(newData);
+                                    } else {
+                                        console.log(
+                                            `Skip employeeId :${item?.empObjId} for month: ${MONTH} for joined date: ${userJoinedData}`
+                                        );
+                                    }
+                                } else {
+                                    console.log(
+                                        `EmployeeId :${item?.empObjId} does not have joined date, so proceed to insert data for month: ${MONTH}`
+                                    );
+                                    newMonthData.push(newData);
+                                }
+                            } else {
+                                console.log(
+                                    `Cannot find user for employeeId :${item?.empObjId}, so skip insert data for month: ${MONTH}`
+                                );
+                            }
+                        }
+                    }
+                    if (newMonthData?.length) {
+                        await db.commission_assignment.insertMany(newMonthData);
+                    }
+                }
+            }
+        } catch (error) {
+            console.log(
+                "🚀 >>>>>> duplicateUserCommissionAssignmentFromOldMonthToMultipleMonth >>>>>> error:",
+                error
+            );
+        }
+    };
+
+duplicateUserCommissionAssignmentFromOldMonthToMultipleMonth();
