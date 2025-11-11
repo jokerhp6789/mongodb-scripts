@@ -23,7 +23,7 @@ function convertYearMonthToDate(yearMonth) {
 
 const manuallyCalculateCommissionLog = async () => {
     try {
-        const month = "2025-07";
+        const month = "2025-10";
         const [startTime, endTime] = convertYearMonthToDate(month);
 
         if (startTime && endTime) {
@@ -33,7 +33,6 @@ const manuallyCalculateCommissionLog = async () => {
                     status: "ENABLE",
                 })
                 .toArray();
-
             if (users?.length) {
                 for (const user of users) {
                     const { commissionStoreCode, commissionJobRoleCode } =
@@ -127,6 +126,8 @@ const manuallyCalculateCommissionLog = async () => {
                         if (resAggregate) {
                             const totalWorkingDays =
                                 resAggregate[0]?.totalWorkingDays ?? 0;
+                            const checktimeIds =
+                                resAggregate[0]?.checktimeIds ?? [];
 
                             const commissionLog = {
                                 month,
@@ -135,6 +136,7 @@ const manuallyCalculateCommissionLog = async () => {
                                 commissionStoreCode,
                                 commissionJobRoleCode,
                                 totalWorkingDays,
+                                checktimeIds,
                                 startDate: startTime,
                                 endDate: endTime,
                             };
@@ -170,6 +172,10 @@ const manuallyCalculateCommissionLog = async () => {
                                 }
                             );
                         }
+                    } else {
+                        console.log(
+                            `Skip employeeId :${user.empObjId} for month: ${month} for missing commissionStoreCode: ${commissionStoreCode} or commissionJobRoleCode: ${commissionJobRoleCode}`
+                        );
                     }
                 }
             }
