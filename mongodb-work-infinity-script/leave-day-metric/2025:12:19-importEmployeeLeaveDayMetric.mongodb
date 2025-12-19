@@ -1,0 +1,195 @@
+const fs = require("fs");
+const moment = require("moment");
+const axios = require("axios");
+const _ = require("lodash");
+
+// Select the database to use.
+use("work_infinity_x_dev");
+
+const splitRemoveSpaceString = (stringData = "") => {
+    const breakArray = _.includes(stringData, ";")
+        ? _.split(stringData, ";")
+        : _.split(stringData, ",");
+    return _.map(breakArray, (item) => _.replace(item, "\r", ""));
+};
+
+const LEAVE_REASONS = [
+    {
+        id: "5d75e76b33343916ab00bae7",
+        code: "020005(v5.0)",
+    },
+    {
+        id: "5cdec1ca33343916ab00bae8",
+        code: "020001",
+    },
+    {
+        id: "5cdec1be33343916ab00bae9",
+        code: "020022",
+    },
+    {
+        id: "5d75e88833343916ab00baea",
+        code: "020024",
+    },
+    {
+        id: "5cdc1b0433343916ab00baeb",
+        code: "020021",
+    },
+    {
+        id: "5d75e6ae33343916ab00baec",
+        code: "020008(v5.0)",
+    },
+    {
+        id: "5d75e6f733343916ab00baed",
+        code: "020023",
+    },
+    {
+        id: "5d75e52633343916ab00baee",
+        code: "020019",
+    },
+    {
+        id: "5cdc1b1133343916ab00baef",
+        code: "020018",
+    },
+    {
+        id: "5cdc1b0a33343916ab00baf0",
+        code: "020004",
+    },
+    {
+        id: "5d41791933343916ab00baf1",
+        code: "020009(v5.0)",
+    },
+    {
+        id: "5d75e73233343916ab00baf2",
+        code: "000003",
+    },
+    {
+        id: "5d143aac33343916ab00baf3",
+        code: "020008",
+    },
+];
+
+function convertCsvJSON(csv) {
+    /**
+     * get all string that has format "address1, address2, address3, ..."
+     */
+    const stringContainCommaList = csv.match(/".*,.*"/g);
+
+    _.forEach(stringContainCommaList, (stringComma) => {
+        /**
+         *  "Address, Bangkok" => "Address[space]Bangkok"
+         */
+        const convertCommaString = stringComma.replaceAll(", ", "[space]");
+        csv = _.replace(csv, stringComma, convertCommaString);
+    });
+
+    // /**
+    //  * ,[space][space], => ''
+    //  */
+    // const clearedSpaceCommaString = csv.replace(/,  +,/g, ",,");
+    // /**
+    //  *  "Address, Bangkok" => "Address[space]Bangkok"
+    //  */
+    // const convertCommaString = clearedSpaceCommaString.replaceAll(", ", "[space]");
+    const lines = _.split(csv, "\n");
+    const result = [];
+    const headers = splitRemoveSpaceString(lines[0]);
+
+    for (let i = 1; i < lines.length; i++) {
+        if (!lines[i]) continue;
+        const obj = {};
+        const currentLine = splitRemoveSpaceString(lines[i]);
+
+        for (let j = 0; j < headers.length; j++) {
+            const currentHeader = headers[j];
+            let value = currentLine[j];
+            if (value === "TRUE") {
+                value = true;
+            }
+            if (value === "FALSE") {
+                value = false;
+            }
+            if (!_.isEmpty(currentHeader)) {
+                const valueRemoveSpace = value.replaceAll("[space]", ", ");
+                // eslint-disable-next-line no-useless-escape
+                const valueRemoveMark = valueRemoveSpace.replaceAll(`\"`, "");
+                obj[currentHeader] = valueRemoveMark
+                    ? valueRemoveMark.trim()
+                    : "";
+            }
+        }
+        result.push(obj);
+    }
+    return result;
+}
+
+const importEmployeeLeaveDayMetric = async () => {
+    try {
+        const data = fs.readFileSync(
+            "/Users/admin/Code/mongodb/mongodb-work-infinity-script/xls/Import Employee Leaveday .csv",
+            () => {}
+        );
+        const jsonData = convertCsvJSON(data.toString());
+
+        console.log(
+            "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> jsonData:",
+            jsonData
+        );
+
+        if (jsonData?.length > 0) {
+            for (const item of jsonData) {
+                const { employeeId, ...rest } = item || {};
+                console.log(
+                    "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> employeeId:",
+                    employeeId
+                );
+
+                const list = [];
+                Object.keys(rest).forEach((code) => {
+                    const value = rest[code];
+                    if (value) {
+                        const numericValue = Number(value);
+                        console.log(
+                            "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> numericValue:",
+                            numericValue
+                        );
+                        list.push({ k: code, v: numericValue });
+                    }
+                });
+
+                if (list?.length > 0) {
+                    const employee = db.users.findOne({
+                        employeeId: employeeId,
+                    });
+                    if (employee) {
+                        const config = [];
+                        for (const itemList of list) {
+                            const { k, v } = itemList;
+                            const leaveReason = LEAVE_REASONS.find(
+                                (lr) => lr.code === k
+                            );
+                            if (leaveReason) {
+                                config.push({
+                                    reasonId: leaveReason.id,
+                                    configByYear: [
+                                        { year: 2026, leaveAllowance: v },
+                                    ],
+                                });
+                            }
+                        }
+                        await db.leave_day_metric.insertOne({
+                            status: "ACTIVE",
+                            employeeId: employee._id,
+                            config,
+                            created: new Date(),
+                            updatedAt: new Date(),
+                        });
+                    }
+                }
+            }
+        }
+    } catch (error) {
+        console.log("🚀 >>>>>> syncEmployeeToSale >>>>>> error:", error);
+    }
+};
+
+importEmployeeLeaveDayMetric();
