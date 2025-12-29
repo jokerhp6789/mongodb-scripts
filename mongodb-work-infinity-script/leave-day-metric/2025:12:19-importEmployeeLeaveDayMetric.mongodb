@@ -14,6 +14,8 @@ const splitRemoveSpaceString = (stringData = "") => {
     return _.map(breakArray, (item) => _.replace(item, "\r", ""));
 };
 
+const UPDATING_YEAR = 2025;
+
 const LEAVE_REASONS = [
     {
         id: "5d75e76b33343916ab00bae7",
@@ -126,7 +128,7 @@ function convertCsvJSON(csv) {
 const importEmployeeLeaveDayMetric = async () => {
     try {
         const data = fs.readFileSync(
-            "/Users/admin/Code/mongodb/mongodb-work-infinity-script/xls/Import Employee Leaveday .csv",
+            "/Users/admin/Code/mongodb/mongodb-work-infinity-script/xls/leave-day-import/SS.csv",
             () => {}
         );
         const jsonData = convertCsvJSON(data.toString());
@@ -153,7 +155,9 @@ const importEmployeeLeaveDayMetric = async () => {
                             "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> numericValue:",
                             numericValue
                         );
-                        list.push({ k: code, v: numericValue });
+                        if (Number.isInteger(numericValue) && !!numericValue) {
+                            list.push({ k: code, v: numericValue });
+                        }
                     }
                 });
 
@@ -168,30 +172,48 @@ const importEmployeeLeaveDayMetric = async () => {
                             const leaveReason = LEAVE_REASONS.find(
                                 (lr) => lr.code === k
                             );
+
+                            console.log(
+                                "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> leaveReason:",
+                                leaveReason
+                            );
+
                             if (leaveReason) {
                                 config.push({
                                     reasonId: new mongoose.Types.ObjectId(
                                         leaveReason.id
                                     ),
                                     configByYear: [
-                                        { year: 2026, leaveAllowance: v },
+                                        {
+                                            year: UPDATING_YEAR,
+                                            leaveAllowance: v,
+                                        },
                                     ],
                                 });
                             }
                         }
-                        await db.leave_day_metric.insertOne({
-                            status: "ACTIVE",
-                            employeeId: employee._id,
-                            config,
-                            created: new Date(),
-                            updatedAt: new Date(),
-                        });
+                        await db.leave_day_metric.findOneAndUpdate(
+                            { employeeId: employee._id },
+                            {
+                                $set: {
+                                    status: "ACTIVE",
+                                    employeeId: employee._id,
+                                    config,
+                                    created: new Date(),
+                                    updatedAt: new Date(),
+                                },
+                            },
+                            { upsert: true }
+                        );
                     }
                 }
             }
         }
     } catch (error) {
-        console.log("🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> error:", error);
+        console.log(
+            "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> error:",
+            error
+        );
     }
 };
 
