@@ -5,7 +5,7 @@ const _ = require("lodash");
 const mongoose = require("mongoose");
 
 // Select the database to use.
-use("work_infinity_x_dev");
+use("work_infinity_x_prod");
 
 const splitRemoveSpaceString = (stringData = "") => {
     const breakArray = _.includes(stringData, ";")
@@ -128,7 +128,7 @@ function convertCsvJSON(csv) {
 const importEmployeeLeaveDayMetric = async () => {
     try {
         const data = fs.readFileSync(
-            "/Users/admin/Code/mongodb/mongodb-work-infinity-script/xls/leave-day-import/SS.csv",
+            "/Users/admin/Code/mongodb/mongodb-work-infinity-script/xls/leave-day-import/DH.csv",
             () => {}
         );
         const jsonData = convertCsvJSON(data.toString());
@@ -155,7 +155,7 @@ const importEmployeeLeaveDayMetric = async () => {
                             "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> numericValue:",
                             numericValue
                         );
-                        if (Number.isInteger(numericValue) && !!numericValue) {
+                        if (!!numericValue) {
                             list.push({ k: code, v: numericValue });
                         }
                     }
