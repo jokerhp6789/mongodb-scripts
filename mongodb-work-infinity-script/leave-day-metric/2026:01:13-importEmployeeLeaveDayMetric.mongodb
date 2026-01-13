@@ -1,0 +1,150 @@
+const fs = require("fs");
+const moment = require("moment");
+const axios = require("axios");
+const _ = require("lodash");
+const mongoose = require("mongoose");
+
+// Select the database to use.
+use("work_infinity_x_dev");
+
+const splitRemoveSpaceString = (stringData = "") => {
+    const breakArray = _.includes(stringData, ";")
+        ? _.split(stringData, ";")
+        : _.split(stringData, ",");
+    return _.map(breakArray, (item) => _.replace(item, "\r", ""));
+};
+
+const UPDATING_YEAR = 2025;
+
+function convertCsvJSON(csv) {
+    const stringContainCommaList = csv.match(/".*,.*"/g);
+    _.forEach(stringContainCommaList, (stringComma) => {
+        const convertCommaString = stringComma.replaceAll(", ", "[space]");
+        csv = _.replace(csv, stringComma, convertCommaString);
+    });
+    const lines = _.split(csv, "\n");
+    const result = [];
+    const headers = splitRemoveSpaceString(lines[0]);
+
+    for (let i = 1; i < lines.length; i++) {
+        if (!lines[i]) continue;
+        const obj = {};
+        const currentLine = splitRemoveSpaceString(lines[i]);
+
+        for (let j = 0; j < headers.length; j++) {
+            const currentHeader = headers[j];
+            let value = currentLine[j];
+            if (value === "TRUE") {
+                value = true;
+            }
+            if (value === "FALSE") {
+                value = false;
+            }
+            if (!_.isEmpty(currentHeader)) {
+                const valueRemoveSpace = value.replaceAll("[space]", ", ");
+                // eslint-disable-next-line no-useless-escape
+                const valueRemoveMark = valueRemoveSpace.replaceAll(`\"`, "");
+                obj[currentHeader] = valueRemoveMark
+                    ? valueRemoveMark.trim()
+                    : "";
+            }
+        }
+        result.push(obj);
+    }
+    return result;
+}
+
+const importEmployeeLeaveDayMetric = async () => {
+    try {
+        const data = fs.readFileSync(
+            "/Users/admin/Code/mongodb/mongodb-work-infinity-script/xls/leave-day-import-new/DH.csv",
+            () => {}
+        );
+        const jsonData = convertCsvJSON(data.toString());
+
+        console.log(
+            "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> jsonData:",
+            jsonData
+        );
+
+        if (jsonData?.length > 0) {
+            for (const item of jsonData) {
+                const { employeeId, ...rest } = item || {};
+                console.log(
+                    "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> employeeId:",
+                    employeeId
+                );
+
+                const list = [];
+                Object.keys(rest).forEach((code) => {
+                    const value = rest[code];
+                    if (value) {
+                        const numericValue = Number(value);
+                        console.log(
+                            "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> numericValue:",
+                            numericValue
+                        );
+                        if (!!numericValue) {
+                            list.push({ k: code, v: numericValue });
+                        }
+                    }
+                });
+
+                if (list?.length > 0) {
+                    const employee = db.users.findOne({
+                        employeeId: employeeId,
+                    });
+                    if (employee) {
+                        const config = [];
+                        for (const itemList of list) {
+                            const { k, v } = itemList;
+                            const leaveReason =
+                                await db.leaverequestreasons.findOne({
+                                    code: k,
+                                });
+
+                            console.log(
+                                "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> leaveReason:",
+                                leaveReason
+                            );
+
+                            if (leaveReason) {
+                                config.push({
+                                    reasonId: new mongoose.Types.ObjectId(
+                                        leaveReason._id
+                                    ),
+                                    configByYear: [
+                                        {
+                                            year: UPDATING_YEAR,
+                                            leaveAllowance: v,
+                                        },
+                                    ],
+                                });
+                            }
+                        }
+                        await db.leave_day_metric.findOneAndUpdate(
+                            { employeeId: employee._id },
+                            {
+                                $set: {
+                                    status: "ACTIVE",
+                                    employeeId: employee._id,
+                                    config,
+                                    created: new Date(),
+                                    updatedAt: new Date(),
+                                },
+                            },
+                            { upsert: true }
+                        );
+                    }
+                }
+            }
+        }
+    } catch (error) {
+        console.log(
+            "🚀 >>>>>> importEmployeeLeaveDayMetric >>>>>> error:",
+            error
+        );
+    }
+};
+
+importEmployeeLeaveDayMetric();
