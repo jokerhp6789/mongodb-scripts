@@ -7,8 +7,8 @@ const moment = require("moment");
 // Select the database to use.
 use("work_infinity_x_prod");
 
-const ORIGINAL_MONtH = "2025-10";
-const MONTHS = ["2025-02"];
+const ORIGINAL_MONtH = "2025-11";
+const MONTHS = ["2025-12", "2026-01"];
 // const MONTHS = [
 //     "2025-03",
 //     "2025-04",

@@ -1,0 +1,121 @@
+const fs = require("fs");
+const moment = require("moment");
+const axios = require("axios");
+const _ = require("lodash");
+const mongoose = require("mongoose");
+
+// Select the database to use.
+use("work_infinity_x_prod");
+
+function getTotalDayLeaveFromLeaveRequest(leaveRequest) {
+    const { hoursDifferent, leaveTime } = leaveRequest || {};
+    if (!hoursDifferent) {
+        return leaveTime?.length;
+    }
+    let totalDay = 0;
+    leaveTime.forEach((item) => {
+        const startTime = item?.startTime?.$date;
+        const endTime = item?.endTime?.$date;
+        const diffTime = moment(endTime).diff(moment(startTime), "hours");
+
+        // console.log(
+        //     "🚀 >>>>>> getTotalDayLeaveFromLeaveRequest >>>>>> diffTime:",
+        //     diffTime
+        // );
+        if (diffTime > 4) {
+            totalDay += 1;
+        } else {
+            totalDay += 0.5;
+        }
+    });
+    return totalDay;
+}
+
+const updateLeaveRequests = async () => {
+    try {
+        const data = fs.readFileSync(
+            "/Users/admin/Code/mongodb/mongodb-work-infinity-script/json/leave requests created before 2026 need to update leave day use/work_infinity_x_prod.leave_request.json",
+            () => {}
+        );
+        const jsonData = JSON.parse(data);
+
+        const needToUpdate = [];
+        const wrongData = [];
+        const skipIds = [70920];
+
+        if (jsonData?.length > 0) {
+            for (const item of jsonData) {
+                const {
+                    requestId,
+
+                    startDate,
+                    endDate,
+                    leaveTime,
+                    hoursDifferent,
+                } = item || {};
+
+                const totalDayLeave = getTotalDayLeaveFromLeaveRequest(item);
+
+                // console.log(
+                //     "🚀 >>>>>> updateLeaveRequests >>>>>> requestId:",
+                //     requestId
+                // );
+
+                // console.log(
+                //     "🚀 >>>>>> updateLeaveRequests >>>>>> totalDayLeave:",
+                //     totalDayLeave
+                // );
+
+                const isWrongData = totalDayLeave > 100;
+
+                if (isWrongData) {
+                    wrongData.push({ requestId, totalDayLeave });
+                } else if (!skipIds.includes(requestId)) {
+                    needToUpdate.push({ requestId, totalDayLeave });
+                }
+            }
+        }
+
+        console.log(
+            "🚀 >>>>>> updateLeaveRequests >>>>>> wrongData:",
+            wrongData
+        );
+        console.log(
+            "🚀 >>>>>> updateLeaveRequests >>>>>> needToUpdate:",
+            needToUpdate
+        );
+        if (needToUpdate?.length > 0) {
+            for (const item of needToUpdate) {
+                const { requestId, totalDayLeave } = item || {};
+
+                const leaveDayUse = [
+                    {
+                        year: 2026,
+                        amount: totalDayLeave,
+                    },
+                ];
+                const updated = await db.leave_request.findOneAndUpdate(
+                    { requestId },
+                    {
+                        $set: {
+                            leaveDayUse,
+                        },
+                    }
+                );
+                console.log(
+                    "🚀 >>>>>> updateLeaveRequests >>>>>> updated:",
+                    updated
+                );
+            }
+            const listJson = JSON.stringify(needToUpdate);
+            await fs.writeFileSync(
+                "json/work-infinity-x/leave-request/updated-leave-request.json",
+                listJson
+            );
+        }
+    } catch (error) {
+        console.log("🚀 >>>>>> updateLeaveRequests >>>>>> error:", error);
+    }
+};
+
+updateLeaveRequests();
