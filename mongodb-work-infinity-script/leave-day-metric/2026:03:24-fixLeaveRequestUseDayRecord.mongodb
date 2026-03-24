@@ -3,7 +3,7 @@ const lodash = require("lodash");
 const moment = require("moment");
 
 // Select the database to use.
-use("work_infinity_x_dev");
+use("w");
 
 const VACATION_REASON_IDS = [
     "5cdc1b0433343916ab00baeb",
@@ -268,7 +268,7 @@ const fixLeaveRequestUseDayRecord = async () => {
             skip: skipIds.length,
         });
         await fs.writeFileSync(
-            "json/work-infinity-x/2026-03/leave-request-updated-day-use-ids.json",
+            "json/work-infinity-x/2026-03/leave-request-updated-day-use-ids_PRO.json",
             listJson
         );
     } catch (error) {
