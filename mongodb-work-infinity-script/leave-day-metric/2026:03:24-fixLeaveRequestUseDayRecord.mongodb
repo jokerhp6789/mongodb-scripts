@@ -1,0 +1,282 @@
+const fs = require("fs");
+const lodash = require("lodash");
+const moment = require("moment");
+
+// Select the database to use.
+use("work_infinity_x_dev");
+
+const VACATION_REASON_IDS = [
+    "5cdc1b0433343916ab00baeb",
+    "696495eeff1a5d2bfea378dd",
+    "69649bdeff1a5d2bfea378ec",
+    "6964c96dff1a5d2bfea37918",
+    "6964c976ff1a5d2bfea37927",
+    "6964c97eff1a5d2bfea37936",
+];
+
+const VACATION_REASON_OBJECT_IDS = [
+    new ObjectId("5cdc1b0433343916ab00baeb"),
+    new ObjectId("696495eeff1a5d2bfea378dd"),
+    new ObjectId("69649bdeff1a5d2bfea378ec"),
+    new ObjectId("6964c96dff1a5d2bfea37918"),
+    new ObjectId("6964c976ff1a5d2bfea37927"),
+    new ObjectId("6964c97eff1a5d2bfea37936"),
+];
+
+function roundDownToHalf(num) {
+    return Math.floor(num * 2) / 2;
+}
+
+function getTotalDayLeaveFromLeaveRequest(leaveRequest) {
+    const { hoursDifferent, leaveTime } = leaveRequest || {};
+    if (!hoursDifferent) {
+        return leaveTime?.length;
+    }
+    let totalDay = 0;
+    leaveTime.forEach((item) => {
+        const { shift } = item;
+        if (shift === "FULL_DAY") {
+            totalDay += 1;
+        } else {
+            totalDay += 0.5;
+        }
+    });
+    return totalDay;
+}
+
+const fixLeaveRequestUseDayRecord = async () => {
+    try {
+        const listMetric = await db.leave_day_metric
+            .find({
+                status: "ACTIVE",
+                "config.configByYear.year": 2025,
+            })
+            .toArray();
+
+        const metrics = [];
+
+        for (const doc of listMetric) {
+            const { employeeId, config } = doc || {};
+
+            if (config?.length) {
+                for (const con of config) {
+                    const { reasonId, configByYear } = con || {};
+                    const reasonIdObj = new ObjectId(reasonId);
+                    const reasonIdStr = reasonIdObj.toString();
+                    const foundYearConfig = configByYear.find(
+                        (i) => i.year === 2025
+                    );
+                    const isVacationReason =
+                        VACATION_REASON_IDS.includes(reasonIdStr);
+
+                    if (isVacationReason && !!foundYearConfig?.leaveAllowance) {
+                        const { leaveAllowance } = foundYearConfig || {};
+
+                        console.log(
+                            "🚀 >>>>>> fixLeaveRequestUseDayRecord >>>>>> leaveAllowance:",
+                            leaveAllowance
+                        );
+
+                        metrics.push({
+                            employeeId,
+                            reasonId,
+                            leaveAllowance,
+                        });
+                    }
+                }
+            }
+        }
+
+        // await listMetric.forEach(async (doc) => {
+        //     const { employeeId, config } = doc || {};
+
+        //     if (config?.length) {
+        //         await config.forEach(async (con) => {
+        //             const { reasonId, configByYear } = con || {};
+        //             const reasonIdObj = new ObjectId(reasonId);
+        //             const reasonIdStr = reasonIdObj.toString();
+        //             const foundYearConfig = configByYear.find(
+        //                 (i) => i.year === 2025
+        //             );
+        //             const isVacationReason =
+        //                 VACATION_REASON_IDS.includes(reasonIdStr);
+
+        //             if (isVacationReason && !!foundYearConfig?.leaveAllowance) {
+        //                 const { leaveAllowance } = foundYearConfig || {};
+
+        //                 console.log(
+        //                     "🚀 >>>>>> fixLeaveRequestUseDayRecord >>>>>> leaveAllowance:",
+        //                     leaveAllowance
+        //                 );
+
+        //                 res.push({
+        //                     employeeId,
+        //                     reasonId: reasonIdObj,
+        //                     leaveAllowance,
+        //                 });
+        //             }
+        //         });
+        //     }
+        // });
+
+        const totalIds = [];
+
+        const satisfiedIds = [];
+        const notSatisfiedIds = [];
+
+        const lastAccumulationIds = [];
+
+        const updatedIs = [];
+        const skipIds = [];
+
+        if (metrics?.length) {
+            for (const item of metrics) {
+                const { employeeId, reasonId, leaveAllowance } = item || {};
+                const listRequests = await db.leave_request
+                    .find({
+                        employeeId: new ObjectId(employeeId),
+                        "status.status": "APPROVED",
+                        reason: new ObjectId(reasonId),
+                        startDate: {
+                            $gte: new ISODate("2026-01-01T00:00:00.000Z"),
+                        },
+                        endDate: {
+                            $lte: new ISODate("2026-03-31T00:00:00.000Z"),
+                        },
+                    })
+                    .toArray();
+
+                if (listRequests?.length) {
+                    const totalLeaveDays = listRequests.reduce((res, cur) => {
+                        const thisLeaveDays =
+                            cur?.leaveDayUse?.[0]?.amount ?? 0;
+                        return thisLeaveDays + res;
+                    }, 0);
+
+                    if (totalLeaveDays <= leaveAllowance / 2) {
+                        for (const req of listRequests) {
+                            const { _id, leaveDayUse } = req || {};
+                            totalIds.push(_id);
+                            satisfiedIds.push(_id);
+                            const { year, amount } = leaveDayUse?.[0] || {};
+
+                            if (year === 2026) {
+                                const newLeaveDayUse = [
+                                    {
+                                        year: 2025,
+                                        amount,
+                                        isAccumulation: true,
+                                    },
+                                ];
+                                const resUpdated =
+                                    await db.leave_request.findOneAndUpdate(
+                                        { _id },
+                                        {
+                                            $set: {
+                                                leaveDayUse: newLeaveDayUse,
+                                                oldLeaveDayUse: leaveDayUse,
+                                            },
+                                        }
+                                    );
+
+                                updatedIs.push(_id);
+                            } else {
+                                skipIds.push(_id);
+                            }
+                        }
+                    } else {
+                        const sortedList = lodash.sortBy(listRequests, (item) =>
+                            moment(item.created).toDate().valueOf()
+                        );
+                        let availableLeaveDays = roundDownToHalf(
+                            leaveAllowance / 2
+                        );
+                        for (const req of sortedList) {
+                            const { _id, leaveDayUse } = req || {};
+                            const { year, amount } = leaveDayUse?.[0] || {};
+                            totalIds.push(_id);
+                            notSatisfiedIds.push(_id);
+
+                            const totalDayLeave =
+                                getTotalDayLeaveFromLeaveRequest(req);
+                            const thisDayLeave =
+                                amount > 0 ? amount : totalDayLeave;
+
+                            if (availableLeaveDays > 0) {
+                                let newLeaveDayUse = [];
+                                if (thisDayLeave <= availableLeaveDays) {
+                                    availableLeaveDays -= thisDayLeave;
+                                    newLeaveDayUse = [
+                                        {
+                                            year: 2025,
+                                            amount: thisDayLeave,
+                                            isAccumulation: true,
+                                        },
+                                    ];
+                                } else {
+                                    newLeaveDayUse = [
+                                        {
+                                            year: 2025,
+                                            amount: availableLeaveDays,
+                                            isAccumulation: true,
+                                        },
+                                        {
+                                            year: 2026,
+                                            amount:
+                                                thisDayLeave -
+                                                availableLeaveDays,
+                                        },
+                                    ];
+                                    availableLeaveDays = 0;
+                                    lastAccumulationIds.push(_id);
+                                }
+                                if (newLeaveDayUse?.length) {
+                                    const resUpdated =
+                                        await db.leave_request.findOneAndUpdate(
+                                            { _id },
+                                            {
+                                                $set: {
+                                                    leaveDayUse: newLeaveDayUse,
+                                                    oldLeaveDayUse: leaveDayUse,
+                                                },
+                                            }
+                                        );
+                                    updatedIs.push(_id);
+                                } else {
+                                    skipIds.push(_id);
+                                }
+                            } else {
+                                skipIds.push(_id);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        const listJson = JSON.stringify({
+            totalIds,
+            satisfiedIds,
+            notSatisfiedIds,
+            updatedIs,
+            skipIds,
+            lastAccumulationIds,
+            total: totalIds.length,
+            satisfied: satisfiedIds.length,
+            notSatisfied: notSatisfiedIds.length,
+            updated: updatedIs.length,
+            skip: skipIds.length,
+        });
+        await fs.writeFileSync(
+            "json/work-infinity-x/2026-03/leave-request-updated-day-use-ids.json",
+            listJson
+        );
+    } catch (error) {
+        console.log(
+            "🚀 >>>>>> fixLeaveRequestUseDayRecord >>>>>> error:",
+            error
+        );
+    }
+};
+
+fixLeaveRequestUseDayRecord();
