@@ -11,7 +11,7 @@ const TripfizerGeo = new TripfizerGeoUtils();
 const CsInfinityXUtils = new ClassCsInfinityXUtils();
 
 function main() {
-    CsInfinityXUtils.mapOldCustomerToNew();
+    CsInfinityXUtils.mapOldReplyToNew();
 }
 
 main();

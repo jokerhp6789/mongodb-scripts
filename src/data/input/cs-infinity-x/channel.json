@@ -186,7 +186,7 @@
     },
     {
         "id": "7",
-        "newId": "7",
+        "newId": null,
         "host": "https://support.restonic.co.th",
         "user_id": "50",
         "created_at": "2021-08-17 14:29:52",
@@ -260,7 +260,7 @@
     },
     {
         "id": "9",
-        "newId": "9",
+        "newId": null,
         "host": "https://support.zinus.co.th",
         "user_id": "50",
         "created_at": "2021-08-17 14:30:24",
@@ -334,7 +334,7 @@
     },
     {
         "id": "11",
-        "newId": "11",
+        "newId": null,
         "host": "https://support.eastmanhouse.co.th",
         "user_id": "50",
         "created_at": "2021-08-17 14:32:06",
@@ -371,7 +371,7 @@
     },
     {
         "id": "12",
-        "newId": "12",
+        "newId": null,
         "host": "https://support.malouf.co.th",
         "user_id": "50",
         "created_at": "2021-08-17 14:32:15",
@@ -482,7 +482,7 @@
     },
     {
         "id": "15",
-        "newId": "15",
+        "newId": null,
         "host": "https://backup.csinfinityx.com",
         "user_id": "50",
         "created_at": "2021-08-10 14:08:50",
@@ -556,7 +556,7 @@
     },
     {
         "id": "19",
-        "newId": "19",
+        "newId": null,
         "host": "https://warranty.registermattress.com",
         "user_id": "50",
         "created_at": "2021-09-01 11:04:10",
@@ -593,7 +593,7 @@
     },
     {
         "id": "20",
-        "newId": "20",
+        "newId": null,
         "host": "https://support.lotusbeddinggroup.com",
         "user_id": "1",
         "created_at": "2022-03-29 09:37:22",
