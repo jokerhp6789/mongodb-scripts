@@ -1,0 +1,171 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+const fs = require("fs");
+const moment = require("moment");
+const lodash = require("lodash");
+// Select the database to use.
+use("work_infinity_x_dev");
+
+const CommissionAssignmentStatus = {
+    ENABLE: "ENABLE",
+    DISABLE: "DISABLE",
+};
+
+const CommissionLogType = {
+    ASSIGNMENT: "ASSIGNMENT",
+    LOG: "LOG",
+};
+
+const CommissionJobRoleType = {
+    MANAGER: "MANAGER",
+    EMPLOYEE: "EMPLOYEE",
+};
+
+function convertYearMonthToDate(yearMonth) {
+    if (!/^\d{4}-\d{2}$/.test(yearMonth)) {
+        throw new Error("Invalid format. Expected YYYY-MM");
+    }
+    const [year, month] = yearMonth.split("-").map(Number);
+    const startTime = new Date(year, month - 1, 1);
+    const endTime = moment(startTime).endOf("M").toDate();
+    return [startTime, endTime];
+}
+
+const COMMISSION_LOG_MONTH_FORMAT = "YYYY-MM";
+const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-08";
+const MONTH_TO_ADD_COMMISSION_LOG = "2026-08";
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+
+const branchCache = {};
+
+const updateCommissionLog = async () => {
+    try {
+        const [startTime, endTime] = convertYearMonthToDate(
+            MONTH_TO_ADD_COMMISSION_LOG
+        );
+        const commissionAssignList = await db.commission_assignment
+            .find({
+                month: MONTH_TO_GET_COMMISSION_ASSIGNMENT,
+                status: CommissionAssignmentStatus.ENABLE,
+                jobRoleType: CommissionJobRoleType.EMPLOYEE,
+            })
+            .toArray();
+        if (commissionAssignList?.length) {
+            const commissionAssignGroups = lodash.groupBy(
+                commissionAssignList,
+                (doc) => {
+                    return doc.empObjId;
+                }
+            );
+            const keys = Object.keys(commissionAssignGroups);
+
+            console.log("🚀 >>>>>> updateCommissionLog >>>>>> keys:", keys);
+
+            keys.forEach(async (key) => {
+                console.log("🚀 >>>>>> await cursor.forEach >>>>>> doc:", key);
+                const docs = commissionAssignGroups[key];
+                const empObjId = key;
+
+                console.log("🚀 >>>>>> updateCommissionLog >>>>>> docs:", docs);
+                console.log(
+                    "🚀 >>>>>> updateCommissionLog >>>>>> empObjId:",
+                    empObjId
+                );
+                const checktimeData = await db.check_time
+                    .find({
+                        createdBy: empObjId,
+                        "status.status": { $in: ["APPROVED"] },
+                        created: {
+                            $gte: startTime,
+                            $lte: endTime,
+                        },
+                    })
+                    .toArray();
+
+                // if (checktimeData?.length) {
+                //     const commissionStoreObj = {};
+                //     for (const checktime of checktimeData) {
+                //         const { totalHoursWork, timeLine } = checktime || {};
+                //         const branchId = timeLine?.[0]?.branchId;
+                //         if (branchId) {
+                //             let branch = branchCache[branchId];
+                //             if (!branch) {
+                //                 branch = await db.branches.findOne({
+                //                     _id: branchId,
+                //                 });
+                //                 branchCache[branchId] = branch;
+                //             }
+
+                //             if (
+                //                 branch &&
+                //                 !!branch?.commissionStoreCodes?.length
+                //             ) {
+                //                 const workingTimeInDays =
+                //                     totalHoursWork >= 8
+                //                         ? 1
+                //                         : totalHoursWork >= 4
+                //                         ? 0.5
+                //                         : 0;
+                //                 branch?.commissionStoreCodes?.forEach(
+                //                     (storeCode) => {
+                //                         commissionStoreObj[storeCode] =
+                //                             commissionStoreObj[storeCode] ?? 0;
+                //                         commissionStoreObj[storeCode] +=
+                //                             workingTimeInDays;
+                //                     }
+                //                 );
+                //             }
+                //         }
+                //     }
+                //     if (!lodash.isEmpty(commissionStoreObj)) {
+                //         const commissionStoreObjKeys =
+                //             Object.keys(commissionStoreObj);
+                //         for (const storeCode of commissionStoreObjKeys) {
+                //             const totalWorkingDays =
+                //                 commissionStoreObj[storeCode];
+
+                //             await db.commission_log_daily.findOneAndUpdate(
+                //                 {
+                //                     month: MONTH_TO_ADD_COMMISSION_LOG,
+                //                     type: CommissionLogType.LOG,
+                //                     month,
+                //                     commissionJobRole: commissionJobRoles,
+                //                     commissionStore: storeCode,
+                //                     empObjId,
+                //                     employeeId,
+                //                 },
+                //                 {
+                //                     $set: {
+                //                         empObjId,
+                //                         employeeId,
+                //                         employeeInformation,
+                //                         month,
+                //                         commissionJobRole: commissionJobRoles,
+                //                         commissionStore: storeCode,
+                //                         status: CommissionLogStatus.ENABLE,
+                //                         type: CommissionLogType.LOG,
+                //                         managingStores: null,
+                //                         totalWorkingDays,
+                //                     },
+                //                 },
+                //                 {
+                //                     upsert: true,
+                //                 }
+                //             );
+                //         }
+                //     }
+                // }
+            });
+        }
+
+        return false;
+    } catch (error) {
+        console.log("🚀 >>>>>> updateCommissionLog >>>>>> error:", error);
+    }
+};
+
+updateCommissionLog();
