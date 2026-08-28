@@ -51,6 +51,10 @@ const branchCache = {};
 
 const updateCommissionLog = async () => {
     let updateCounter = 0;
+    let commissionAssignmentCounter = 0;
+    let checktimeDataCounter = 0;
+    let employeeCounter = 0;
+
     try {
         const [startTime, endTime] = convertYearMonthToDate(
             MONTH_TO_ADD_COMMISSION_LOG
@@ -70,11 +74,19 @@ const updateCommissionLog = async () => {
                 }
             );
             const keys = Object.keys(commissionAssignGroups);
+            employeeCounter = keys.length;
 
             for (key of keys) {
                 const docs = commissionAssignGroups[key];
                 const { employeeId } = docs?.[0] || {};
                 const empObjId = key;
+
+                commissionAssignmentCounter += docs?.length || 0;
+                console.log(
+                    "🚀 >>>>>> updateCommissionLog >>>>>> commissionAssignmentCounter:",
+                    commissionAssignmentCounter
+                );
+
                 const checktimeData = await db.check_time
                     .find({
                         createdBy: new mongoose.Types.ObjectId(empObjId),
@@ -87,6 +99,11 @@ const updateCommissionLog = async () => {
                     .toArray();
                 if (checktimeData?.length) {
                     for (const checktime of checktimeData) {
+                        checktimeDataCounter++;
+                        console.log(
+                            "🚀 >>>>>> updateCommissionLog >>>>>> checktimeDataCounter:",
+                            checktimeDataCounter
+                        );
                         const {
                             totalHoursWork,
                             timeLine,
@@ -109,23 +126,13 @@ const updateCommissionLog = async () => {
                                 branch?.commissionStoreCodes;
 
                             if (branch && !!commissionStoreCodes?.length) {
-                                console.log(
-                                    "🚀 >>>>>> updateCommissionLog >>>>>> branch:",
-                                    branch
-                                );
                                 for (const storeCode of commissionStoreCodes) {
-                                    console.log(
-                                        "🚀 >>>>>> updateCommissionLog >>>>>> storeCode:",
-                                        storeCode
-                                    );
-
                                     const totalWorkingDays =
                                         totalHoursWork >= 8
                                             ? 1
                                             : totalHoursWork >= 4
                                             ? 0.5
                                             : 0;
-
                                     const commissionLogInput = {
                                         status: CommissionLogDailyStatus.ENABLE,
                                         type: CommissionLogDailyType.AUTO,
@@ -181,6 +188,18 @@ const updateCommissionLog = async () => {
                 }
             }
         }
+        console.log(
+            "🚀 >>>>>> updateCommissionLog >>>>>> total commissionAssignment:",
+            commissionAssignmentCounter
+        );
+        console.log(
+            "🚀 >>>>>> updateCommissionLog >>>>>> total employees:",
+            employeeCounter
+        );
+        console.log(
+            "🚀 >>>>>> updateCommissionLog >>>>>> total checktimeData:",
+            checktimeDataCounter
+        );
         console.log(
             "🚀 >>>>>> updateCommissionLog >>>>>> total updates:",
             updateCounter
