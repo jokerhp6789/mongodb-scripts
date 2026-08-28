@@ -5,6 +5,8 @@
 const fs = require("fs");
 const moment = require("moment");
 const lodash = require("lodash");
+const mongoose = require("mongoose");
+
 // Select the database to use.
 use("work_infinity_x_dev");
 
@@ -13,9 +15,14 @@ const CommissionAssignmentStatus = {
     DISABLE: "DISABLE",
 };
 
-const CommissionLogType = {
-    ASSIGNMENT: "ASSIGNMENT",
-    LOG: "LOG",
+const CommissionLogDailyStatus = {
+    ENABLE: "ENABLE",
+    DISABLE: "DISABLE",
+};
+
+const CommissionLogDailyType = {
+    AUTO: "AUTO",
+    MANUAL: "MANUAL",
 };
 
 const CommissionJobRoleType = {
@@ -33,9 +40,9 @@ function convertYearMonthToDate(yearMonth) {
     return [startTime, endTime];
 }
 
-const COMMISSION_LOG_MONTH_FORMAT = "YYYY-MM";
+const COMMISSION_MONTH_FORMAT = "YYYY-MM";
 const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-08";
-const MONTH_TO_ADD_COMMISSION_LOG = "2026-08";
+const MONTH_TO_ADD_COMMISSION_LOG = "2025-07";
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
@@ -43,6 +50,7 @@ const MONTH_TO_ADD_COMMISSION_LOG = "2026-08";
 const branchCache = {};
 
 const updateCommissionLog = async () => {
+    let updateCounter = 0;
     try {
         const [startTime, endTime] = convertYearMonthToDate(
             MONTH_TO_ADD_COMMISSION_LOG
@@ -63,105 +71,120 @@ const updateCommissionLog = async () => {
             );
             const keys = Object.keys(commissionAssignGroups);
 
-            console.log("🚀 >>>>>> updateCommissionLog >>>>>> keys:", keys);
-
-            keys.forEach(async (key) => {
-                console.log("🚀 >>>>>> await cursor.forEach >>>>>> doc:", key);
+            for (key of keys) {
                 const docs = commissionAssignGroups[key];
+                const { employeeId } = docs?.[0] || {};
                 const empObjId = key;
-
-                console.log("🚀 >>>>>> updateCommissionLog >>>>>> docs:", docs);
-                console.log(
-                    "🚀 >>>>>> updateCommissionLog >>>>>> empObjId:",
-                    empObjId
-                );
                 const checktimeData = await db.check_time
                     .find({
-                        createdBy: empObjId,
-                        "status.status": { $in: ["APPROVED"] },
+                        createdBy: new mongoose.Types.ObjectId(empObjId),
+                        // "status.status": { $in: ["APPROVED"] },
                         created: {
                             $gte: startTime,
                             $lte: endTime,
                         },
                     })
                     .toArray();
+                if (checktimeData?.length) {
+                    for (const checktime of checktimeData) {
+                        const {
+                            totalHoursWork,
+                            timeLine,
+                            date,
+                            timestamp,
+                            status,
+                            _id: checktimeId,
+                        } = checktime || {};
+                        const branchId = timeLine?.[0]?.branchId;
+                        if (branchId) {
+                            let branch = branchCache[branchId];
+                            if (!branch) {
+                                branch = await db.branches.findOne({
+                                    _id: branchId,
+                                });
+                                branchCache[branchId] = branch;
+                            }
 
-                // if (checktimeData?.length) {
-                //     const commissionStoreObj = {};
-                //     for (const checktime of checktimeData) {
-                //         const { totalHoursWork, timeLine } = checktime || {};
-                //         const branchId = timeLine?.[0]?.branchId;
-                //         if (branchId) {
-                //             let branch = branchCache[branchId];
-                //             if (!branch) {
-                //                 branch = await db.branches.findOne({
-                //                     _id: branchId,
-                //                 });
-                //                 branchCache[branchId] = branch;
-                //             }
+                            const commissionStoreCodes =
+                                branch?.commissionStoreCodes;
 
-                //             if (
-                //                 branch &&
-                //                 !!branch?.commissionStoreCodes?.length
-                //             ) {
-                //                 const workingTimeInDays =
-                //                     totalHoursWork >= 8
-                //                         ? 1
-                //                         : totalHoursWork >= 4
-                //                         ? 0.5
-                //                         : 0;
-                //                 branch?.commissionStoreCodes?.forEach(
-                //                     (storeCode) => {
-                //                         commissionStoreObj[storeCode] =
-                //                             commissionStoreObj[storeCode] ?? 0;
-                //                         commissionStoreObj[storeCode] +=
-                //                             workingTimeInDays;
-                //                     }
-                //                 );
-                //             }
-                //         }
-                //     }
-                //     if (!lodash.isEmpty(commissionStoreObj)) {
-                //         const commissionStoreObjKeys =
-                //             Object.keys(commissionStoreObj);
-                //         for (const storeCode of commissionStoreObjKeys) {
-                //             const totalWorkingDays =
-                //                 commissionStoreObj[storeCode];
+                            if (branch && !!commissionStoreCodes?.length) {
+                                console.log(
+                                    "🚀 >>>>>> updateCommissionLog >>>>>> branch:",
+                                    branch
+                                );
+                                for (const storeCode of commissionStoreCodes) {
+                                    console.log(
+                                        "🚀 >>>>>> updateCommissionLog >>>>>> storeCode:",
+                                        storeCode
+                                    );
 
-                //             await db.commission_log_daily.findOneAndUpdate(
-                //                 {
-                //                     month: MONTH_TO_ADD_COMMISSION_LOG,
-                //                     type: CommissionLogType.LOG,
-                //                     month,
-                //                     commissionJobRole: commissionJobRoles,
-                //                     commissionStore: storeCode,
-                //                     empObjId,
-                //                     employeeId,
-                //                 },
-                //                 {
-                //                     $set: {
-                //                         empObjId,
-                //                         employeeId,
-                //                         employeeInformation,
-                //                         month,
-                //                         commissionJobRole: commissionJobRoles,
-                //                         commissionStore: storeCode,
-                //                         status: CommissionLogStatus.ENABLE,
-                //                         type: CommissionLogType.LOG,
-                //                         managingStores: null,
-                //                         totalWorkingDays,
-                //                     },
-                //                 },
-                //                 {
-                //                     upsert: true,
-                //                 }
-                //             );
-                //         }
-                //     }
-                // }
-            });
+                                    const totalWorkingDays =
+                                        totalHoursWork >= 8
+                                            ? 1
+                                            : totalHoursWork >= 4
+                                            ? 0.5
+                                            : 0;
+
+                                    const commissionLogInput = {
+                                        status: CommissionLogDailyStatus.ENABLE,
+                                        type: CommissionLogDailyType.AUTO,
+                                        empObjId: new mongoose.Types.ObjectId(
+                                            empObjId
+                                        ),
+                                        employeeId,
+                                        commissionStore: storeCode,
+                                        month: MONTH_TO_ADD_COMMISSION_LOG,
+                                        date,
+                                        timestamp: parseFloat(timestamp),
+                                        checktimeData: {
+                                            id: new mongoose.Types.ObjectId(
+                                                checktimeId
+                                            ),
+                                            status: status?.status,
+                                            branchId,
+                                        },
+                                        totalWorkingDays,
+                                        totalHoursWork,
+                                        created: new Date(),
+                                        updated: new Date(),
+                                    };
+
+                                    console.log(
+                                        "🚀 >>>>>> updateCommissionLog >>>>>> commissionLogInput:",
+                                        commissionLogInput
+                                    );
+                                    await db.commission_log_daily.findOneAndUpdate(
+                                        {
+                                            empObjId,
+                                            date,
+                                            commissionStore: storeCode,
+                                        },
+                                        {
+                                            $set: {
+                                                ...commissionLogInput,
+                                            },
+                                        },
+                                        {
+                                            upsert: true,
+                                        }
+                                    );
+                                    updateCounter++;
+                                    console.log(
+                                        "🚀 >>>>>> updateCommissionLog >>>>>> updateCounter:",
+                                        updateCounter
+                                    );
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
-
+        console.log(
+            "🚀 >>>>>> updateCommissionLog >>>>>> total updates:",
+            updateCounter
+        );
         return false;
     } catch (error) {
         console.log("🚀 >>>>>> updateCommissionLog >>>>>> error:", error);
