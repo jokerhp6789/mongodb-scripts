@@ -8,7 +8,7 @@ const lodash = require("lodash");
 const mongoose = require("mongoose");
 
 // Select the database to use.
-use("work_infinity_x_dev");
+use("work_infinity_x_prod");
 
 const CommissionAssignmentStatus = {
     ENABLE: "ENABLE",
@@ -40,7 +40,7 @@ function convertYearMonthToDate(yearMonth) {
     return [startTime, endTime];
 }
 
-const LUNCH_BREAK_HOURS = 1;
+const LUNCH_BREAK_HOURS = 0.75;
 function getStoreHoursWork(startTime, endTime) {
     if (!startTime || !endTime) {
         return 0;
@@ -158,12 +158,23 @@ const updateCommissionLog = async () => {
                                     });
                                 }
                             } else {
-                                UnableToDetermineCommissionData.push({
-                                    employeeId,
-                                    checktimeId,
-                                    messages:
-                                        "Multiple commission assignments !",
-                                });
+                                let user = userCache[employeeId];
+                                if (!user) {
+                                    user = await db.users.findOne({
+                                        employeeId,
+                                    });
+                                    userCache[employeeId] = user;
+                                }
+                                if (user?.roleLevel?.workPlace?.length === 1) {
+                                    branchId = user?.roleLevel?.workPlace[0];
+                                } else {
+                                    UnableToDetermineCommissionData.push({
+                                        employeeId,
+                                        checktimeId,
+                                        messages:
+                                            "Multiple commission assignments & workplaces !",
+                                    });
+                                }
                             }
                         }
 
@@ -256,9 +267,32 @@ const updateCommissionLog = async () => {
                 "🚀 >>>>>> updateCommissionLog >>>>>> UnableToDetermineCommissionData:",
                 UnableToDetermineCommissionData
             );
+
+            const groupedData = lodash.groupBy(
+                UnableToDetermineCommissionData,
+                (doc) => {
+                    return doc.employeeId;
+                }
+            );
+
+            const staticData = Object.keys(groupedData).map((employeeId) => {
+                const employeeData = groupedData[employeeId];
+                const checktimeIds = employeeData.map(
+                    (data) => data.checktimeId
+                );
+                return {
+                    employeeId,
+                    numberOfChecktimes: checktimeIds.length,
+                    checktimeIds,
+                };
+            });
             fs.writeFileSync(
                 `./UnableToDetermineCommissionData_${new Date().getTime()}.json`,
                 JSON.stringify(UnableToDetermineCommissionData, null, 2)
+            );
+            fs.writeFileSync(
+                `./UnableToDetermineCommissionData_Static_${new Date().getTime()}.json`,
+                JSON.stringify(staticData, null, 2)
             );
         }
         console.log(
