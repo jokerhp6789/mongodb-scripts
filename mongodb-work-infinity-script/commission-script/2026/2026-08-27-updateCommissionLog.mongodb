@@ -40,14 +40,26 @@ function convertYearMonthToDate(yearMonth) {
     return [startTime, endTime];
 }
 
+const LUNCH_BREAK_HOURS = 1;
+function getStoreHoursWork(startTime, endTime) {
+    if (!startTime || !endTime) {
+        return 0;
+    }
+    const hoursWork =
+        moment(endTime).diff(moment(startTime), "minutes") / 60 -
+        LUNCH_BREAK_HOURS;
+    return hoursWork > 0 ? hoursWork : 0;
+}
+
 const COMMISSION_MONTH_FORMAT = "YYYY-MM";
 const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-08";
-const MONTH_TO_ADD_COMMISSION_LOG = "2025-07";
+const MONTH_TO_ADD_COMMISSION_LOG = "2026-07";
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
 
 const branchCache = {};
+const userCache = {};
 
 const updateCommissionLog = async () => {
     let updateCounter = 0;
@@ -56,6 +68,9 @@ const updateCommissionLog = async () => {
     let employeeCounter = 0;
 
     try {
+        await db.commission_log_daily.deleteMany({
+            month: MONTH_TO_ADD_COMMISSION_LOG,
+        });
         const [startTime, endTime] = convertYearMonthToDate(
             MONTH_TO_ADD_COMMISSION_LOG
         );
@@ -66,6 +81,9 @@ const updateCommissionLog = async () => {
                 jobRoleType: CommissionJobRoleType.EMPLOYEE,
             })
             .toArray();
+
+        const UnableToDetermineCommissionData = [];
+
         if (commissionAssignList?.length) {
             const commissionAssignGroups = lodash.groupBy(
                 commissionAssignList,
@@ -76,11 +94,11 @@ const updateCommissionLog = async () => {
             const keys = Object.keys(commissionAssignGroups);
 
             for (key of keys) {
-                const docs = commissionAssignGroups[key];
-                const { employeeId } = docs?.[0] || {};
+                const empCommissionAssignments = commissionAssignGroups[key];
+                const { employeeId } = empCommissionAssignments?.[0] || {};
                 const empObjId = key;
-
-                commissionAssignmentCounter += docs?.length || 0;
+                commissionAssignmentCounter +=
+                    empCommissionAssignments?.length || 0;
                 employeeCounter++;
                 console.log(
                     "🚀 >>>>>> updateCommissionLog >>>>>> employeeCounter:",
@@ -94,7 +112,7 @@ const updateCommissionLog = async () => {
                 const checktimeData = await db.check_time
                     .find({
                         createdBy: new mongoose.Types.ObjectId(empObjId),
-                        // "status.status": { $in: ["APPROVED"] },
+                        "status.status": { $in: ["APPROVED"] },
                         created: {
                             $gte: startTime,
                             $lte: endTime,
@@ -109,14 +127,46 @@ const updateCommissionLog = async () => {
                             checktimeDataCounter
                         );
                         const {
-                            totalHoursWork,
                             timeLine,
                             date,
                             timestamp,
                             status,
                             _id: checktimeId,
                         } = checktime || {};
-                        const branchId = timeLine?.[0]?.branchId;
+                        const hasBranchRecord = timeLine?.[0]?.branchId;
+
+                        let branchId = undefined;
+                        if (!!hasBranchRecord) {
+                            branchId = timeLine?.[0]?.branchId;
+                        } else {
+                            if (empCommissionAssignments?.length === 1) {
+                                let user = userCache[employeeId];
+                                if (!user) {
+                                    user = await db.users.findOne({
+                                        employeeId,
+                                    });
+                                    userCache[employeeId] = user;
+                                }
+                                if (user?.roleLevel?.workPlace?.length === 1) {
+                                    branchId = user?.roleLevel?.workPlace[0];
+                                } else {
+                                    UnableToDetermineCommissionData.push({
+                                        employeeId,
+                                        checktimeId,
+                                        messages:
+                                            "Multiple workplaces for check-time Event Request !",
+                                    });
+                                }
+                            } else {
+                                UnableToDetermineCommissionData.push({
+                                    employeeId,
+                                    checktimeId,
+                                    messages:
+                                        "Multiple commission assignments !",
+                                });
+                            }
+                        }
+
                         if (branchId) {
                             let branch = branchCache[branchId];
                             if (!branch) {
@@ -131,6 +181,11 @@ const updateCommissionLog = async () => {
 
                             if (branch && !!commissionStoreCodes?.length) {
                                 for (const storeCode of commissionStoreCodes) {
+                                    const totalHoursWork = getStoreHoursWork(
+                                        timeLine?.[0]?.date,
+                                        timeLine?.[timeLine?.length - 1]?.date
+                                    );
+                                    ``;
                                     const totalWorkingDays =
                                         totalHoursWork >= 8
                                             ? 1
@@ -194,6 +249,17 @@ const updateCommissionLog = async () => {
                     }
                 }
             }
+        }
+
+        if (UnableToDetermineCommissionData?.length) {
+            console.log(
+                "🚀 >>>>>> updateCommissionLog >>>>>> UnableToDetermineCommissionData:",
+                UnableToDetermineCommissionData
+            );
+            fs.writeFileSync(
+                `./UnableToDetermineCommissionData_${new Date().getTime()}.json`,
+                JSON.stringify(UnableToDetermineCommissionData, null, 2)
+            );
         }
         console.log(
             "🚀 >>>>>> updateCommissionLog >>>>>> total commissionAssignment:",
