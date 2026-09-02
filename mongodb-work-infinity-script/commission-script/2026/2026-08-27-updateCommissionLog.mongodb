@@ -8,7 +8,7 @@ const lodash = require("lodash");
 const mongoose = require("mongoose");
 
 // Select the database to use.
-use("work_infinity_x_prod");
+use("work_infinity_x_dev");
 
 const CommissionAssignmentStatus = {
     ENABLE: "ENABLE",
@@ -53,7 +53,7 @@ function getStoreHoursWork(startTime, endTime) {
 
 const COMMISSION_MONTH_FORMAT = "YYYY-MM";
 const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-08";
-const MONTH_TO_ADD_COMMISSION_LOG = "2026-07";
+const MONTH_TO_ADD_COMMISSION_LOG = "2026-08";
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
@@ -182,7 +182,7 @@ const updateCommissionLog = async () => {
                             let branch = branchCache[branchId];
                             if (!branch) {
                                 branch = await db.branches.findOne({
-                                    _id: branchId,
+                                    _id: new mongoose.Types.ObjectId(branchId),
                                 });
                                 branchCache[branchId] = branch;
                             }
@@ -192,9 +192,12 @@ const updateCommissionLog = async () => {
 
                             if (branch && !!commissionStoreCodes?.length) {
                                 for (const storeCode of commissionStoreCodes) {
+                                    const startTime = timeLine?.[0]?.date;
+                                    const endTime =
+                                        timeLine?.[timeLine?.length - 1]?.date;
                                     const totalHoursWork = getStoreHoursWork(
-                                        timeLine?.[0]?.date,
-                                        timeLine?.[timeLine?.length - 1]?.date
+                                        startTime,
+                                        endTime
                                     );
                                     ``;
                                     const totalWorkingDays =
@@ -220,6 +223,8 @@ const updateCommissionLog = async () => {
                                             ),
                                             status: status?.status,
                                             branchId,
+                                            startTime,
+                                            endTime,
                                         },
                                         totalWorkingDays,
                                         totalHoursWork,
@@ -255,6 +260,13 @@ const updateCommissionLog = async () => {
                                         updateCounter
                                     );
                                 }
+                            } else {
+                                UnableToDetermineCommissionData.push({
+                                    employeeId,
+                                    checktimeId,
+                                    messages:
+                                        "No commissionStoreCodes for branch !",
+                                });
                             }
                         }
                     }
