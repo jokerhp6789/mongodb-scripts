@@ -122,10 +122,6 @@ const updateCommissionLog = async () => {
                 if (checktimeData?.length) {
                     for (const checktime of checktimeData) {
                         checktimeDataCounter++;
-                        console.log(
-                            "🚀 >>>>>> updateCommissionLog >>>>>> checktimeDataCounter:",
-                            checktimeDataCounter
-                        );
                         const {
                             timeLine,
                             date,
@@ -270,6 +266,11 @@ const updateCommissionLog = async () => {
                             }
                         }
                     }
+                } else {
+                    UnableToDetermineCommissionData.push({
+                        employeeId,
+                        messages: "No $checktimeData !",
+                    });
                 }
             }
         }
