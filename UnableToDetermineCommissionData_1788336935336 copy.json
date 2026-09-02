@@ -1,0 +1,152 @@
+[
+    {
+        "employeeId": "LT00208",
+        "numberOfChecktimes": 27,
+        "checktimeIds": [
+            "6a8fa1fce4de771e831777ce",
+            "6a8e52c3e4de771e83fc5179",
+            "6a8d04bae4de771e83e15386",
+            "6a8a61ade4de771e83ae8b52",
+            "6a890d26e4de771e83965b01",
+            "6a87bc79e4de771e837b62ea",
+            "6a866919e4de771e835fc39f",
+            "6a851a88e4de771e8341f4b7",
+            "6a83c421e4de771e832687f7",
+            "6a82785fe4de771e830d7a73",
+            "6a8124ace4de771e83f7cf91",
+            "6a7fd11be4de771e83df8af0",
+            "6a7e8492e4de771e83c5a024",
+            "6a7d3114e4de771e83ab953b",
+            "6a7be0abe4de771e8395c10d",
+            "6a7a8e54e4de771e8379d012",
+            "6a793cb3e4de771e8359780a",
+            "6a77ecbbe4de771e8343fbdf",
+            "6a769af7e4de771e832cb133",
+            "6a7549dae4de771e8313273b",
+            "6a73f7cde4de771e83f85a02",
+            "6a72a602e4de771e83dad11a",
+            "6a7155c3e4de771e83b637d0",
+            "6a700451e4de771e8397339c",
+            "6a6eb045e4de771e837f89e1",
+            "6a6d54ece4de771e83637df4",
+            "6a94ed98e4de771e837ed8c9"
+        ]
+    },
+    {
+        "employeeId": "LT00701",
+        "numberOfChecktimes": 20,
+        "checktimeIds": [
+            "6a8a5dffe4de771e83ae1962",
+            "6a890d25e4de771e83965ae1",
+            "6a87c95de4de771e837c9c47",
+            "6a867774e4de771e836154c3",
+            "6a812266e4de771e83f79230",
+            "6a7fd293e4de771e83dfabbe",
+            "6a7e82f1e4de771e83c56af7",
+            "6a7d3ccfe4de771e83aca1c9",
+            "6a7bdab3e4de771e83951842",
+            "6a7a99d4e4de771e837ab851",
+            "6a79486be4de771e835b69fb",
+            "6a77e64de4de771e83434955",
+            "6a769339e4de771e832bbfa0",
+            "6a7551abe4de771e8313c2cf",
+            "6a73fff9e4de771e83f919ff",
+            "6a72ae31e4de771e83dbbe10",
+            "6a713ba8e4de771e83b2e3f9",
+            "6a7008cfe4de771e8397c2f7",
+            "6a6ea888e4de771e837ed761",
+            "6a6d6ea5e4de771e83663d6c"
+        ]
+    },
+    {
+        "employeeId": "LT01482",
+        "numberOfChecktimes": 10,
+        "checktimeIds": [
+            "6a868879e4de771e83627d7b",
+            "6a827dfde4de771e830e16a5",
+            "6a7fee9de4de771e83e1ebc8",
+            "6a7d3800e4de771e83ac3b8e",
+            "6a7be0a4e4de771e8395bfe1",
+            "6a769af1e4de771e832cb0a3",
+            "6a754f36e4de771e831390b2",
+            "6a73fd4be4de771e83f8e731",
+            "6a70091ae4de771e8397cf5f",
+            "6a6ecc12e4de771e8381821e"
+        ]
+    },
+    {
+        "employeeId": "LT03211",
+        "numberOfChecktimes": 23,
+        "checktimeIds": [
+            "6a9100a8e4de771e833421ed",
+            "6a8fb5dbe4de771e83196442",
+            "6a8e5648e4de771e83fcdafe",
+            "6a8d0be0e4de771e83e20294",
+            "6a8bbae9e4de771e83c601a5",
+            "6a8917d2e4de771e83978a74",
+            "6a87d032e4de771e837d2090",
+            "6a866d22e4de771e836072f3",
+            "6a851c44e4de771e8342389a",
+            "6a833ec6e4de771e831f2de8",
+            "6a8282cde4de771e830e74e2",
+            "6a7fe089e4de771e83e0e64c",
+            "6a7e9157e4de771e83c6ab45",
+            "6a7d3ca3e4de771e83ac9f80",
+            "6a7beb46e4de771e83969b07",
+            "6a77ea3ae4de771e83439f44",
+            "6a7698bfe4de771e832c640f",
+            "6a7549bbe4de771e831323fb",
+            "6a72a652e4de771e83dada60",
+            "6a716353e4de771e83b78c9d",
+            "6a700402e4de771e839724e7",
+            "6a6eb08ce4de771e837f9230",
+            "6a6d6055e4de771e8364e8db"
+        ]
+    },
+    {
+        "employeeId": "LT03434",
+        "numberOfChecktimes": 20,
+        "checktimeIds": [
+            "6a8e571ae4de771e83fcf652",
+            "6a8bc20ee4de771e83c6ba9c",
+            "6a8a8ddae4de771e83b1c62e",
+            "6a891ca6e4de771e8397d8a8",
+            "6a87ec1de4de771e8381bff7",
+            "6a7fd2ece4de771e83dfb549",
+            "6a7e8ebbe4de771e83c676b5",
+            "6a7d30d4e4de771e83ab8afb",
+            "6a7be057e4de771e8395b53e",
+            "6a793677e4de771e8358c4a0",
+            "6a77ed44e4de771e83440d54",
+            "6a769c07e4de771e832cd072",
+            "6a754fade4de771e83139a3b",
+            "6a73f6afe4de771e83f82d85",
+            "6a72ab3ce4de771e83db79cc",
+            "6a715454e4de771e83b5ffca",
+            "6a700689e4de771e83977197",
+            "6a6ec9e8e4de771e83815f48",
+            "6a6d5514e4de771e83638388",
+            "6a94ee96e4de771e837f0149"
+        ]
+    },
+    {
+        "employeeId": "OH00662",
+        "numberOfChecktimes": 1,
+        "checktimeIds": ["6a8bb25ae4de771e83c50b77"]
+    },
+    {
+        "employeeId": "OH00669",
+        "numberOfChecktimes": 1,
+        "checktimeIds": ["6a7e924fe4de771e83c6c2e0"]
+    },
+    {
+        "employeeId": "OH00712",
+        "numberOfChecktimes": 4,
+        "checktimeIds": [
+            "6a8128bce4de771e83f84a03",
+            "6a7fd635e4de771e83e0347e",
+            "6a7e82c1e4de771e83c565b4",
+            "6a7d31fce4de771e83abaaa2"
+        ]
+    }
+]
