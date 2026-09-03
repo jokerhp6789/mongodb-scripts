@@ -45,6 +45,8 @@ function convertYearMonthToDate(yearMonth) {
     return [startTime, endTime];
 }
 
+const FULL_DAY_HOURS_THRESHOLD = 8;
+const HALF_DAY_HOURS_THRESHOLD = 3;
 const LUNCH_BREAK_HOURS = 0.75;
 function getStoreHoursWork(startTime, endTime) {
     if (!startTime || !endTime) {
@@ -195,6 +197,7 @@ const updateCommissionLog = async () => {
                                 } else {
                                     UnableToDetermineCommissionData.push({
                                         employeeId,
+                                        date,
                                         checktimeId,
                                         messages:
                                             "Multiple workplaces for check-time Event Request !",
@@ -213,6 +216,7 @@ const updateCommissionLog = async () => {
                                 } else {
                                     UnableToDetermineCommissionData.push({
                                         employeeId,
+                                        date,
                                         checktimeId,
                                         messages:
                                             "Multiple commission assignments & workplaces !",
@@ -268,9 +272,11 @@ const updateCommissionLog = async () => {
                                     );
                                     ``;
                                     const totalWorkingDays =
-                                        totalHoursWork >= 8
+                                        totalHoursWork >=
+                                        FULL_DAY_HOURS_THRESHOLD
                                             ? 1
-                                            : totalHoursWork >= 4
+                                            : totalHoursWork >=
+                                              HALF_DAY_HOURS_THRESHOLD
                                             ? 0.5
                                             : 0;
                                     const commissionLogInput = {
@@ -330,6 +336,7 @@ const updateCommissionLog = async () => {
                             } else {
                                 UnableToDetermineCommissionData.push({
                                     employeeId,
+                                    date,
                                     checktimeId,
                                     branchId,
                                     messages:
@@ -372,11 +379,11 @@ const updateCommissionLog = async () => {
                 };
             });
             fs.writeFileSync(
-                `./UnableToDetermineCommissionData_${new Date().getTime()}.json`,
+                `./UnableToDetermineCommissionData_${MONTH_TO_ADD_COMMISSION_LOG}_${new Date().getTime()}.json`,
                 JSON.stringify(UnableToDetermineCommissionData, null, 2)
             );
             fs.writeFileSync(
-                `./UnableToDetermineCommissionData_Static_${new Date().getTime()}.json`,
+                `./UnableToDetermineCommissionData_Static__${MONTH_TO_ADD_COMMISSION_LOG}_${new Date().getTime()}.json`,
                 JSON.stringify(staticData, null, 2)
             );
         }
