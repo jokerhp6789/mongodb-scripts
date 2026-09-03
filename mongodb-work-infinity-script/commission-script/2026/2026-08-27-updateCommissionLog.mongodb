@@ -52,14 +52,19 @@ function getStoreHoursWork(startTime, endTime) {
 }
 
 const COMMISSION_MONTH_FORMAT = "YYYY-MM";
-const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-08";
-const MONTH_TO_ADD_COMMISSION_LOG = "2026-08";
+const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-07";
+const MONTH_TO_ADD_COMMISSION_LOG = "2026-07";
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
 
 const branchCache = {};
 const userCache = {};
+
+const branchReplacement = {
+    "68db429ad9e06921eade2649": "5da68fba333439165b00012b",
+    "68dc9fb99825a93ad661c828": "5d91b958333439165b0000e7",
+};
 
 const updateCommissionLog = async () => {
     let updateCounter = 0;
@@ -186,6 +191,21 @@ const updateCommissionLog = async () => {
                             const commissionStoreCodes =
                                 branch?.commissionStoreCodes;
 
+                            if (!!branch && !commissionStoreCodes?.length) {
+                                if (branchReplacement[branchId]) {
+                                    branchId = branchReplacement[branchId];
+                                    branch = branchCache[branchId];
+                                    if (!branch) {
+                                        branch = await db.branches.findOne({
+                                            _id: new mongoose.Types.ObjectId(
+                                                branchId
+                                            ),
+                                        });
+                                        branchCache[branchId] = branch;
+                                    }
+                                }
+                            }
+
                             if (branch && !!commissionStoreCodes?.length) {
                                 for (const storeCode of commissionStoreCodes) {
                                     const startTime = timeLine?.[0]?.date;
@@ -260,6 +280,7 @@ const updateCommissionLog = async () => {
                                 UnableToDetermineCommissionData.push({
                                     employeeId,
                                     checktimeId,
+                                    branchId,
                                     messages:
                                         "No commissionStoreCodes for branch !",
                                 });
