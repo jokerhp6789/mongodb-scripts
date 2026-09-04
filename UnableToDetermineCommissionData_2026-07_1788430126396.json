@@ -1,0 +1,2193 @@
+[
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-30",
+        "checktimeId": "6a6ab7d4e4de771e832a1c8c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-29",
+        "checktimeId": "6a696434e4de771e83137991",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-28",
+        "checktimeId": "6a681508e4de771e83ffdfa2",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-27",
+        "checktimeId": "6a66c1ede4de771e83e3e0c2",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-26",
+        "checktimeId": "6a656e9de4de771e83ccd9c8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-25",
+        "checktimeId": "6a641d85e4de771e83b4379c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-23",
+        "checktimeId": "6a617baee4de771e837a35da",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-22",
+        "checktimeId": "6a602dbee4de771e835bcaaf",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-21",
+        "checktimeId": "6a5ed5c3e4de771e833f3587",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d84a4e4de771e8323f057",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c343fe4de771e830e6b3a",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-18",
+        "checktimeId": "6a5adb81e4de771e83f5c700",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-17",
+        "checktimeId": "6a598b07e4de771e83db9543",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-16",
+        "checktimeId": "6a583855e4de771e83c176bb",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-15",
+        "checktimeId": "6a56e232e4de771e83a6dab0",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00063",
+        "date": "2026-07-14",
+        "checktimeId": "6a559a31e4de771e838bc075",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c0dace4de771e834790eb",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-30",
+        "checktimeId": "6a6aba52e4de771e832a738b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-29",
+        "checktimeId": "6a6967f6e4de771e8313ca74",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-28",
+        "checktimeId": "6a68198ee4de771e8300588d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-27",
+        "checktimeId": "6a66c98ce4de771e83e4c7f8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-26",
+        "checktimeId": "6a657635e4de771e83cd945b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-25",
+        "checktimeId": "6a642316e4de771e83b4e394",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-24",
+        "checktimeId": "6a62d32be4de771e8396e551",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-23",
+        "checktimeId": "6a617fdae4de771e837aabc4",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-22",
+        "checktimeId": "6a603211e4de771e835c6cad",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-21",
+        "checktimeId": "6a5edac0e4de771e833fad2c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d8f2de4de771e832521b0",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c3c7de4de771e830f4f68",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-18",
+        "checktimeId": "6a5ae96ce4de771e83f750e1",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-17",
+        "checktimeId": "6a59976be4de771e83dd3ccb",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-16",
+        "checktimeId": "6a584160e4de771e83c2b39c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-14",
+        "checktimeId": "6a55a42de4de771e838db687",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-13",
+        "checktimeId": "6a545433e4de771e837169ae",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-12",
+        "checktimeId": "6a52fe9de4de771e835a7f62",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-11",
+        "checktimeId": "6a51b113e4de771e834420ef",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-10",
+        "checktimeId": "6a50598de4de771e832934d5",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-09",
+        "checktimeId": "6a4f0acae4de771e830fc9e6",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b187fe4de771e83c4deba",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-05",
+        "checktimeId": "6a49c69ce4de771e83af52ca",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-04",
+        "checktimeId": "6a487666e4de771e838c8878",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-03",
+        "checktimeId": "6a46f46de4de771e836f43a3",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-02",
+        "checktimeId": "6a45a0b4e4de771e8355d404",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00208",
+        "date": "2026-07-01",
+        "checktimeId": "6a446372e4de771e833d24a3",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c0af3e4de771e83473ff6",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-30",
+        "checktimeId": "6a6ab8d1e4de771e832a4030",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-29",
+        "checktimeId": "6a696649e4de771e8313a7e2",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-28",
+        "checktimeId": "6a6816bae4de771e830009e8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-26",
+        "checktimeId": "6a657704e4de771e83cdabc1",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-25",
+        "checktimeId": "6a64215ae4de771e83b4c1fa",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-22",
+        "checktimeId": "6a602f37e4de771e835bf594",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-21",
+        "checktimeId": "6a5edebbe4de771e8340270b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d8b55e4de771e8324a3b6",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c38d7e4de771e830ecf6f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-18",
+        "checktimeId": "6a5ae6a7e4de771e83f70046",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-17",
+        "checktimeId": "6a59959fe4de771e83dd088c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-15",
+        "checktimeId": "6a56f491e4de771e83a90d9f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-14",
+        "checktimeId": "6a55a094e4de771e838d4786",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-13",
+        "checktimeId": "6a5452e7e4de771e83712904",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-12",
+        "checktimeId": "6a530146e4de771e835ac88f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-11",
+        "checktimeId": "6a51acfee4de771e8343a4cb",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-10",
+        "checktimeId": "6a505b3be4de771e8329602e",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-09",
+        "checktimeId": "6a4f0c9de4de771e830ff451",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-08",
+        "checktimeId": "6a4db9afe4de771e83f8058b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-07",
+        "checktimeId": "6a4c6548e4de771e83de3734",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b1813e4de771e83c4c739",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-05",
+        "checktimeId": "6a49c743e4de771e83af682f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-04",
+        "checktimeId": "6a487021e4de771e838bdd76",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-03",
+        "checktimeId": "6a472365e4de771e83741b69",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00266",
+        "date": "2026-07-01",
+        "checktimeId": "6a44802be4de771e83418ac0",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00397",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c1975e4de771e83491472",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-31",
+        "checktimeId": "6a6bf46ae4de771e8344746e",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-29",
+        "checktimeId": "6a6951e6e4de771e83121267",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-28",
+        "checktimeId": "6a6802ade4de771e83fe8c3f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-27",
+        "checktimeId": "6a66afdfe4de771e83e14c4d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-26",
+        "checktimeId": "6a655c74e4de771e83cba9b5",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-25",
+        "checktimeId": "6a640aeee4de771e83b1d7db",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-22",
+        "checktimeId": "6a601980e4de771e83593b14",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-21",
+        "checktimeId": "6a5ec51ce4de771e833cddc0",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c3178e4de771e830e3b3c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-18",
+        "checktimeId": "6a5ad140e4de771e83f4b341",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-15",
+        "checktimeId": "6a56def0e4de771e83a67892",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-14",
+        "checktimeId": "6a558c8ee4de771e8389d4eb",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-13",
+        "checktimeId": "6a5440efe4de771e836e38d7",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-12",
+        "checktimeId": "6a52e761e4de771e8358f7ba",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-11",
+        "checktimeId": "6a519a1be4de771e8341cdb8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-10",
+        "checktimeId": "6a50446fe4de771e8326838f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-09",
+        "checktimeId": "6a4efafee4de771e830db36b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-06",
+        "checktimeId": "6a4afe85e4de771e83c10d42",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-05",
+        "checktimeId": "6a49ae1de4de771e83ad79c3",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-04",
+        "checktimeId": "6a4861f9e4de771e838a5408",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-03",
+        "checktimeId": "6a470a61e4de771e83710c4b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00450",
+        "date": "2026-07-02",
+        "checktimeId": "6a45bac1e4de771e8358039d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c033ae4de771e83466234",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-30",
+        "checktimeId": "6a6aafd9e4de771e8328ed6a",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-29",
+        "checktimeId": "6a695e6de4de771e8313097f",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-28",
+        "checktimeId": "6a680eb8e4de771e83ff6bc6",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-27",
+        "checktimeId": "6a66bbfae4de771e83e33286",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-26",
+        "checktimeId": "6a6569f3e4de771e83cc834b",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-25",
+        "checktimeId": "6a641955e4de771e83b3a22b",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-24",
+        "checktimeId": "6a62c6b0e4de771e8394b712",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-22",
+        "checktimeId": "6a6021ace4de771e835a3b3f",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-21",
+        "checktimeId": "6a5ed2e4e4de771e833ed503",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d80e4e4de771e832364e8",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c2edce4de771e830e04c1",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-18",
+        "checktimeId": "6a5ade21e4de771e83f6283e",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-17",
+        "checktimeId": "6a598c9ce4de771e83dbf487",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-16",
+        "checktimeId": "6a583aefe4de771e83c1da1a",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-15",
+        "checktimeId": "6a56e9bfe4de771e83a7dad8",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-13",
+        "checktimeId": "6a54493be4de771e836f8842",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-12",
+        "checktimeId": "6a52f594e4de771e8359d1fd",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-11",
+        "checktimeId": "6a51a3b3e4de771e8342d697",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-10",
+        "checktimeId": "6a5051d1e4de771e832848dc",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-09",
+        "checktimeId": "6a4efd64e4de771e830dfcdb",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-08",
+        "checktimeId": "6a4daea4e4de771e83f69697",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b0bace4de771e83c323f8",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-05",
+        "checktimeId": "6a49bb54e4de771e83ae608a",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-04",
+        "checktimeId": "6a486945e4de771e838b2418",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-03",
+        "checktimeId": "6a4717b2e4de771e8372d3fe",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-02",
+        "checktimeId": "6a45c5d4e4de771e83596496",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00455",
+        "date": "2026-07-01",
+        "checktimeId": "6a447276e4de771e833f4084",
+        "branchId": "5d9d5c2a333439165b00032e",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-28",
+        "checktimeId": "6a6824fbe4de771e83013707",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-27",
+        "checktimeId": "6a66e597e4de771e83e88f96",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-26",
+        "checktimeId": "6a657855e4de771e83cdde7e",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-25",
+        "checktimeId": "6a6426d4e4de771e83b573b5",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-24",
+        "checktimeId": "6a62d538e4de771e839739d5",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-23",
+        "checktimeId": "6a618283e4de771e837af241",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-22",
+        "checktimeId": "6a602fcbe4de771e835c0ecf",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-21",
+        "checktimeId": "6a5eda53e4de771e833fa0cb",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d99d3e4de771e83269d35",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c3d7de4de771e830f705d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-18",
+        "checktimeId": "6a5ae9f7e4de771e83f75c62",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-17",
+        "checktimeId": "6a599885e4de771e83dd5eed",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-16",
+        "checktimeId": "6a5844f5e4de771e83c30e89",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-15",
+        "checktimeId": "6a56f4bae4de771e83a91495",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-14",
+        "checktimeId": "6a559defe4de771e838d0681",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-13",
+        "checktimeId": "6a545042e4de771e837084a1",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-12",
+        "checktimeId": "6a52fc6ce4de771e835a53cc",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-11",
+        "checktimeId": "6a51aae2e4de771e83436ddf",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-10",
+        "checktimeId": "6a505851e4de771e83291d08",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-09",
+        "checktimeId": "6a4f0722e4de771e830f6e33",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-08",
+        "checktimeId": "6a4db534e4de771e83f76592",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-07",
+        "checktimeId": "6a4bdf21e4de771e83d727dc",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-06",
+        "checktimeId": "6a4bad5ee4de771e83d49e40",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-05",
+        "checktimeId": "6a49beede4de771e83ae93ea",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-04",
+        "checktimeId": "6a4885e8e4de771e838ea619",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-03",
+        "checktimeId": "6a473e95e4de771e83767dd1",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT00701",
+        "date": "2026-07-02",
+        "checktimeId": "6a45b5afe4de771e83571fc7",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01369",
+        "date": "2026-07-08",
+        "checktimeId": "6a4dc556e4de771e83f93187",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c0f9ae4de771e8347ddd2",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-30",
+        "checktimeId": "6a6abdbee4de771e832af9ce",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-28",
+        "checktimeId": "6a68363be4de771e83026283",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-26",
+        "checktimeId": "6a659217e4de771e83cfd28c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-24",
+        "checktimeId": "6a62da98e4de771e8397c16d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-23",
+        "checktimeId": "6a618960e4de771e837b909b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c52c5e4de771e8310e639",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-17",
+        "checktimeId": "6a59a15fe4de771e83de439f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-16",
+        "checktimeId": "6a584e75e4de771e83c4194d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-13",
+        "checktimeId": "6a545a4de4de771e83724ae1",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-12",
+        "checktimeId": "6a530282e4de771e835aebb2",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-10",
+        "checktimeId": "6a5064bde4de771e832a5989",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-09",
+        "checktimeId": "6a4f1540e4de771e8310aed4",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b207fe4de771e83c6227a",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-05",
+        "checktimeId": "6a49c880e4de771e83af9ef9",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01482",
+        "date": "2026-07-03",
+        "checktimeId": "6a472cc1e4de771e837523c3",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c1ac3e4de771e83493b3d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-30",
+        "checktimeId": "6a6acb8ae4de771e832c2609",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-29",
+        "checktimeId": "6a6978dbe4de771e831534f9",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-28",
+        "checktimeId": "6a6828c2e4de771e83018026",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-27",
+        "checktimeId": "6a66d7e1e4de771e83e6c6b1",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-26",
+        "checktimeId": "6a658585e4de771e83ced103",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-25",
+        "checktimeId": "6a6425b5e4de771e83b541d8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-24",
+        "checktimeId": "6a62d50fe4de771e83973104",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-23",
+        "checktimeId": "6a61921ee4de771e837c6810",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-22",
+        "checktimeId": "6a602dbce4de771e835bca62",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-21",
+        "checktimeId": "6a5eedb6e4de771e8341a55c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d9cf7e4de771e8326f42c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c3d67e4de771e830f6cd0",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-18",
+        "checktimeId": "6a5aec4be4de771e83f7b73e",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-17",
+        "checktimeId": "6a59a884e4de771e83deeab8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-16",
+        "checktimeId": "6a585646e4de771e83c4ecea",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-14",
+        "checktimeId": "6a55b4c7e4de771e838f501b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-13",
+        "checktimeId": "6a5454ace4de771e83717c51",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-12",
+        "checktimeId": "6a53027ae4de771e835aeaf1",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-11",
+        "checktimeId": "6a51b08ee4de771e83440ced",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT01514",
+        "date": "2026-07-10",
+        "checktimeId": "6a505520e4de771e8328ca48",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c3bece4de771e834d86bd",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-30",
+        "checktimeId": "6a6ae8c3e4de771e832ff2ce",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-29",
+        "checktimeId": "6a6997aae4de771e83171adf",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-28",
+        "checktimeId": "6a68461ae4de771e830387d2",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-27",
+        "checktimeId": "6a66f41be4de771e83eacff1",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-26",
+        "checktimeId": "6a65a25ce4de771e83d11837",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-25",
+        "checktimeId": "6a64511ce4de771e83ba4867",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-23",
+        "checktimeId": "6a61ad2ce4de771e837fdb7c",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-22",
+        "checktimeId": "6a605c3ae4de771e8361655d",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-21",
+        "checktimeId": "6a5f0bfbe4de771e83459ab9",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-20",
+        "checktimeId": "6a5db972e4de771e832a818c",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c68e3e4de771e831264bc",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-18",
+        "checktimeId": "6a5b1bf4e4de771e83fc7e80",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-17",
+        "checktimeId": "6a59c4aee4de771e83e23c39",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-16",
+        "checktimeId": "6a587317e4de771e83c861f0",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-15",
+        "checktimeId": "6a572198e4de771e83ae1b2a",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-12",
+        "checktimeId": "6a532164e4de771e835cf431",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-11",
+        "checktimeId": "6a51d650e4de771e8347d050",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-10",
+        "checktimeId": "6a5079ade4de771e832be2ba",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-08",
+        "checktimeId": "6a4de282e4de771e83fc1e3f",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-07",
+        "checktimeId": "6a4c90c5e4de771e83e2be52",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b323de4de771e83c790e2",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-05",
+        "checktimeId": "6a49dde6e4de771e83b12426",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-04",
+        "checktimeId": "6a48916ce4de771e83907cc6",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-03",
+        "checktimeId": "6a472d52e4de771e83752d77",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-02",
+        "checktimeId": "6a45e182e4de771e835c8166",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02839",
+        "date": "2026-07-01",
+        "checktimeId": "6a44acbbe4de771e83463894",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c14d7e4de771e83485e28",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-30",
+        "checktimeId": "6a6ac3cfe4de771e832b75cb",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-29",
+        "checktimeId": "6a6966abe4de771e8313b055",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-28",
+        "checktimeId": "6a6814d6e4de771e83ffdb8b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-27",
+        "checktimeId": "6a66cffae4de771e83e59a64",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-26",
+        "checktimeId": "6a65716fe4de771e83cd18aa",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-25",
+        "checktimeId": "6a642279e4de771e83b4d6aa",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-24",
+        "checktimeId": "6a62d1dde4de771e8396a8f9",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-23",
+        "checktimeId": "6a618a67e4de771e837bb486",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d9c10e4de771e8326e2a3",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c49f5e4de771e83105584",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-18",
+        "checktimeId": "6a5b0169e4de771e83f930f7",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-17",
+        "checktimeId": "6a59a7a2e4de771e83decf28",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-15",
+        "checktimeId": "6a5703c4e4de771e83aa9093",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-14",
+        "checktimeId": "6a55b887e4de771e838ffc0a",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-13",
+        "checktimeId": "6a53c85de4de771e836870fc",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-12",
+        "checktimeId": "6a5308ade4de771e835b5815",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-08",
+        "checktimeId": "6a4dc70ce4de771e83f94f3c",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-07",
+        "checktimeId": "6a4c68d4e4de771e83de98fc",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b19d6e4de771e83c55b8e",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-05",
+        "checktimeId": "6a49c88ce4de771e83afa0d5",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-04",
+        "checktimeId": "6a487712e4de771e838caaae",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-03",
+        "checktimeId": "6a47249ee4de771e837447be",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT02988",
+        "date": "2026-07-02",
+        "checktimeId": "6a45d43fe4de771e835b7eca",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c0e5be4de771e8347a847",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-30",
+        "checktimeId": "6a6abd40e4de771e832ae925",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-29",
+        "checktimeId": "6a696b8be4de771e83142b4c",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-28",
+        "checktimeId": "6a681a07e4de771e83006796",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-27",
+        "checktimeId": "6a66c7dee4de771e83e4890f",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-26",
+        "checktimeId": "6a6576b2e4de771e83cda1ee",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-25",
+        "checktimeId": "6a6424a2e4de771e83b51ceb",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-24",
+        "checktimeId": "6a62d38ce4de771e8396f6fd",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-23",
+        "checktimeId": "6a618282e4de771e837af1c6",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-22",
+        "checktimeId": "6a603096e4de771e835c3139",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-21",
+        "checktimeId": "6a5edec4e4de771e834027f4",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d8bbbe4de771e8324aebc",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c3c41e4de771e830f4733",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-18",
+        "checktimeId": "6a5ae9ffe4de771e83f75df2",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-17",
+        "checktimeId": "6a599652e4de771e83dd1cb1",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-16",
+        "checktimeId": "6a58480ce4de771e83c3841d",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-15",
+        "checktimeId": "6a56f531e4de771e83a928f0",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-14",
+        "checktimeId": "6a55a57be4de771e838dda54",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-13",
+        "checktimeId": "6a545385e4de771e837149ec",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-08",
+        "checktimeId": "6a4dbbc3e4de771e83f85471",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-07",
+        "checktimeId": "6a4c6a63e4de771e83dec4e4",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b1867e4de771e83c4dae4",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-05",
+        "checktimeId": "6a49c8b2e4de771e83afa4e4",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-04",
+        "checktimeId": "6a487595e4de771e838c688c",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-03",
+        "checktimeId": "6a472455e4de771e837438f0",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-02",
+        "checktimeId": "6a45d2cae4de771e835b4ca1",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03149",
+        "date": "2026-07-01",
+        "checktimeId": "6a448120e4de771e8341bb45",
+        "branchId": "61052a10333439165b00022b",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c0e0fe4de771e83479d3b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-30",
+        "checktimeId": "6a6abbe1e4de771e832ab831",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-29",
+        "checktimeId": "6a6969cce4de771e8313f29f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-28",
+        "checktimeId": "6a6818e5e4de771e83003f1f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-27",
+        "checktimeId": "6a66c6cee4de771e83e46181",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-26",
+        "checktimeId": "6a657415e4de771e83cd537d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-25",
+        "checktimeId": "6a64242ce4de771e83b50ec9",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-23",
+        "checktimeId": "6a61806fe4de771e837abc7b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-22",
+        "checktimeId": "6a602f01e4de771e835befcd",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-21",
+        "checktimeId": "6a5edd26e4de771e833ff4e2",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d8b5ae4de771e8324a47a",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c3765e4de771e830eb351",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-18",
+        "checktimeId": "6a5ae903e4de771e83f73ff8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-16",
+        "checktimeId": "6a5844d4e4de771e83c30b82",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-15",
+        "checktimeId": "6a56f331e4de771e83a8e989",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-14",
+        "checktimeId": "6a55a47ee4de771e838dc034",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-13",
+        "checktimeId": "6a5452e7e4de771e837128f0",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-12",
+        "checktimeId": "6a530174e4de771e835ace53",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-11",
+        "checktimeId": "6a51afc0e4de771e8343f636",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-10",
+        "checktimeId": "6a505acbe4de771e832955d6",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-09",
+        "checktimeId": "6a4f07e3e4de771e830f81ee",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-08",
+        "checktimeId": "6a4db5f1e4de771e83f77e02",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-07",
+        "checktimeId": "6a4c644ae4de771e83de1c4d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-05",
+        "checktimeId": "6a49c88fe4de771e83afa12a",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-04",
+        "checktimeId": "6a487371e4de771e838c26f5",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-03",
+        "checktimeId": "6a472171e4de771e8373ec71",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03211",
+        "date": "2026-07-02",
+        "checktimeId": "6a4547b3e4de771e83535e5a",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-31",
+        "checktimeId": "6a6c1057e4de771e8347f15f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-30",
+        "checktimeId": "6a6ab97ae4de771e832a55b9",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-29",
+        "checktimeId": "6a697121e4de771e8314b092",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-28",
+        "checktimeId": "6a681e86e4de771e8300d0fe",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-27",
+        "checktimeId": "6a66b80ce4de771e83e27d7f",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-26",
+        "checktimeId": "6a657acfe4de771e83ce10ad",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-25",
+        "checktimeId": "6a642d83e4de771e83b5e73b",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-24",
+        "checktimeId": "6a62d5b4e4de771e83974b53",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-23",
+        "checktimeId": "6a617fdce4de771e837aac01",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-22",
+        "checktimeId": "6a6031dfe4de771e835c6448",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-21",
+        "checktimeId": "6a5ee01ce4de771e83404bc9",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c3eaee4de771e830f8dc8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-18",
+        "checktimeId": "6a5af694e4de771e83f8782a",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-16",
+        "checktimeId": "6a584c1ce4de771e83c3ead2",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-15",
+        "checktimeId": "6a56f6a5e4de771e83a96194",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-14",
+        "checktimeId": "6a55b2c8e4de771e838f0d55",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-12",
+        "checktimeId": "6a5308a0e4de771e835b56f8",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-11",
+        "checktimeId": "6a51bca5e4de771e83451537",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-10",
+        "checktimeId": "6a506248e4de771e832a2943",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-09",
+        "checktimeId": "6a4f15cbe4de771e8310ba17",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-08",
+        "checktimeId": "6a4dbcbce4de771e83f873cd",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-07",
+        "checktimeId": "6a4c6e28e4de771e83df23e1",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b2660e4de771e83c69dd5",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-05",
+        "checktimeId": "6a49c8c6e4de771e83afa86d",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-04",
+        "checktimeId": "6a48765fe4de771e838c8773",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-03",
+        "checktimeId": "6a47248be4de771e83744376",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-02",
+        "checktimeId": "6a45defee4de771e835c50ed",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03434",
+        "date": "2026-07-01",
+        "checktimeId": "6a44865fe4de771e83424bd0",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-30",
+        "checktimeId": "6a6abe1ae4de771e832b0447",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-29",
+        "checktimeId": "6a696feee4de771e83149c86",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-28",
+        "checktimeId": "6a678f03e4de771e83fa64aa",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-27",
+        "checktimeId": "6a66cd5de4de771e83e5306e",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-26",
+        "checktimeId": "6a657b0fe4de771e83ce19b6",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-25",
+        "checktimeId": "6a642dc7e4de771e83b5ec76",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-24",
+        "checktimeId": "6a62e449e4de771e83997cc8",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-23",
+        "checktimeId": "6a618576e4de771e837b4836",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-22",
+        "checktimeId": "6a603edce4de771e835db842",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-21",
+        "checktimeId": "6a5eeb7ee4de771e834174b2",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-20",
+        "checktimeId": "6a5d9ba7e4de771e8326d8f1",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-19",
+        "checktimeId": "6a5c40e4e4de771e830fae87",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-18",
+        "checktimeId": "6a5af212e4de771e83f82aa8",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-17",
+        "checktimeId": "6a59a85be4de771e83dee4f9",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-15",
+        "checktimeId": "6a56f329e4de771e83a8e939",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-14",
+        "checktimeId": "6a559b04e4de771e838bd972",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-13",
+        "checktimeId": "6a545dbde4de771e8372a1d4",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-12",
+        "checktimeId": "6a530855e4de771e835b5204",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-11",
+        "checktimeId": "6a51b690e4de771e8344a320",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-08",
+        "checktimeId": "6a4dc31ee4de771e83f8f9dc",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-07",
+        "checktimeId": "6a4c7162e4de771e83df5b25",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-06",
+        "checktimeId": "6a4b1e36e4de771e83c5e794",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-05",
+        "checktimeId": "6a49ca5ce4de771e83afcd3b",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-04",
+        "checktimeId": "6a487997e4de771e838ce4ab",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-03",
+        "checktimeId": "6a472898e4de771e8374c42a",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-02",
+        "checktimeId": "6a45d89fe4de771e835bdc0f",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "LT03606",
+        "date": "2026-07-01",
+        "checktimeId": "6a448d6be4de771e8342badd",
+        "branchId": "5db38e21333439165b0003e2",
+        "messages": "No commissionStoreCodes for branch !"
+    },
+    {
+        "employeeId": "OH00656",
+        "date": "2026-07-28",
+        "checktimeId": "6a681fefe4de771e8300e483",
+        "messages": "Multiple workplaces for check-time Event Request !"
+    }
+]
