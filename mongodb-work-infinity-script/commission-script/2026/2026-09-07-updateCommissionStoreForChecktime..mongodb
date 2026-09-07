@@ -1,0 +1,53 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+const fs = require("fs");
+const moment = require("moment");
+const lodash = require("lodash");
+const mongoose = require("mongoose");
+
+// Select the database to use.
+use("work_infinity_x_dev");
+
+const updateCommissionStoreForChecktime = async () => {
+    try {
+        const data = fs.readFileSync(
+            "/Users/trungdx/Code/mongodb-scripts/mongodb-work-infinity-script/commission-script/2026/data/Missing Commisison Store Checktimes.json",
+            () => {}
+        );
+        const rawData = JSON.parse(data);
+
+        if (rawData?.length) {
+            for (const item of rawData) {
+                const { checktimeId, commssionStoreCode } = item || {};
+                console.log(
+                    "🚀 >>>>>> updateCommissionStoreForChecktime >>>>>> item:",
+                    item
+                );
+
+                if (commssionStoreCode) {
+                    await db.check_time.findOneAndUpdate(
+                        {
+                            _id: new mongoose.Types.ObjectId(checktimeId),
+                        },
+                        {
+                            $set: {
+                                "timeLine.$[].commissionStores": [
+                                    commssionStoreCode,
+                                ],
+                            },
+                        }
+                    );
+                }
+            }
+        }
+    } catch (error) {
+        console.log(
+            "🚀 >>>>>> updateCommissionStoreForChecktime >>>>>> error:",
+            error
+        );
+    }
+};
+
+updateCommissionStoreForChecktime();
