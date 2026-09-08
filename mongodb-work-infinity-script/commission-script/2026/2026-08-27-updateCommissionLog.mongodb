@@ -179,8 +179,14 @@ const updateCommissionLog = async () => {
                             _id: checktimeId,
                         } = checktime || {};
                         const hasBranchRecord = timeLine?.[0]?.branchId;
+                        const hasCommissionStoreCodes =
+                            !!timeLine?.[0]?.commissionStores?.length;
 
                         let branchId = undefined;
+                        let commissionStoreCodes =
+                            timeLine?.[0]?.commissionStores;
+                        let branch = undefined;
+
                         if (!!hasBranchRecord) {
                             branchId = timeLine?.[0]?.branchId;
                         } else {
@@ -195,13 +201,15 @@ const updateCommissionLog = async () => {
                                 if (user?.roleLevel?.workPlace?.length === 1) {
                                     branchId = user?.roleLevel?.workPlace[0];
                                 } else {
-                                    UnableToDetermineCommissionData.push({
-                                        employeeId,
-                                        date,
-                                        checktimeId,
-                                        messages:
-                                            "Multiple workplaces for check-time Event Request !",
-                                    });
+                                    if (!hasCommissionStoreCodes) {
+                                        UnableToDetermineCommissionData.push({
+                                            employeeId,
+                                            date,
+                                            checktimeId,
+                                            messages:
+                                                "Multiple workplaces for check-time Event Request !",
+                                        });
+                                    }
                                 }
                             } else {
                                 let user = userCache[employeeId];
@@ -214,19 +222,21 @@ const updateCommissionLog = async () => {
                                 if (user?.roleLevel?.workPlace?.length === 1) {
                                     branchId = user?.roleLevel?.workPlace[0];
                                 } else {
-                                    UnableToDetermineCommissionData.push({
-                                        employeeId,
-                                        date,
-                                        checktimeId,
-                                        messages:
-                                            "Multiple commission assignments & workplaces !",
-                                    });
+                                    if (!hasCommissionStoreCodes) {
+                                        UnableToDetermineCommissionData.push({
+                                            employeeId,
+                                            date,
+                                            checktimeId,
+                                            messages:
+                                                "Multiple commission assignments & workplaces !",
+                                        });
+                                    }
                                 }
                             }
                         }
 
-                        if (branchId) {
-                            let branch = branchCache[branchId];
+                        if (branchId && !hasCommissionStoreCodes) {
+                            branch = branchCache[branchId];
                             if (!branch) {
                                 branch = await db.branches.findOne({
                                     _id: new mongoose.Types.ObjectId(branchId),
@@ -234,8 +244,7 @@ const updateCommissionLog = async () => {
                                 branchCache[branchId] = branch;
                             }
 
-                            let commissionStoreCodes =
-                                branch?.commissionStoreCodes;
+                            commissionStoreCodes = branch?.commissionStoreCodes;
 
                             if (!!branch && !commissionStoreCodes?.length) {
                                 if (branchReplacement[branchId]) {
@@ -253,87 +262,86 @@ const updateCommissionLog = async () => {
                                         branch?.commissionStoreCodes;
                                 }
                             }
+                        }
 
-                            if (branch && !!commissionStoreCodes?.length) {
-                                for (const storeCode of commissionStoreCodes) {
-                                    const sortedTimeLine = lodash.orderBy(
-                                        timeLine,
-                                        ["date"],
-                                        ["asc"]
-                                    );
-                                    const startTime = sortedTimeLine?.[0]?.date;
-                                    const endTime =
-                                        sortedTimeLine?.[
-                                            sortedTimeLine?.length - 1
-                                        ]?.date;
-                                    const totalHoursWork = getStoreHoursWork(
+                        if (!!commissionStoreCodes?.length) {
+                            for (const storeCode of commissionStoreCodes) {
+                                const sortedTimeLine = lodash.orderBy(
+                                    timeLine,
+                                    ["date"],
+                                    ["asc"]
+                                );
+                                const startTime = sortedTimeLine?.[0]?.date;
+                                const endTime =
+                                    sortedTimeLine?.[sortedTimeLine?.length - 1]
+                                        ?.date;
+                                const totalHoursWork = getStoreHoursWork(
+                                    startTime,
+                                    endTime
+                                );
+                                ``;
+                                const totalWorkingDays =
+                                    totalHoursWork >= FULL_DAY_HOURS_THRESHOLD
+                                        ? 1
+                                        : totalHoursWork >=
+                                          HALF_DAY_HOURS_THRESHOLD
+                                        ? 0.5
+                                        : 0;
+                                const commissionLogInput = {
+                                    status: CommissionLogDailyStatus.ENABLE,
+                                    type: CommissionLogDailyType.AUTO,
+                                    empObjId: new mongoose.Types.ObjectId(
+                                        empObjId
+                                    ),
+                                    employeeId,
+                                    commissionStore: storeCode,
+                                    month: MONTH_TO_ADD_COMMISSION_LOG,
+                                    date,
+                                    timestamp: parseFloat(timestamp),
+                                    checktimeData: {
+                                        id: new mongoose.Types.ObjectId(
+                                            checktimeId
+                                        ),
+                                        status: status?.status,
+                                        branchId,
                                         startTime,
-                                        endTime
-                                    );
-                                    ``;
-                                    const totalWorkingDays =
-                                        totalHoursWork >=
-                                        FULL_DAY_HOURS_THRESHOLD
-                                            ? 1
-                                            : totalHoursWork >=
-                                              HALF_DAY_HOURS_THRESHOLD
-                                            ? 0.5
-                                            : 0;
-                                    const commissionLogInput = {
-                                        status: CommissionLogDailyStatus.ENABLE,
-                                        type: CommissionLogDailyType.AUTO,
+                                        endTime,
+                                    },
+                                    totalWorkingDays,
+                                    totalHoursWork,
+                                    created: new Date(),
+                                    updated: new Date(),
+                                };
+
+                                console.log(
+                                    "🚀 >>>>>> updateCommissionLog >>>>>> commissionLogInput:",
+                                    commissionLogInput
+                                );
+                                await db.commission_log_daily.findOneAndUpdate(
+                                    {
                                         empObjId: new mongoose.Types.ObjectId(
                                             empObjId
                                         ),
-                                        employeeId,
-                                        commissionStore: storeCode,
-                                        month: MONTH_TO_ADD_COMMISSION_LOG,
                                         date,
-                                        timestamp: parseFloat(timestamp),
-                                        checktimeData: {
-                                            id: new mongoose.Types.ObjectId(
-                                                checktimeId
-                                            ),
-                                            status: status?.status,
-                                            branchId,
-                                            startTime,
-                                            endTime,
+                                        commissionStore: storeCode,
+                                    },
+                                    {
+                                        $set: {
+                                            ...commissionLogInput,
                                         },
-                                        totalWorkingDays,
-                                        totalHoursWork,
-                                        created: new Date(),
-                                        updated: new Date(),
-                                    };
-
-                                    console.log(
-                                        "🚀 >>>>>> updateCommissionLog >>>>>> commissionLogInput:",
-                                        commissionLogInput
-                                    );
-                                    await db.commission_log_daily.findOneAndUpdate(
-                                        {
-                                            empObjId:
-                                                new mongoose.Types.ObjectId(
-                                                    empObjId
-                                                ),
-                                            date,
-                                            commissionStore: storeCode,
-                                        },
-                                        {
-                                            $set: {
-                                                ...commissionLogInput,
-                                            },
-                                        },
-                                        {
-                                            upsert: true,
-                                        }
-                                    );
-                                    updateCounter++;
-                                    console.log(
-                                        "🚀 >>>>>> updateCommissionLog >>>>>> updateCounter:",
-                                        updateCounter
-                                    );
-                                }
-                            } else {
+                                    },
+                                    {
+                                        upsert: true,
+                                    }
+                                );
+                                updateCounter++;
+                                console.log(
+                                    "🚀 >>>>>> updateCommissionLog >>>>>> updateCounter:",
+                                    updateCounter
+                                );
+                            }
+                        } else {
+                            if (!!branch) {
                                 UnableToDetermineCommissionData.push({
                                     employeeId,
                                     date,
@@ -341,6 +349,15 @@ const updateCommissionLog = async () => {
                                     branchId,
                                     messages:
                                         "No commissionStoreCodes for branch !",
+                                });
+                            } else {
+                                UnableToDetermineCommissionData.push({
+                                    employeeId,
+                                    date,
+                                    checktimeId,
+                                    branchId,
+                                    messages:
+                                        "No commissionStoreCodes && no branch !",
                                 });
                             }
                         }
