@@ -186,6 +186,7 @@ const updateCommissionLog = async () => {
                         let commissionStoreCodes =
                             timeLine?.[0]?.commissionStores;
                         let branch = undefined;
+                        let setError = false;
 
                         if (!!hasBranchRecord) {
                             branchId = timeLine?.[0]?.branchId;
@@ -209,6 +210,7 @@ const updateCommissionLog = async () => {
                                             messages:
                                                 "Multiple workplaces for check-time Event Request !",
                                         });
+                                        setError = true;
                                     }
                                 }
                             } else {
@@ -230,6 +232,7 @@ const updateCommissionLog = async () => {
                                             messages:
                                                 "Multiple commission assignments & workplaces !",
                                         });
+                                        setError = true;
                                     }
                                 }
                             }
@@ -342,23 +345,27 @@ const updateCommissionLog = async () => {
                             }
                         } else {
                             if (!!branch) {
-                                UnableToDetermineCommissionData.push({
-                                    employeeId,
-                                    date,
-                                    checktimeId,
-                                    branchId,
-                                    messages:
-                                        "No commissionStoreCodes for branch !",
-                                });
+                                if (!setError) {
+                                    UnableToDetermineCommissionData.push({
+                                        employeeId,
+                                        date,
+                                        checktimeId,
+                                        branchId,
+                                        messages:
+                                            "No commissionStoreCodes for branch !",
+                                    });
+                                }
                             } else {
-                                UnableToDetermineCommissionData.push({
-                                    employeeId,
-                                    date,
-                                    checktimeId,
-                                    branchId,
-                                    messages:
-                                        "No commissionStoreCodes && no branch !",
-                                });
+                                if (!setError) {
+                                    UnableToDetermineCommissionData.push({
+                                        employeeId,
+                                        date,
+                                        checktimeId,
+                                        branchId,
+                                        messages:
+                                            "No commissionStoreCodes && no branch !",
+                                    });
+                                }
                             }
                         }
                     }
@@ -386,8 +393,9 @@ const updateCommissionLog = async () => {
 
             const staticData = Object.keys(groupedData).map((employeeId) => {
                 const employeeData = groupedData[employeeId];
-                const checktimeIds = employeeData.map(
-                    (data) => data.checktimeId
+                const checktimeIds = lodash.unionBy(
+                    employeeData.map((data) => data.checktimeId),
+                    (item) => item
                 );
                 return {
                     employeeId,
