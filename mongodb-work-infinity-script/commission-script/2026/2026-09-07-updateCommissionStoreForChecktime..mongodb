@@ -13,7 +13,7 @@ use("work_infinity_x_dev");
 const updateCommissionStoreForChecktime = async () => {
     try {
         const data = fs.readFileSync(
-            "/Users/trungdx/Code/mongodb-scripts/mongodb-work-infinity-script/commission-script/2026/data/Missing Commisison Store Checktimes - 2026:09:08.json",
+            "/Users/trungdx/Code/mongodb-scripts/mongodb-work-infinity-script/commission-script/2026/data/2026-08/Missing Commisison Store Checktimes - 2026_08.json",
             () => {}
         );
         const rawData = JSON.parse(data);

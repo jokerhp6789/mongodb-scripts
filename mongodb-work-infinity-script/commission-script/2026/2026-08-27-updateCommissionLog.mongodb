@@ -33,6 +33,7 @@ const CommissionJobRoleType = {
 const UPDATE_MODE = {
     REPLACE_ALL: "REPLACE_ALL",
     ADD_NEW: "ADD_NEW",
+    UPDATE_MISSING: "UPDATE_MISSING",
 };
 
 function convertYearMonthToDate(yearMonth) {
@@ -61,6 +62,10 @@ function getStoreHoursWork(startTime, endTime) {
 const COMMISSION_MONTH_FORMAT = "YYYY-MM";
 const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-08";
 const MONTH_TO_ADD_COMMISSION_LOG = "2026-08";
+const MISSING_COMMISSION_STORE_CHECKTIME_FILE_PATH =
+    "/Users/trungdx/Code/mongodb-scripts/mongodb-work-infinity-script/commission-script/2026/data/2026-08/Missing Commisison Store Checktimes - 2026_08.json";
+
+const updateMode = UPDATE_MODE.REPLACE_ALL;
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.
@@ -72,7 +77,6 @@ const branchReplacement = {
     "68db429ad9e06921eade2649": "5da68fba333439165b00012b",
     "68dc9fb99825a93ad661c828": "5d91b958333439165b0000e7",
 };
-const updateMode = UPDATE_MODE.REPLACE_ALL;
 
 const updateCommissionLog = async () => {
     let updateCounter = 0;
@@ -114,22 +118,52 @@ const updateCommissionLog = async () => {
         const [startTime, endTime] = convertYearMonthToDate(
             MONTH_TO_ADD_COMMISSION_LOG
         );
-        const commissionAssignList = ninEmployeeIds?.length
-            ? await db.commission_assignment
-                  .find({
-                      month: MONTH_TO_GET_COMMISSION_ASSIGNMENT,
-                      status: CommissionAssignmentStatus.ENABLE,
-                      jobRoleType: CommissionJobRoleType.EMPLOYEE,
-                      empObjId: { $nin: ninEmployeeIds },
-                  })
-                  .toArray()
-            : await db.commission_assignment
-                  .find({
-                      month: MONTH_TO_GET_COMMISSION_ASSIGNMENT,
-                      status: CommissionAssignmentStatus.ENABLE,
-                      jobRoleType: CommissionJobRoleType.EMPLOYEE,
-                  })
-                  .toArray();
+
+        let commissionAssignList = [];
+
+        if (updateMode === UPDATE_MODE.UPDATE_MISSING) {
+            const missingData = fs.readFileSync(
+                MISSING_COMMISSION_STORE_CHECKTIME_FILE_PATH,
+                () => {}
+            );
+            const rawData = JSON.parse(missingData);
+            const employeeIds = lodash.uniqBy(
+                lodash.map(rawData, (doc) => {
+                    return doc.employeeId;
+                }),
+                (i) => i
+            );
+            console.log(
+                "🚀 >>>>>> updateCommissionLog >>>>>> employeeIds:",
+                employeeIds
+            );
+
+            commissionAssignList = await db.commission_assignment
+                .find({
+                    month: MONTH_TO_GET_COMMISSION_ASSIGNMENT,
+                    status: CommissionAssignmentStatus.ENABLE,
+                    jobRoleType: CommissionJobRoleType.EMPLOYEE,
+                    employeeId: { $in: employeeIds },
+                })
+                .toArray();
+        } else {
+            commissionAssignList = ninEmployeeIds?.length
+                ? await db.commission_assignment
+                      .find({
+                          month: MONTH_TO_GET_COMMISSION_ASSIGNMENT,
+                          status: CommissionAssignmentStatus.ENABLE,
+                          jobRoleType: CommissionJobRoleType.EMPLOYEE,
+                          empObjId: { $nin: ninEmployeeIds },
+                      })
+                      .toArray()
+                : await db.commission_assignment
+                      .find({
+                          month: MONTH_TO_GET_COMMISSION_ASSIGNMENT,
+                          status: CommissionAssignmentStatus.ENABLE,
+                          jobRoleType: CommissionJobRoleType.EMPLOYEE,
+                      })
+                      .toArray();
+        }
 
         const UnableToDetermineCommissionData = [];
 

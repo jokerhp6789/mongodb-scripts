@@ -1,0 +1,24 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+const fs = require("fs");
+const moment = require("moment");
+const lodash = require("lodash");
+const mongoose = require("mongoose");
+
+// Select the database to use.
+use("work_infinity_x_dev");
+
+const filterListOfEmployeeToUpdateCommission = async () => {
+    try {
+       
+    } catch (error) {
+        console.log(
+            "🚀 >>>>>> filterListOfEmployeeToUpdateCommission >>>>>> error:",
+            error
+        );
+    }
+};
+
+filterListOfEmployeeToUpdateCommission();

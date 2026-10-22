@@ -1,0 +1,27 @@
+[
+  {
+    "employeeId": "LT02781",
+    "numberOfChecktimes": 4,
+    "checktimeIds": [
+      "6a99acc3b2aa481a6d747f26",
+      "6a99acc65e847b818b3dad7a",
+      "6a99accab2aa481a6d747f4d",
+      "6a99accd5e847b818b3dada1"
+    ]
+  },
+  {
+    "employeeId": "LT03602",
+    "numberOfChecktimes": 1,
+    "checktimeIds": [
+      null
+    ]
+  },
+  {
+    "employeeId": "OH00662",
+    "numberOfChecktimes": 2,
+    "checktimeIds": [
+      "6a8bb25ae4de771e83c50b77",
+      "6a8265a0e4de771e830b175b"
+    ]
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "employeeId": "LT02781",
+    "date": "2026-08-31",
+    "checktimeId": "6a99acc3b2aa481a6d747f26",
+    "branchId": "6a96a76b6b3d01356f15b1dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02781",
+    "date": "2026-08-30",
+    "checktimeId": "6a99acc65e847b818b3dad7a",
+    "branchId": "6a96a76b6b3d01356f15b1dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02781",
+    "date": "2026-08-29",
+    "checktimeId": "6a99accab2aa481a6d747f4d",
+    "branchId": "6a96a76b6b3d01356f15b1dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02781",
+    "date": "2026-08-28",
+    "checktimeId": "6a99accd5e847b818b3dada1",
+    "branchId": "6a96a76b6b3d01356f15b1dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03602",
+    "messages": "No $checktimeData !"
+  },
+  {
+    "employeeId": "OH00662",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb25ae4de771e83c50b77",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00662",
+    "date": "2026-08-17",
+    "checktimeId": "6a8265a0e4de771e830b175b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  }
+]
