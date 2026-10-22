@@ -59,8 +59,8 @@ function getStoreHoursWork(startTime, endTime) {
 }
 
 const COMMISSION_MONTH_FORMAT = "YYYY-MM";
-const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-07";
-const MONTH_TO_ADD_COMMISSION_LOG = "2026-07";
+const MONTH_TO_GET_COMMISSION_ASSIGNMENT = "2026-08";
+const MONTH_TO_ADD_COMMISSION_LOG = "2026-08";
 
 // The drop() command destroys all data from a collection.
 // Make sure you run it against the correct database and collection.

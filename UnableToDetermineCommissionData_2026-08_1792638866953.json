@@ -1,0 +1,5660 @@
+[
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-30",
+    "checktimeId": "6a93954ae4de771e8367edd2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-30",
+    "checktimeId": "6a93954ae4de771e8367edd2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-29",
+    "checktimeId": "6a924591e4de771e834fe36c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-29",
+    "checktimeId": "6a924591e4de771e834fe36c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f57fe4de771e8332d3ee",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f57fe4de771e8332d3ee",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fa1fce4de771e831777ce",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fa1fce4de771e831777ce",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e52c3e4de771e83fc5179",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e52c3e4de771e83fc5179",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d04bae4de771e83e15386",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d04bae4de771e83e15386",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a61ade4de771e83ae8b52",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a61ade4de771e83ae8b52",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-22",
+    "checktimeId": "6a890d26e4de771e83965b01",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-22",
+    "checktimeId": "6a890d26e4de771e83965b01",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bc79e4de771e837b62ea",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bc79e4de771e837b62ea",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-20",
+    "checktimeId": "6a866919e4de771e835fc39f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-20",
+    "checktimeId": "6a866919e4de771e835fc39f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-19",
+    "checktimeId": "6a851a88e4de771e8341f4b7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-19",
+    "checktimeId": "6a851a88e4de771e8341f4b7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c421e4de771e832687f7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c421e4de771e832687f7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-17",
+    "checktimeId": "6a82785fe4de771e830d7a73",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-17",
+    "checktimeId": "6a82785fe4de771e830d7a73",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-16",
+    "checktimeId": "6a8124ace4de771e83f7cf91",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-16",
+    "checktimeId": "6a8124ace4de771e83f7cf91",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd11be4de771e83df8af0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd11be4de771e83df8af0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e8492e4de771e83c5a024",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e8492e4de771e83c5a024",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d3114e4de771e83ab953b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d3114e4de771e83ab953b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be0abe4de771e8395c10d",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be0abe4de771e8395c10d",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8e54e4de771e8379d012",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8e54e4de771e8379d012",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-10",
+    "checktimeId": "6a793cb3e4de771e8359780a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-10",
+    "checktimeId": "6a793cb3e4de771e8359780a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-09",
+    "checktimeId": "6a77ecbbe4de771e8343fbdf",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-09",
+    "checktimeId": "6a77ecbbe4de771e8343fbdf",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-08",
+    "checktimeId": "6a769af7e4de771e832cb133",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-08",
+    "checktimeId": "6a769af7e4de771e832cb133",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-07",
+    "checktimeId": "6a7549dae4de771e8313273b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-07",
+    "checktimeId": "6a7549dae4de771e8313273b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-06",
+    "checktimeId": "6a73f7cde4de771e83f85a02",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-06",
+    "checktimeId": "6a73f7cde4de771e83f85a02",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-05",
+    "checktimeId": "6a72a602e4de771e83dad11a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-05",
+    "checktimeId": "6a72a602e4de771e83dad11a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-04",
+    "checktimeId": "6a7155c3e4de771e83b637d0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-04",
+    "checktimeId": "6a7155c3e4de771e83b637d0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-03",
+    "checktimeId": "6a700451e4de771e8397339c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-03",
+    "checktimeId": "6a700451e4de771e8397339c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eb045e4de771e837f89e1",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eb045e4de771e837f89e1",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d54ece4de771e83637df4",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d54ece4de771e83637df4",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-31",
+    "checktimeId": "6a94ed98e4de771e837ed8c9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00208",
+    "date": "2026-08-31",
+    "checktimeId": "6a94ed98e4de771e837ed8c9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00210",
+    "messages": "No $checktimeData !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-30",
+    "checktimeId": "6a939aa1e4de771e83686ff0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-30",
+    "checktimeId": "6a939aa1e4de771e83686ff0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-29",
+    "checktimeId": "6a92482ce4de771e835027a7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-29",
+    "checktimeId": "6a92482ce4de771e835027a7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f725e4de771e83330413",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f725e4de771e83330413",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fa688e4de771e8317fba9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fa688e4de771e8317fba9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d0031e4de771e83e0ae94",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d0031e4de771e83e0ae94",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb24be4de771e83c50953",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb24be4de771e83c50953",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5eb7e4de771e83ae2c17",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5eb7e4de771e83ae2c17",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-22",
+    "checktimeId": "6a8916d5e4de771e8397762c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-22",
+    "checktimeId": "6a8916d5e4de771e8397762c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bd4ee4de771e837b7e8c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bd4ee4de771e837b7e8c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-20",
+    "checktimeId": "6a866875e4de771e835fa9aa",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-20",
+    "checktimeId": "6a866875e4de771e835fa9aa",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-19",
+    "checktimeId": "6a8519b6e4de771e8341da5b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-19",
+    "checktimeId": "6a8519b6e4de771e8341da5b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c52ce4de771e8326a3df",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c52ce4de771e8326a3df",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-17",
+    "checktimeId": "6a8276c0e4de771e830d4759",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-17",
+    "checktimeId": "6a8276c0e4de771e830d4759",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-16",
+    "checktimeId": "6a8121b1e4de771e83f78463",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-16",
+    "checktimeId": "6a8121b1e4de771e83f78463",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd06fe4de771e83df7c67",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd06fe4de771e83df7c67",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bdc97e4de771e839542c2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bdc97e4de771e839542c2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8a1ae4de771e837953d9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8a1ae4de771e837953d9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-10",
+    "checktimeId": "6a793a57e4de771e83593295",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-10",
+    "checktimeId": "6a793a57e4de771e83593295",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-08",
+    "checktimeId": "6a7697f7e4de771e832c4b03",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-08",
+    "checktimeId": "6a7697f7e4de771e832c4b03",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-07",
+    "checktimeId": "6a754332e4de771e83125ce2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-07",
+    "checktimeId": "6a754332e4de771e83125ce2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-06",
+    "checktimeId": "6a73f2c4e4de771e83f7a317",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-06",
+    "checktimeId": "6a73f2c4e4de771e83f7a317",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-05",
+    "checktimeId": "6a72a2afe4de771e83da56f5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-05",
+    "checktimeId": "6a72a2afe4de771e83da56f5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-04",
+    "checktimeId": "6a7152c6e4de771e83b5c55c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-04",
+    "checktimeId": "6a7152c6e4de771e83b5c55c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-03",
+    "checktimeId": "6a70003ae4de771e839680db",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-03",
+    "checktimeId": "6a70003ae4de771e839680db",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eae78e4de771e837f5ec2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eae78e4de771e837f5ec2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d5c61e4de771e8364585a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d5c61e4de771e8364585a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-31",
+    "checktimeId": "6a94ea5de4de771e837e5f2f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00266",
+    "date": "2026-08-31",
+    "checktimeId": "6a94ea5de4de771e837e5f2f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00311",
+    "messages": "No $checktimeData !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-30",
+    "checktimeId": "6a93a5d3e4de771e836951be",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-30",
+    "checktimeId": "6a93a5d3e4de771e836951be",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-29",
+    "checktimeId": "6a924f34e4de771e8350ffda",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-29",
+    "checktimeId": "6a924f34e4de771e8350ffda",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-28",
+    "checktimeId": "6a90fc7ce4de771e8333ae40",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-28",
+    "checktimeId": "6a90fc7ce4de771e8333ae40",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fbedae4de771e831a2590",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fbedae4de771e831a2590",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e5335e4de771e83fc64d0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e5335e4de771e83fc64d0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb991e4de771e83c5df59",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb991e4de771e83c5df59",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a6710e4de771e83aef029",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a6710e4de771e83aef029",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-22",
+    "checktimeId": "6a8916e3e4de771e839778a5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-22",
+    "checktimeId": "6a8916e3e4de771e839778a5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-21",
+    "checktimeId": "6a87d82ce4de771e837dba0a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-21",
+    "checktimeId": "6a87d82ce4de771e837dba0a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-20",
+    "checktimeId": "6a868634e4de771e836256bc",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-20",
+    "checktimeId": "6a868634e4de771e836256bc",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-19",
+    "checktimeId": "6a851763e4de771e8341948c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-19",
+    "checktimeId": "6a851763e4de771e8341948c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-17",
+    "checktimeId": "6a828cf1e4de771e830f3ce2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-17",
+    "checktimeId": "6a828cf1e4de771e830f3ce2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-16",
+    "checktimeId": "6a812adce4de771e83f86df2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-16",
+    "checktimeId": "6a812adce4de771e83f86df2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd3f2e4de771e83dfd7e6",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd3f2e4de771e83dfd7e6",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e90ede4de771e83c6a323",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e90ede4de771e83c6a323",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d2f17e4de771e83ab5233",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d2f17e4de771e83ab5233",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be167e4de771e8395d951",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be167e4de771e8395d951",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8d64e4de771e8379b8f3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8d64e4de771e8379b8f3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-10",
+    "checktimeId": "6a79450de4de771e835b0586",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-10",
+    "checktimeId": "6a79450de4de771e835b0586",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-09",
+    "checktimeId": "6a77efd5e4de771e83444cf2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-09",
+    "checktimeId": "6a77efd5e4de771e83444cf2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-08",
+    "checktimeId": "6a769366e4de771e832bc5a3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-08",
+    "checktimeId": "6a769366e4de771e832bc5a3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-07",
+    "checktimeId": "6a755470e4de771e8313f90d",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-07",
+    "checktimeId": "6a755470e4de771e8313f90d",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-03",
+    "checktimeId": "6a700892e4de771e8397b8a5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-03",
+    "checktimeId": "6a700892e4de771e8397b8a5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-31",
+    "checktimeId": "6a94f9e1e4de771e838019ae",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00383",
+    "date": "2026-08-31",
+    "checktimeId": "6a94f9e1e4de771e838019ae",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-30",
+    "checktimeId": "6a938dd5e4de771e83675b7f",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-29",
+    "checktimeId": "6a924a80e4de771e83508905",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-28",
+    "checktimeId": "6a90eb99e4de771e8331b665",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f9828e4de771e8316180b",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4891e4de771e83fa9528",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba595e4de771e83c348a6",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5403e4de771e83ad62a6",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-22",
+    "checktimeId": "6a8902e7e4de771e839581c5",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b0d6e4de771e837a0477",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-20",
+    "checktimeId": "6a865f68e4de771e835e2dce",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-19",
+    "checktimeId": "6a850df8e4de771e83408716",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-17",
+    "checktimeId": "6a826b3ae4de771e830c00e1",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-16",
+    "checktimeId": "6a81187ee4de771e83f6c71e",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fc824e4de771e83deaf26",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e7770e4de771e83c42993",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d24c4e4de771e83aa19e7",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bd39ee4de771e839491b7",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-10",
+    "checktimeId": "6a7930e2e4de771e8358061e",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-09",
+    "checktimeId": "6a77dee8e4de771e8342c5e2",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-08",
+    "checktimeId": "6a768d40e4de771e832b327c",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-07",
+    "checktimeId": "6a753c29e4de771e83118e09",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-03",
+    "checktimeId": "6a6fe940e4de771e83927d99",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ea538e4de771e837ea5e9",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d53d6e4de771e83635a47",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00455",
+    "date": "2026-08-31",
+    "checktimeId": "6a94dfe1e4de771e837cd60f",
+    "branchId": "5d9d5c2a333439165b00032e",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f1c71e4de771e830fa1bc",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f1c71e4de771e830fa1bc",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-26",
+    "checktimeId": "6a8ee0ece4de771e830bc2db",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-26",
+    "checktimeId": "6a8ee0ece4de771e830bc2db",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-25",
+    "checktimeId": "6a8c8046e4de771e83d8d143",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-25",
+    "checktimeId": "6a8c8046e4de771e83d8d143",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-23",
+    "checktimeId": "6a89d695e4de771e83a86710",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-23",
+    "checktimeId": "6a89d695e4de771e83a86710",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-22",
+    "checktimeId": "6a89b73ce4de771e83a6fbc8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-22",
+    "checktimeId": "6a89b73ce4de771e83a6fbc8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-20",
+    "checktimeId": "6a85e546e4de771e835735e5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-20",
+    "checktimeId": "6a85e546e4de771e835735e5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-17",
+    "checktimeId": "6a81edb0e4de771e83059eea",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-17",
+    "checktimeId": "6a81edb0e4de771e83059eea",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-16",
+    "checktimeId": "6a80a154e4de771e83f23a10",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-16",
+    "checktimeId": "6a80a154e4de771e83f23a10",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-15",
+    "checktimeId": "6a86edc3c51bb6fe18408eac",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-15",
+    "checktimeId": "6a86edc3c51bb6fe18408eac",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-12",
+    "checktimeId": "6a7b55afe4de771e838ea24e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-12",
+    "checktimeId": "6a7b55afe4de771e838ea24e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-09",
+    "checktimeId": "6a77609be4de771e833de629",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-09",
+    "checktimeId": "6a77609be4de771e833de629",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-08",
+    "checktimeId": "6a7742f1e4de771e833c92e7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-08",
+    "checktimeId": "6a7742f1e4de771e833c92e7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-05",
+    "checktimeId": "6a721b0ee4de771e83d0ef72",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-05",
+    "checktimeId": "6a721b0ee4de771e83d0ef72",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-02",
+    "checktimeId": "6a6f127ee4de771e83860eb6",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00457",
+    "date": "2026-08-02",
+    "checktimeId": "6a6f127ee4de771e83860eb6",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00458",
+    "date": "2026-08-20",
+    "checktimeId": "6a865207e4de771e835c69dd",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00458",
+    "date": "2026-08-20",
+    "checktimeId": "6a865207e4de771e835c69dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00458",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fc54de4de771e83de4a3a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00458",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fc54de4de771e83de4a3a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00458",
+    "date": "2026-08-06",
+    "checktimeId": "6a73dfede4de771e83f4a991",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00458",
+    "date": "2026-08-06",
+    "checktimeId": "6a73dfede4de771e83f4a991",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-20",
+    "checktimeId": "6a86600ee4de771e835e9644",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-20",
+    "checktimeId": "6a86600ee4de771e835e9644",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-12",
+    "checktimeId": "6a7c1ad0e4de771e8399e166",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-12",
+    "checktimeId": "6a7c1ad0e4de771e8399e166",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-07",
+    "checktimeId": "6a75bfd4e4de771e831ed27c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-07",
+    "checktimeId": "6a75bfd4e4de771e831ed27c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-05",
+    "checktimeId": "6a73181fe4de771e83e7b660",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-05",
+    "checktimeId": "6a73181fe4de771e83e7b660",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-31",
+    "checktimeId": "6a94dee8e4de771e837ca1bd",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00558",
+    "date": "2026-08-31",
+    "checktimeId": "6a94dee8e4de771e837ca1bd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00648",
+    "date": "2026-08-03",
+    "checktimeId": "6a700231e4de771e8396c748",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00648",
+    "date": "2026-08-03",
+    "checktimeId": "6a700231e4de771e8396c748",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-30",
+    "checktimeId": "6a939b88e4de771e83688fd6",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-30",
+    "checktimeId": "6a939b88e4de771e83688fd6",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-29",
+    "checktimeId": "6a92451ce4de771e834fda06",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-29",
+    "checktimeId": "6a92451ce4de771e834fda06",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-28",
+    "checktimeId": "6a9102b8e4de771e833460fb",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-28",
+    "checktimeId": "6a9102b8e4de771e833460fb",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d1201e4de771e83e29284",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d1201e4de771e83e29284",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bd516e4de771e83c985d6",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bd516e4de771e83c985d6",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5dffe4de771e83ae1962",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5dffe4de771e83ae1962",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-22",
+    "checktimeId": "6a890d25e4de771e83965ae1",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-22",
+    "checktimeId": "6a890d25e4de771e83965ae1",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-21",
+    "checktimeId": "6a87c95de4de771e837c9c47",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-21",
+    "checktimeId": "6a87c95de4de771e837c9c47",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-20",
+    "checktimeId": "6a867774e4de771e836154c3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-20",
+    "checktimeId": "6a867774e4de771e836154c3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-19",
+    "checktimeId": "6a8524cae4de771e8342f349",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-19",
+    "checktimeId": "6a8524cae4de771e8342f349",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-18",
+    "checktimeId": "6a83d3a3e4de771e832816df",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-18",
+    "checktimeId": "6a83d3a3e4de771e832816df",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-16",
+    "checktimeId": "6a812266e4de771e83f79230",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-16",
+    "checktimeId": "6a812266e4de771e83f79230",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd293e4de771e83dfabbe",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd293e4de771e83dfabbe",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e82f1e4de771e83c56af7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e82f1e4de771e83c56af7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d3ccfe4de771e83aca1c9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d3ccfe4de771e83aca1c9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bdab3e4de771e83951842",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bdab3e4de771e83951842",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a99d4e4de771e837ab851",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a99d4e4de771e837ab851",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-10",
+    "checktimeId": "6a79486be4de771e835b69fb",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-10",
+    "checktimeId": "6a79486be4de771e835b69fb",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-09",
+    "checktimeId": "6a77e64de4de771e83434955",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-09",
+    "checktimeId": "6a77e64de4de771e83434955",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-08",
+    "checktimeId": "6a769339e4de771e832bbfa0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-08",
+    "checktimeId": "6a769339e4de771e832bbfa0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-07",
+    "checktimeId": "6a7551abe4de771e8313c2cf",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-07",
+    "checktimeId": "6a7551abe4de771e8313c2cf",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-06",
+    "checktimeId": "6a73fff9e4de771e83f919ff",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-06",
+    "checktimeId": "6a73fff9e4de771e83f919ff",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-05",
+    "checktimeId": "6a72ae31e4de771e83dbbe10",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-05",
+    "checktimeId": "6a72ae31e4de771e83dbbe10",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-04",
+    "checktimeId": "6a713ba8e4de771e83b2e3f9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-04",
+    "checktimeId": "6a713ba8e4de771e83b2e3f9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-03",
+    "checktimeId": "6a7008cfe4de771e8397c2f7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-03",
+    "checktimeId": "6a7008cfe4de771e8397c2f7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ea888e4de771e837ed761",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ea888e4de771e837ed761",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d6ea5e4de771e83663d6c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00701",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d6ea5e4de771e83663d6c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-28",
+    "checktimeId": "6a90e95be4de771e83315255",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-28",
+    "checktimeId": "6a90e95be4de771e83315255",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f94fce4de771e8315b6de",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f94fce4de771e8315b6de",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4768e4de771e83fa5747",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4768e4de771e83fa5747",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cf54de4de771e83df2e01",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cf54de4de771e83df2e01",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba4dee4de771e83c32b57",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba4dee4de771e83c32b57",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-21",
+    "checktimeId": "6a87aa85e4de771e83791d91",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-21",
+    "checktimeId": "6a87aa85e4de771e83791d91",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-20",
+    "checktimeId": "6a86514ae4de771e835c3edf",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-20",
+    "checktimeId": "6a86514ae4de771e835c3edf",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-19",
+    "checktimeId": "6a850aa1e4de771e833ff88c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-19",
+    "checktimeId": "6a850aa1e4de771e833ff88c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-18",
+    "checktimeId": "6a83ba6fe4de771e83253e46",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-18",
+    "checktimeId": "6a83ba6fe4de771e83253e46",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-17",
+    "checktimeId": "6a826584e4de771e830b12cc",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-17",
+    "checktimeId": "6a826584e4de771e830b12cc",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e726ae4de771e83c3452c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e726ae4de771e83c3452c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d1eaee4de771e83a95c5b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d1eaee4de771e83a95c5b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8044e4de771e8377e993",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8044e4de771e8377e993",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-10",
+    "checktimeId": "6a792c8ae4de771e835747f0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-10",
+    "checktimeId": "6a792c8ae4de771e835747f0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-07",
+    "checktimeId": "6a75313ce4de771e8310298b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-07",
+    "checktimeId": "6a75313ce4de771e8310298b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-06",
+    "checktimeId": "6a73e7e2e4de771e83f599d4",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-06",
+    "checktimeId": "6a73e7e2e4de771e83f599d4",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-05",
+    "checktimeId": "6a729364e4de771e83d7febb",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-05",
+    "checktimeId": "6a729364e4de771e83d7febb",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-04",
+    "checktimeId": "6a713bc2e4de771e83b2e6ea",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-04",
+    "checktimeId": "6a713bc2e4de771e83b2e6ea",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-03",
+    "checktimeId": "6a6feee7e4de771e839324e7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-03",
+    "checktimeId": "6a6feee7e4de771e839324e7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-31",
+    "checktimeId": "6a94db20e4de771e837c1b27",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00758",
+    "date": "2026-08-31",
+    "checktimeId": "6a94db20e4de771e837c1b27",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00804",
+    "messages": "No $checktimeData !"
+  },
+  {
+    "employeeId": "LT00816",
+    "messages": "No $checktimeData !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f519e4de771e8332c497",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f519e4de771e8332c497",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f9ac7e4de771e83169f2c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f9ac7e4de771e83169f2c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4e1ee4de771e83fb734a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4e1ee4de771e83fb734a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cf402e4de771e83df04e0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cf402e4de771e83df04e0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba712e4de771e83c392c6",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba712e4de771e83c392c6",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bb4fe4de771e837b3785",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bb4fe4de771e837b3785",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-03",
+    "checktimeId": "6a6ff51de4de771e839415d2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-03",
+    "checktimeId": "6a6ff51de4de771e839415d2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ea5dde4de771e837eafff",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ea5dde4de771e837eafff",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d5703e4de771e8363c106",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d5703e4de771e8363c106",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e0bee4de771e837cfb10",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00887",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e0bee4de771e837cfb10",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-28",
+    "checktimeId": "6a90e125e4de771e83306a17",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-28",
+    "checktimeId": "6a90e125e4de771e83306a17",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f95e4e4de771e8315d1ad",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f95e4e4de771e8315d1ad",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e478ae4de771e83fa5ef9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e478ae4de771e83fa5ef9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cee5de4de771e83de582a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cee5de4de771e83de582a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-21",
+    "checktimeId": "6a87a85ae4de771e8378ddef",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-21",
+    "checktimeId": "6a87a85ae4de771e8378ddef",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-20",
+    "checktimeId": "6a86de4de4de771e836b004a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-20",
+    "checktimeId": "6a86de4de4de771e836b004a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-19",
+    "checktimeId": "6a850c43e4de771e83403757",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-19",
+    "checktimeId": "6a850c43e4de771e83403757",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-18",
+    "checktimeId": "6a83b35ee4de771e83247a17",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-18",
+    "checktimeId": "6a83b35ee4de771e83247a17",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-17",
+    "checktimeId": "6a8264ede4de771e830afc6b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-17",
+    "checktimeId": "6a8264ede4de771e830afc6b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a7f67e4de771e8377d268",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a7f67e4de771e8377d268",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-10",
+    "checktimeId": "6a7927f7e4de771e8356c5e8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-10",
+    "checktimeId": "6a7927f7e4de771e8356c5e8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-09",
+    "checktimeId": "6a77da62e4de771e83426705",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-09",
+    "checktimeId": "6a77da62e4de771e83426705",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-07",
+    "checktimeId": "6a753299e4de771e83105a3c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-07",
+    "checktimeId": "6a753299e4de771e83105a3c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-06",
+    "checktimeId": "6a73e189e4de771e83f4e061",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-06",
+    "checktimeId": "6a73e189e4de771e83f4e061",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-05",
+    "checktimeId": "6a731b39e4de771e83e88870",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-05",
+    "checktimeId": "6a731b39e4de771e83e88870",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-04",
+    "checktimeId": "6a713f74e4de771e83b3532c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-04",
+    "checktimeId": "6a713f74e4de771e83b3532c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-03",
+    "checktimeId": "6a6ff43ee4de771e8393f03f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-03",
+    "checktimeId": "6a6ff43ee4de771e8393f03f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-02",
+    "checktimeId": "6a6e9d89e4de771e837e08b2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-02",
+    "checktimeId": "6a6e9d89e4de771e837e08b2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-31",
+    "checktimeId": "6a94df76e4de771e837cc15b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00904",
+    "date": "2026-08-31",
+    "checktimeId": "6a94df76e4de771e837cc15b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-28",
+    "checktimeId": "6a90ebd2e4de771e8331c381",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-28",
+    "checktimeId": "6a90ebd2e4de771e8331c381",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e47e5e4de771e83fa7380",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e47e5e4de771e83fa7380",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba5c5e4de771e83c352c5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba5c5e4de771e83c352c5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b05ee4de771e8379e8ff",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b05ee4de771e8379e8ff",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-19",
+    "checktimeId": "6a850bede4de771e834029c8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-19",
+    "checktimeId": "6a850bede4de771e834029c8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-18",
+    "checktimeId": "6a8442cee4de771e83339939",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-18",
+    "checktimeId": "6a8442cee4de771e83339939",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-13",
+    "checktimeId": "6a7dc34fe4de771e83ba2ad8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-13",
+    "checktimeId": "6a7dc34fe4de771e83ba2ad8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a804de4de771e8377eada",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a804de4de771e8377eada",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-10",
+    "checktimeId": "6a79cdb3e4de771e836daa23",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-10",
+    "checktimeId": "6a79cdb3e4de771e836daa23",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-07",
+    "checktimeId": "6a75352fe4de771e8310a1e0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-07",
+    "checktimeId": "6a75352fe4de771e8310a1e0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-06",
+    "checktimeId": "6a73e604e4de771e83f55bd9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-06",
+    "checktimeId": "6a73e604e4de771e83f55bd9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-05",
+    "checktimeId": "6a72987ee4de771e83d8c39e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT00948",
+    "date": "2026-08-05",
+    "checktimeId": "6a72987ee4de771e83d8c39e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-20",
+    "checktimeId": "6a868879e4de771e83627d7b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-20",
+    "checktimeId": "6a868879e4de771e83627d7b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-17",
+    "checktimeId": "6a827dfde4de771e830e16a5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-17",
+    "checktimeId": "6a827dfde4de771e830e16a5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fee9de4de771e83e1ebc8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fee9de4de771e83e1ebc8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d3800e4de771e83ac3b8e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d3800e4de771e83ac3b8e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be0a4e4de771e8395bfe1",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be0a4e4de771e8395bfe1",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-08",
+    "checktimeId": "6a769af1e4de771e832cb0a3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-08",
+    "checktimeId": "6a769af1e4de771e832cb0a3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-07",
+    "checktimeId": "6a754f36e4de771e831390b2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-07",
+    "checktimeId": "6a754f36e4de771e831390b2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-06",
+    "checktimeId": "6a73fd4be4de771e83f8e731",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-06",
+    "checktimeId": "6a73fd4be4de771e83f8e731",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-03",
+    "checktimeId": "6a70091ae4de771e8397cf5f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-03",
+    "checktimeId": "6a70091ae4de771e8397cf5f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ecc12e4de771e8381821e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01482",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ecc12e4de771e8381821e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-30",
+    "checktimeId": "6a938f7ee4de771e83677dc8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-30",
+    "checktimeId": "6a938f7ee4de771e83677dc8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-29",
+    "checktimeId": "6a923fc1e4de771e834f57db",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-29",
+    "checktimeId": "6a923fc1e4de771e834f57db",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-28",
+    "checktimeId": "6a90eb8be4de771e8331b2e8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-28",
+    "checktimeId": "6a90eb8be4de771e8331b2e8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4bf6e4de771e83fb1efc",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4bf6e4de771e83fb1efc",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cf981e4de771e83dfd400",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cf981e4de771e83dfd400",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba84ee4de771e83c3be4f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba84ee4de771e83c3be4f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-22",
+    "checktimeId": "6a890733e4de771e8395d6cc",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-22",
+    "checktimeId": "6a890733e4de771e8395d6cc",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b77fe4de771e837ace71",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b77fe4de771e837ace71",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-19",
+    "checktimeId": "6a851401e4de771e83413bf7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-19",
+    "checktimeId": "6a851401e4de771e83413bf7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e7b25e4de771e83c49cf8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e7b25e4de771e83c49cf8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d2645e4de771e83aa536f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d2645e4de771e83aa536f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bd2d5e4de771e83947992",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bd2d5e4de771e83947992",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-08",
+    "checktimeId": "6a768ff1e4de771e832b8087",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-08",
+    "checktimeId": "6a768ff1e4de771e832b8087",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-07",
+    "checktimeId": "6a754111e4de771e83122f1d",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-07",
+    "checktimeId": "6a754111e4de771e83122f1d",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e2bae4de771e837d4ce0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01509",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e2bae4de771e837d4ce0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-30",
+    "checktimeId": "6a939b6be4de771e83688b17",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-30",
+    "checktimeId": "6a939b6be4de771e83688b17",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-29",
+    "checktimeId": "6a92481be4de771e835024e3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-29",
+    "checktimeId": "6a92481be4de771e835024e3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fa363e4de771e83179e13",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fa363e4de771e83179e13",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4da3e4de771e83fb5f40",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4da3e4de771e83fb5f40",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d02a1e4de771e83e0fdb0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d02a1e4de771e83e0fdb0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a61c6e4de771e83ae9098",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a61c6e4de771e83ae9098",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-22",
+    "checktimeId": "6a890f40e4de771e8396a68e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-22",
+    "checktimeId": "6a890f40e4de771e8396a68e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b6a2e4de771e837abb7f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b6a2e4de771e837abb7f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-06",
+    "checktimeId": "6a73feabe4de771e83f901a6",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-06",
+    "checktimeId": "6a73feabe4de771e83f901a6",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-05",
+    "checktimeId": "6a72b460e4de771e83dc59a2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-05",
+    "checktimeId": "6a72b460e4de771e83dc59a2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-04",
+    "checktimeId": "6a715586e4de771e83b62e3b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-04",
+    "checktimeId": "6a715586e4de771e83b62e3b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-31",
+    "checktimeId": "6a94f08ce4de771e837f33ad",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01511",
+    "date": "2026-08-31",
+    "checktimeId": "6a94f08ce4de771e837f33ad",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-30",
+    "checktimeId": "6a939ac1e4de771e836872ce",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-30",
+    "checktimeId": "6a939ac1e4de771e836872ce",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-29",
+    "checktimeId": "6a9249bbe4de771e83506d3e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-29",
+    "checktimeId": "6a9249bbe4de771e83506d3e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f86ae4de771e83333d2a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f86ae4de771e83333d2a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e538ee4de771e83fc733a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e538ee4de771e83fc733a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d044de4de771e83e13d46",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d044de4de771e83e13d46",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5fdce4de771e83ae4b23",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5fdce4de771e83ae4b23",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-22",
+    "checktimeId": "6a890f4ee4de771e8396a9b3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-22",
+    "checktimeId": "6a890f4ee4de771e8396a9b3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bd1ae4de771e837b77a4",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bd1ae4de771e837b77a4",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-20",
+    "checktimeId": "6a866388e4de771e835f1a27",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT01512",
+    "date": "2026-08-20",
+    "checktimeId": "6a866388e4de771e835f1a27",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02781",
+    "date": "2026-08-31",
+    "checktimeId": "6a99acc3b2aa481a6d747f26",
+    "branchId": "6a96a76b6b3d01356f15b1dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02781",
+    "date": "2026-08-30",
+    "checktimeId": "6a99acc65e847b818b3dad7a",
+    "branchId": "6a96a76b6b3d01356f15b1dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02781",
+    "date": "2026-08-29",
+    "checktimeId": "6a99accab2aa481a6d747f4d",
+    "branchId": "6a96a76b6b3d01356f15b1dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02781",
+    "date": "2026-08-28",
+    "checktimeId": "6a99accd5e847b818b3dada1",
+    "branchId": "6a96a76b6b3d01356f15b1dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-30",
+    "checktimeId": "6a93c717e4de771e836b8928",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-29",
+    "checktimeId": "6a927774e4de771e83558eb1",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-28",
+    "checktimeId": "6a91238be4de771e833877b7",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fd275e4de771e831ce584",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e8097e4de771e8301cf8e",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bdd50e4de771e83ca8ec2",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a8beee4de771e83b1964e",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-22",
+    "checktimeId": "6a893b6de4de771e839b8a7e",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-20",
+    "checktimeId": "6a868893e4de771e83627ff2",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-19",
+    "checktimeId": "6a854659e4de771e8347fa8a",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-17",
+    "checktimeId": "6a82a290e4de771e831200c3",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-16",
+    "checktimeId": "6a8155afe4de771e83fb2ca4",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-15",
+    "checktimeId": "6a80023de4de771e83e4bfc1",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-14",
+    "checktimeId": "6a7eb119e4de771e83ca6663",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-12",
+    "checktimeId": "6a7c0d79e4de771e839906a8",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-11",
+    "checktimeId": "6a7abc54e4de771e837f9ff5",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-10",
+    "checktimeId": "6a796a82e4de771e83608af3",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-09",
+    "checktimeId": "6a781a4ee4de771e83471cd3",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-08",
+    "checktimeId": "6a76c884e4de771e8331670f",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-07",
+    "checktimeId": "6a75681fe4de771e83166293",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-06",
+    "checktimeId": "6a7416efe4de771e83fbdb24",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-05",
+    "checktimeId": "6a72c757e4de771e83df3ac0",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-03",
+    "checktimeId": "6a702e80e4de771e839f3baa",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-02",
+    "checktimeId": "6a6edd43e4de771e8382aeca",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d8de9e4de771e836a211a",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02839",
+    "date": "2026-08-31",
+    "checktimeId": "6a951844e4de771e83849b1f",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT02931",
+    "date": "2026-08-10",
+    "checktimeId": "6a791225e4de771e83547fd5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02931",
+    "date": "2026-08-10",
+    "checktimeId": "6a791225e4de771e83547fd5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-29",
+    "checktimeId": "6a92d011e4de771e835da752",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-29",
+    "checktimeId": "6a92d011e4de771e835da752",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-25",
+    "checktimeId": "6a8c7ff4e4de771e83d8cc88",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-25",
+    "checktimeId": "6a8c7ff4e4de771e83d8cc88",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-24",
+    "checktimeId": "6a8c24e6e4de771e83d18d9a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-24",
+    "checktimeId": "6a8c24e6e4de771e83d18d9a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-16",
+    "checktimeId": "6a8148c4e4de771e83fa5ab7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-16",
+    "checktimeId": "6a8148c4e4de771e83fa5ab7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-15",
+    "checktimeId": "6a7f49c6e4de771e83d84633",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-15",
+    "checktimeId": "6a7f49c6e4de771e83d84633",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-12",
+    "checktimeId": "6a7c38e5e4de771e839bf73d",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-12",
+    "checktimeId": "6a7c38e5e4de771e839bf73d",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-09",
+    "checktimeId": "6a787a80e4de771e834df6e4",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-09",
+    "checktimeId": "6a787a80e4de771e834df6e4",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-08",
+    "checktimeId": "6a7680bee4de771e8329d027",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-08",
+    "checktimeId": "6a7680bee4de771e8329d027",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eabf2e4de771e837f1b56",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eabf2e4de771e837f1b56",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-30",
+    "checktimeId": "6a93f375e4de771e836e4673",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02985",
+    "date": "2026-08-30",
+    "checktimeId": "6a93f375e4de771e836e4673",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-10",
+    "checktimeId": "6a7945b4e4de771e835b19e4",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-10",
+    "checktimeId": "6a7945b4e4de771e835b19e4",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-09",
+    "checktimeId": "6a77ecf6e4de771e8344048f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-09",
+    "checktimeId": "6a77ecf6e4de771e8344048f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-08",
+    "checktimeId": "6a769a90e4de771e832ca11d",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-08",
+    "checktimeId": "6a769a90e4de771e832ca11d",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-07",
+    "checktimeId": "6a754735e4de771e8312ca4c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-07",
+    "checktimeId": "6a754735e4de771e8312ca4c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-06",
+    "checktimeId": "6a73f884e4de771e83f87743",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-06",
+    "checktimeId": "6a73f884e4de771e83f87743",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-05",
+    "checktimeId": "6a72c125e4de771e83ddb87a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-05",
+    "checktimeId": "6a72c125e4de771e83ddb87a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d600be4de771e8364d93c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT02988",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d600be4de771e8364d93c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-30",
+    "checktimeId": "6a939ae4e4de771e8368773f",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-29",
+    "checktimeId": "6a9249b4e4de771e83506bb0",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f8dce4de771e83334cf2",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fa687e4de771e8317fb57",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e5586e4de771e83fcc090",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d0431e4de771e83e1367a",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb22de4de771e83c5031e",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a61a6e4de771e83ae898b",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-22",
+    "checktimeId": "6a890f35e4de771e8396a4be",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bdbee4de771e837b924c",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-20",
+    "checktimeId": "6a866cc5e4de771e83606324",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-19",
+    "checktimeId": "6a851af1e4de771e834200b6",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c9a1e4de771e83271d14",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-17",
+    "checktimeId": "6a827826e4de771e830d7283",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-16",
+    "checktimeId": "6a812675e4de771e83f7fe99",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd479e4de771e83dfef06",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e8296e4de771e83c55eae",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d31b1e4de771e83aba2e8",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be06be4de771e8395b775",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8ec0e4de771e8379de14",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-10",
+    "checktimeId": "6a793cfee4de771e835985bc",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-09",
+    "checktimeId": "6a77eb8de4de771e8343d36d",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-04",
+    "checktimeId": "6a715444e4de771e83b5fc3d",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-03",
+    "checktimeId": "6a7002eae4de771e8396f186",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eb183e4de771e837fb5f2",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d60c4e4de771e8364ff57",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03149",
+    "date": "2026-08-31",
+    "checktimeId": "6a94ed34e4de771e837ec738",
+    "branchId": "61052a10333439165b00022b",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-30",
+    "checktimeId": "6a93b5d4e4de771e836a54aa",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-30",
+    "checktimeId": "6a93b5d4e4de771e836a54aa",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-29",
+    "checktimeId": "6a92514ae4de771e8351304b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-29",
+    "checktimeId": "6a92514ae4de771e8351304b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-28",
+    "checktimeId": "6a9100a8e4de771e833421ed",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-28",
+    "checktimeId": "6a9100a8e4de771e833421ed",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fb5dbe4de771e83196442",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fb5dbe4de771e83196442",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e5648e4de771e83fcdafe",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e5648e4de771e83fcdafe",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d0be0e4de771e83e20294",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d0be0e4de771e83e20294",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bbae9e4de771e83c601a5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bbae9e4de771e83c601a5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-22",
+    "checktimeId": "6a8917d2e4de771e83978a74",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-22",
+    "checktimeId": "6a8917d2e4de771e83978a74",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-21",
+    "checktimeId": "6a87d032e4de771e837d2090",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-21",
+    "checktimeId": "6a87d032e4de771e837d2090",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-20",
+    "checktimeId": "6a866d22e4de771e836072f3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-20",
+    "checktimeId": "6a866d22e4de771e836072f3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-19",
+    "checktimeId": "6a851c44e4de771e8342389a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-19",
+    "checktimeId": "6a851c44e4de771e8342389a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-18",
+    "checktimeId": "6a833ec6e4de771e831f2de8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-18",
+    "checktimeId": "6a833ec6e4de771e831f2de8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-17",
+    "checktimeId": "6a8282cde4de771e830e74e2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-17",
+    "checktimeId": "6a8282cde4de771e830e74e2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fe089e4de771e83e0e64c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fe089e4de771e83e0e64c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e9157e4de771e83c6ab45",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e9157e4de771e83c6ab45",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d3ca3e4de771e83ac9f80",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d3ca3e4de771e83ac9f80",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-12",
+    "checktimeId": "6a7beb46e4de771e83969b07",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-12",
+    "checktimeId": "6a7beb46e4de771e83969b07",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-09",
+    "checktimeId": "6a77ea3ae4de771e83439f44",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-09",
+    "checktimeId": "6a77ea3ae4de771e83439f44",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-08",
+    "checktimeId": "6a7698bfe4de771e832c640f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-08",
+    "checktimeId": "6a7698bfe4de771e832c640f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-07",
+    "checktimeId": "6a7549bbe4de771e831323fb",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-07",
+    "checktimeId": "6a7549bbe4de771e831323fb",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-05",
+    "checktimeId": "6a72a652e4de771e83dada60",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-05",
+    "checktimeId": "6a72a652e4de771e83dada60",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-04",
+    "checktimeId": "6a716353e4de771e83b78c9d",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-04",
+    "checktimeId": "6a716353e4de771e83b78c9d",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-03",
+    "checktimeId": "6a700402e4de771e839724e7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-03",
+    "checktimeId": "6a700402e4de771e839724e7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eb08ce4de771e837f9230",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eb08ce4de771e837f9230",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d6055e4de771e8364e8db",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d6055e4de771e8364e8db",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-31",
+    "checktimeId": "6a94fc52e4de771e8380748a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03211",
+    "date": "2026-08-31",
+    "checktimeId": "6a94fc52e4de771e8380748a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-30",
+    "checktimeId": "6a939a45e4de771e836862ee",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-30",
+    "checktimeId": "6a939a45e4de771e836862ee",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-29",
+    "checktimeId": "6a9256cce4de771e83519755",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-29",
+    "checktimeId": "6a9256cce4de771e83519755",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f9f4e4de771e833378a9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f9f4e4de771e833378a9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-27",
+    "checktimeId": "6a8faf61e4de771e8318d306",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-27",
+    "checktimeId": "6a8faf61e4de771e8318d306",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e571ae4de771e83fcf652",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e571ae4de771e83fcf652",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bc20ee4de771e83c6ba9c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bc20ee4de771e83c6ba9c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a8ddae4de771e83b1c62e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a8ddae4de771e83b1c62e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-22",
+    "checktimeId": "6a891ca6e4de771e8397d8a8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-22",
+    "checktimeId": "6a891ca6e4de771e8397d8a8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-21",
+    "checktimeId": "6a87ec1de4de771e8381bff7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-21",
+    "checktimeId": "6a87ec1de4de771e8381bff7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd2ece4de771e83dfb549",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd2ece4de771e83dfb549",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e8ebbe4de771e83c676b5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e8ebbe4de771e83c676b5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d30d4e4de771e83ab8afb",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d30d4e4de771e83ab8afb",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be057e4de771e8395b53e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be057e4de771e8395b53e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-10",
+    "checktimeId": "6a793677e4de771e8358c4a0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-10",
+    "checktimeId": "6a793677e4de771e8358c4a0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-09",
+    "checktimeId": "6a77ed44e4de771e83440d54",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-09",
+    "checktimeId": "6a77ed44e4de771e83440d54",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-08",
+    "checktimeId": "6a769c07e4de771e832cd072",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-08",
+    "checktimeId": "6a769c07e4de771e832cd072",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-07",
+    "checktimeId": "6a754fade4de771e83139a3b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-07",
+    "checktimeId": "6a754fade4de771e83139a3b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-06",
+    "checktimeId": "6a73f6afe4de771e83f82d85",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-06",
+    "checktimeId": "6a73f6afe4de771e83f82d85",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-05",
+    "checktimeId": "6a72ab3ce4de771e83db79cc",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-05",
+    "checktimeId": "6a72ab3ce4de771e83db79cc",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-04",
+    "checktimeId": "6a715454e4de771e83b5ffca",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-04",
+    "checktimeId": "6a715454e4de771e83b5ffca",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-03",
+    "checktimeId": "6a700689e4de771e83977197",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-03",
+    "checktimeId": "6a700689e4de771e83977197",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ec9e8e4de771e83815f48",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ec9e8e4de771e83815f48",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d5514e4de771e83638388",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d5514e4de771e83638388",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-31",
+    "checktimeId": "6a94ee96e4de771e837f0149",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03434",
+    "date": "2026-08-31",
+    "checktimeId": "6a94ee96e4de771e837f0149",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03602",
+    "messages": "No $checktimeData !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-30",
+    "checktimeId": "6a93a532e4de771e836947cd",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-29",
+    "checktimeId": "6a92510de4de771e83512958",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-28",
+    "checktimeId": "6a910502e4de771e8334a477",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-27",
+    "checktimeId": "6a8fabdde4de771e8318731a",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e670ce4de771e83febded",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d0afbe4de771e83e1ebaa",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb8f7e4de771e83c5ca76",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a64f1e4de771e83aecf14",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-22",
+    "checktimeId": "6a890ad8e4de771e839629a0",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-21",
+    "checktimeId": "6a87c5d7e4de771e837c55c2",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-19",
+    "checktimeId": "6a852231e4de771e8342b826",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-18",
+    "checktimeId": "6a83cd8be4de771e83278937",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-17",
+    "checktimeId": "6a827be1e4de771e830de397",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-16",
+    "checktimeId": "6a812c1ce4de771e83f8821e",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fe037e4de771e83e0e010",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e96bae4de771e83c71247",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-12",
+    "checktimeId": "6a7be78ce4de771e83965583",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8ec9e4de771e8379df23",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-10",
+    "checktimeId": "6a794f87e4de771e835c59ff",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-09",
+    "checktimeId": "6a77f637e4de771e8344b054",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-08",
+    "checktimeId": "6a76a4f6e4de771e832d62e0",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-07",
+    "checktimeId": "6a755ce8e4de771e8314a98b",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-05",
+    "checktimeId": "6a72b39ee4de771e83dc47fb",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-04",
+    "checktimeId": "6a715b89e4de771e83b6cfc2",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-03",
+    "checktimeId": "6a700deee4de771e83987b8b",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-02",
+    "checktimeId": "6a6eb83ce4de771e83803c04",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d6a3de4de771e8365d2f2",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03606",
+    "date": "2026-08-31",
+    "checktimeId": "6a94fd67e4de771e838093c8",
+    "branchId": "5db38e21333439165b0003e2",
+    "messages": "No commissionStoreCodes for branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-30",
+    "checktimeId": "6a93b48de4de771e836a3dba",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-30",
+    "checktimeId": "6a93b48de4de771e836a3dba",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-29",
+    "checktimeId": "6a926021e4de771e83525cb3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-29",
+    "checktimeId": "6a926021e4de771e83525cb3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-28",
+    "checktimeId": "6a91101fe4de771e8335d157",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-28",
+    "checktimeId": "6a91101fe4de771e8335d157",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e6ce3e4de771e83ff2cc9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e6ce3e4de771e83ff2cc9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d1617e4de771e83e3025f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d1617e4de771e83e3025f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a768fe4de771e83b02bee",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a768fe4de771e83b02bee",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bacfe4de771e837b2771",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-21",
+    "checktimeId": "6a87bacfe4de771e837b2771",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-20",
+    "checktimeId": "6a867744e4de771e8361524e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-20",
+    "checktimeId": "6a867744e4de771e8361524e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-19",
+    "checktimeId": "6a852cf9e4de771e83439671",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-19",
+    "checktimeId": "6a852cf9e4de771e83439671",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-16",
+    "checktimeId": "6a8138b6e4de771e83f95ec9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-16",
+    "checktimeId": "6a8138b6e4de771e83f95ec9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fe798e4de771e83e174b8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fe798e4de771e83e174b8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e8b0ce4de771e83c62db5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e8b0ce4de771e83c62db5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bf624e4de771e83975848",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bf624e4de771e83975848",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-11",
+    "checktimeId": "6a7aa3aae4de771e837b6ca5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-11",
+    "checktimeId": "6a7aa3aae4de771e837b6ca5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-10",
+    "checktimeId": "6a7950efe4de771e835c7c03",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-10",
+    "checktimeId": "6a7950efe4de771e835c7c03",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-08",
+    "checktimeId": "6a76a70be4de771e832d8bec",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-08",
+    "checktimeId": "6a76a70be4de771e832d8bec",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-07",
+    "checktimeId": "6a755a5de4de771e8314770b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-07",
+    "checktimeId": "6a755a5de4de771e8314770b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-05",
+    "checktimeId": "6a72a571e4de771e83dab318",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-05",
+    "checktimeId": "6a72a571e4de771e83dab318",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-04",
+    "checktimeId": "6a71614ae4de771e83b74a43",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-04",
+    "checktimeId": "6a71614ae4de771e83b74a43",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-03",
+    "checktimeId": "6a701252e4de771e83992b24",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-03",
+    "checktimeId": "6a701252e4de771e83992b24",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-31",
+    "checktimeId": "6a9502ace4de771e8380fbb1",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-31",
+    "checktimeId": "6a9502ace4de771e8380fbb1",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-17",
+    "checktimeId": "6a951659b5efc529daff434c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-17",
+    "checktimeId": "6a951659b5efc529daff434c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-13",
+    "checktimeId": "6a95164c53b9ac92da7f679e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03833",
+    "date": "2026-08-13",
+    "checktimeId": "6a95164c53b9ac92da7f679e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-23",
+    "checktimeId": "6a8adb0be4de771e83b71140",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-23",
+    "checktimeId": "6a8adb0be4de771e83b71140",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-21",
+    "checktimeId": "6a87af12e4de771e8379a989",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-21",
+    "checktimeId": "6a87af12e4de771e8379a989",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-16",
+    "checktimeId": "6a8143d8e4de771e83f9fc7b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-16",
+    "checktimeId": "6a8143d8e4de771e83f9fc7b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-10",
+    "checktimeId": "6a792944e4de771e8356e9ad",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-10",
+    "checktimeId": "6a792944e4de771e8356e9ad",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-31",
+    "checktimeId": "6a94cdbce4de771e837a27ec",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-31",
+    "checktimeId": "6a94cdbce4de771e837a27ec",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-30",
+    "checktimeId": "6a93cf60e4de771e836c0742",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT03957",
+    "date": "2026-08-30",
+    "checktimeId": "6a93cf60e4de771e836c0742",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-30",
+    "checktimeId": "6a939492e4de771e8367d928",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-30",
+    "checktimeId": "6a939492e4de771e8367d928",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-29",
+    "checktimeId": "6a9248d8e4de771e83504351",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-29",
+    "checktimeId": "6a9248d8e4de771e83504351",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-28",
+    "checktimeId": "6a910280e4de771e83345c2a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-28",
+    "checktimeId": "6a910280e4de771e83345c2a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-27",
+    "checktimeId": "6a8facf9e4de771e831883ea",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-27",
+    "checktimeId": "6a8facf9e4de771e831883ea",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e5648e4de771e83fcdb09",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e5648e4de771e83fcdb09",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d0094e4de771e83e0b8e3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-25",
+    "checktimeId": "6a8d0094e4de771e83e0b8e3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba140e4de771e83c2902c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba140e4de771e83c2902c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5578e4de771e83ad7a36",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5578e4de771e83ad7a36",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-22",
+    "checktimeId": "6a890d2ee4de771e83965bdc",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-22",
+    "checktimeId": "6a890d2ee4de771e83965bdc",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b553e4de771e837a9077",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b553e4de771e837a9077",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-19",
+    "checktimeId": "6a85165ce4de771e83417c9d",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-19",
+    "checktimeId": "6a85165ce4de771e83417c9d",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c28ee4de771e83265f7a",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c28ee4de771e83265f7a",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-17",
+    "checktimeId": "6a826e29e4de771e830c5d71",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-17",
+    "checktimeId": "6a826e29e4de771e830c5d71",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-16",
+    "checktimeId": "6a811e46e4de771e83f73662",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-16",
+    "checktimeId": "6a811e46e4de771e83f73662",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fc6aae4de771e83de7471",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fc6aae4de771e83de7471",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e790fe4de771e83c45cff",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e790fe4de771e83c45cff",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d29d0e4de771e83aac8be",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d29d0e4de771e83aac8be",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bd642e4de771e8394bff6",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-12",
+    "checktimeId": "6a7bd642e4de771e8394bff6",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8625e4de771e8378ce6b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a8625e4de771e8378ce6b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-10",
+    "checktimeId": "6a793267e4de771e8358490b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-10",
+    "checktimeId": "6a793267e4de771e8358490b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-09",
+    "checktimeId": "6a77e074e4de771e8342e413",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-09",
+    "checktimeId": "6a77e074e4de771e8342e413",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-08",
+    "checktimeId": "6a768cafe4de771e832b1e78",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-08",
+    "checktimeId": "6a768cafe4de771e832b1e78",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-07",
+    "checktimeId": "6a753a28e4de771e831130fe",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-07",
+    "checktimeId": "6a753a28e4de771e831130fe",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-06",
+    "checktimeId": "6a73ed04e4de771e83f6e5fe",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-06",
+    "checktimeId": "6a73ed04e4de771e83f6e5fe",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-05",
+    "checktimeId": "6a7298d7e4de771e83d8d394",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-05",
+    "checktimeId": "6a7298d7e4de771e83d8d394",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-04",
+    "checktimeId": "6a714784e4de771e83b47250",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-04",
+    "checktimeId": "6a714784e4de771e83b47250",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-03",
+    "checktimeId": "6a6ff153e4de771e83936df3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-03",
+    "checktimeId": "6a6ff153e4de771e83936df3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ea3d5e4de771e837e84b5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-02",
+    "checktimeId": "6a6ea3d5e4de771e837e84b5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d56f8e4de771e8363bfc1",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-01",
+    "checktimeId": "6a6d56f8e4de771e8363bfc1",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e1b7e4de771e837d16bd",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04045",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e1b7e4de771e837d16bd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-30",
+    "checktimeId": "6a93908ce4de771e836792ee",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-30",
+    "checktimeId": "6a93908ce4de771e836792ee",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-29",
+    "checktimeId": "6a92499ee4de771e83506879",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-29",
+    "checktimeId": "6a92499ee4de771e83506879",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f085e4de771e833253c0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-28",
+    "checktimeId": "6a90f085e4de771e833253c0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cfd1ee4de771e83e0488b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cfd1ee4de771e83e0488b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba968e4de771e83c3e2ae",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba968e4de771e83c3e2ae",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5cabe4de771e83adfa18",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-23",
+    "checktimeId": "6a8a5cabe4de771e83adfa18",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-22",
+    "checktimeId": "6a890365e4de771e8395908f",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-22",
+    "checktimeId": "6a890365e4de771e8395908f",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b634e4de771e837aade1",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b634e4de771e837aade1",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-19",
+    "checktimeId": "6a85163ce4de771e8341771c",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-19",
+    "checktimeId": "6a85163ce4de771e8341771c",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c05ae4de771e832620e8",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-18",
+    "checktimeId": "6a83c05ae4de771e832620e8",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-17",
+    "checktimeId": "6a8270d7e4de771e830ca6d0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-17",
+    "checktimeId": "6a8270d7e4de771e830ca6d0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-16",
+    "checktimeId": "6a84eec6a29ed1cc95ac4682",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-16",
+    "checktimeId": "6a84eec6a29ed1cc95ac4682",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e3b2e4de771e837d70db",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "LT04066",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e3b2e4de771e837d70db",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00139",
+    "messages": "No $checktimeData !"
+  },
+  {
+    "employeeId": "OH00180",
+    "messages": "No $checktimeData !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-28",
+    "checktimeId": "6a90e968e4de771e8331560e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-28",
+    "checktimeId": "6a90e968e4de771e8331560e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f9811e4de771e831614dd",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-27",
+    "checktimeId": "6a8f9811e4de771e831614dd",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4664e4de771e83fa2895",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-26",
+    "checktimeId": "6a8e4664e4de771e83fa2895",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cf4dbe4de771e83df1ff4",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-25",
+    "checktimeId": "6a8cf4dbe4de771e83df1ff4",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba586e4de771e83c34661",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-24",
+    "checktimeId": "6a8ba586e4de771e83c34661",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b08ee4de771e8379f3e9",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-21",
+    "checktimeId": "6a87b08ee4de771e8379f3e9",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-20",
+    "checktimeId": "6a865d5de4de771e835dd129",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-20",
+    "checktimeId": "6a865d5de4de771e835dd129",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-19",
+    "checktimeId": "6a85046ce4de771e833f4d90",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-19",
+    "checktimeId": "6a85046ce4de771e833f4d90",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-17",
+    "checktimeId": "6a82690fe4de771e830b86f7",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-17",
+    "checktimeId": "6a82690fe4de771e830b86f7",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e7471e4de771e83c39ce1",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e7471e4de771e83c39ce1",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d22dbe4de771e83a9c8a3",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d22dbe4de771e83a9c8a3",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a7fe2e4de771e8377dee5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-11",
+    "checktimeId": "6a7a7fe2e4de771e8377dee5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-10",
+    "checktimeId": "6a792e6fe4de771e83578cf5",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-10",
+    "checktimeId": "6a792e6fe4de771e83578cf5",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-07",
+    "checktimeId": "6a7539e9e4de771e83112559",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-07",
+    "checktimeId": "6a7539e9e4de771e83112559",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-06",
+    "checktimeId": "6a73e965e4de771e83f5d7ec",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-06",
+    "checktimeId": "6a73e965e4de771e83f5d7ec",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-05",
+    "checktimeId": "6a729900e4de771e83d8dc8b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-05",
+    "checktimeId": "6a729900e4de771e83d8dc8b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-04",
+    "checktimeId": "6a714350e4de771e83b3c590",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-04",
+    "checktimeId": "6a714350e4de771e83b3c590",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-03",
+    "checktimeId": "6a6ff127e4de771e83936887",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-03",
+    "checktimeId": "6a6ff127e4de771e83936887",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e0e3e4de771e837d0094",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00255",
+    "date": "2026-08-31",
+    "checktimeId": "6a94e0e3e4de771e837d0094",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00662",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb25ae4de771e83c50b77",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00662",
+    "date": "2026-08-24",
+    "checktimeId": "6a8bb25ae4de771e83c50b77",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00662",
+    "date": "2026-08-17",
+    "checktimeId": "6a8265a0e4de771e830b175b",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00662",
+    "date": "2026-08-17",
+    "checktimeId": "6a8265a0e4de771e830b175b",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00669",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e924fe4de771e83c6c2e0",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00669",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e924fe4de771e83c6c2e0",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00708",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d4940e4de771e83ad7cb2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00708",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d4940e4de771e83ad7cb2",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00712",
+    "date": "2026-08-16",
+    "checktimeId": "6a8128bce4de771e83f84a03",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00712",
+    "date": "2026-08-16",
+    "checktimeId": "6a8128bce4de771e83f84a03",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00712",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd635e4de771e83e0347e",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00712",
+    "date": "2026-08-15",
+    "checktimeId": "6a7fd635e4de771e83e0347e",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00712",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e82c1e4de771e83c565b4",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00712",
+    "date": "2026-08-14",
+    "checktimeId": "6a7e82c1e4de771e83c565b4",
+    "messages": "No commissionStoreCodes && no branch !"
+  },
+  {
+    "employeeId": "OH00712",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d31fce4de771e83abaaa2",
+    "messages": "Multiple workplaces for check-time Event Request !"
+  },
+  {
+    "employeeId": "OH00712",
+    "date": "2026-08-13",
+    "checktimeId": "6a7d31fce4de771e83abaaa2",
+    "messages": "No commissionStoreCodes && no branch !"
+  }
+]
